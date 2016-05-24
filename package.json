@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages-deploy",
-    "clean-source": "rimraf README.md src webroot package.json"
+     "deploy": "gh-pages -d _site"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tobiasbu/saibot.git"
@@ -25,20 +23,9 @@
   },
   "homepage": "https://github.com/tobiasbu/saibot#readme",
   "devDependencies": {
+    "gh-pages": "^0.11.0",
     "gh-pages-deploy": "^0.4.2",
     "grunt": "^1.0.1",
     "shelljs": "^0.7.0"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "_site",
-    "cname": "nope.org",
-    "prep": [
-      "build-sass",
-      "optimize-img"
-    ],
-    "post": [
-      "clean-source"
-    ],
-    "noprompt": false
-  },
+  }
 }
