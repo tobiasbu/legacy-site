@@ -19,3 +19,5 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+exclude: ['.sass-cache', 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js']

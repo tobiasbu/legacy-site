@@ -1,0 +1,27 @@
+{
+  "name": "saibot",
+  "version": "1.0.0",
+  "description": "new web site project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiasbu/saibot.git"
+  },
+  "keywords": [
+    "website",
+    "project",
+    "tobi"
+  ],
+  "author": "tobiasbu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobiasbu/saibot/issues"
+  },
+  "homepage": "https://github.com/tobiasbu/saibot#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
