@@ -4,7 +4,9 @@
   "description": "new web site project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
   },
 
   "repository": {
@@ -28,8 +30,15 @@
     "shelljs": "^0.7.0"
   },
   "gh-pages-deploy": {
-   "staticpath": "_site",
-   "cname": "nope.org",
-   "noprompt": false
- },
+    "staticpath": "_site",
+    "cname": "nope.org",
+    "prep": [
+      "build-sass",
+      "optimize-img"
+    ],
+    "post": [
+      "clean-source"
+    ],
+    "noprompt": false
+  },
 }
