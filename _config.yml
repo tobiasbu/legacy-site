@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: saibot
+title: tobiasbu
 email: flamenco.bluegrass@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -18,7 +18,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 url: "http://tobiasbu.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  tobiasbu
 encoding: utf-8
 
 # Build settings

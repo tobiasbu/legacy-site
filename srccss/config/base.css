@@ -1,0 +1,30 @@
+
+a {
+text-decoration:none;
+}
+
+
+.site-header {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2em calc(50% - 310px);
+  /*@media (--medium-up) {
+
+  }*/
+}
+
+.site-title {
+  color: #526d3d;
+  font-size: 2.25rem;
+  font-family: 'Cabin', sans-serif;
+}
+
+.site-nav {
+
+}
+
+.nav-group {
+  display: inline-block;
+  font-size: 1rem;
+}

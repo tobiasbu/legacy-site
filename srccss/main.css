@@ -1,2 +1,3 @@
 @import 'suitcss-base';
-@import 'config/global.css'
+@import 'config/global.css';
+@import 'config/base.css';
