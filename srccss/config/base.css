@@ -1,30 +1,66 @@
 
 a {
 text-decoration:none;
+color: #20c479;
 }
 
 
 .site-header {
   color: #fff;
-  font-size: 2rem;
-  text-align: center;
-  padding: 2em calc(50% - 310px);
-  /*@media (--medium-up) {
+  text-align: left;
+  /*padding: 2em calc(50% - 310px);*/
+  padding: 1.25em 0;
+  width: 100%;
 
-  }*/
+  background-color: #2f563d;
+  background-image: url('img/noisy.png');
+  background-repeat: repeat-x;
+
+}
+
+.wrapper {
+  width: 92%;
+  margin: 0 auto;
+  @media (--medium-up) {
+  padding: 0 calc(50% - 310px);
+  }
 }
 
 .site-title {
-  color: #526d3d;
-  font-size: 2.25rem;
-  font-family: 'Cabin', sans-serif;
+
+  font-size: 1.5rem;
 }
 
 .site-nav {
-
+  width: 100%;
+  padding: .5em 0;
+  background-color: #fff;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
 }
 
 .nav-group {
-  display: inline-block;
+  display: block;
   font-size: 1rem;
+}
+
+.nav-item {
+  display: inline-block;
+  text-align: center;
+  margin: 0 1em;
+  padding: 0 0.5em;
+}
+
+.post-list {
+    padding: 2em 0;
+}
+
+.post-item {
+  margin-bottom: 4em;
+}
+
+.post-meta {
+  font-size: 0.8em;
+  display: block;
+  margin: 0.5em 0;
 }
