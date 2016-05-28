@@ -1,4 +1,5 @@
 @import 'suitcss-base';
 @import 'config/global.css';
 @import 'config/base.css';
+@import 'config/code.css';
 @import 'config/footer.css';

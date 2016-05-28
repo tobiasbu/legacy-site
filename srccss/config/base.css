@@ -2,52 +2,63 @@
 a {
   text-decoration:none;
   color: #5b7833;
+  &:hover{
+    color: #0A0A0A;
+  }
 }
 
-
+.wrapper {
+  /*width: 90%;*/
+  padding: 0 3%;
+  margin: 0 auto;
+  @media (--medium-up) {
+    padding: 0 calc(50% - 320px);
+  }
+}
 
 .page-content {
     padding: 2em 0;
 }
 
-
 .site-header {
-
+position: relative;;
   text-align: left;
+  display: block;
   /*padding: 2em calc(50% - 310px);*/
   padding: 1.25em 0;
   width: 100%;
 
   /*background-color: #eee;
-  background-image: url('{site.baseurl}img/noisy.png');*/
-  background-repeat: repeat-x;
+  background-image: url('{site.baseurl}img/noisy.png');
+  background-repeat: repeat-x;*/
 
 }
 
-.wrapper {
-  width: 92%;
-  margin: 0 auto;
-  @media (--medium-up) {
-  padding: 0 calc(50% - 420px);
-  }
-}
+
 
 .site-brand {
+
+    left: 0;
+    bottom: 0;
 display: inline-block;
+margin: 0 auto;
   @media (--medium-down) {
-  /*  margin: 0 auto;*/
-    display: block;
+    margin: 1px 0;
+    /*display: block;*/
+    transform: scale(0.85, 0.85);
+
   }
 }
 
 .site-title {
-  color: #000;
-  font-size: 2.0rem;
+  color: #0A0A0A;
+  font-size: 1.65em;
+
   /*font-family: 'Droid Serif';*/
   /*display: block;*/
   display: inline-block;
-  @media (--medium-down) {
-    display: none;
+  @media (--small) {
+    font-size: 1.35em;
   }
 }
 
@@ -58,8 +69,7 @@ display: inline-block;
 
 .nav-group {
   display: block;
-  font-size: 1rem;
-  color: #000;
+  font-size: 1em;
 }
 
 .nav-item {
@@ -67,26 +77,29 @@ display: inline-block;
   text-align: center;
   margin: 0 1em;
   padding: 0 0.5em;
-  color: #000;
-  &:hover{
-    color: #5b7833;
-  }
 }
 
+.post-title {
+  margin: 0.5em 0;
+}
 
 .post-item {
   margin-bottom: 4em;
 }
 
 .post-meta {
-  font-size: 0.85em;
+
   display: block;
-  margin: 0.5em 0;
-  color: #4d4d4d;
+  /*margin: 0.5em 0;*/
+  color: #656565
 }
 
 .post-header {
   text-align: center;
+}
+
+.post-link {
+  color: #0A0A0A;
 }
 
 p {

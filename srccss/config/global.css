@@ -1,13 +1,21 @@
 :root {
   background: #fff;
-  color: #000;
+  color: #0A0A0A;
   font-family: 'Droid Serif', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
 
 
-
-@custom-media --medium-down (width <= 40em);
-@custom-media --medium-up (width > 40em);
+@custom-media --small (width <= 24em);
+@custom-media --medium-down (width <= 43em);
+@custom-media --medium-up (width > 43em);
 @custom-media --large-up (width >= 60em);
+
+body {
+  font-size: 1.14em;
+
+  @media (--medium-down) {
+    font-size: 0.95em;
+  }
+}
