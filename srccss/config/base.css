@@ -96,8 +96,13 @@ a {
   margin: 0.5em 0;
 }*/
 
-.post-item {
-  margin-bottom: 4em;
+ul.post-list {
+  list-style-type: none;
+  margin: 0 ;
+}
+
+li.post-item {
+  margin: 0 0 4em 0;
 }
 
 .post-meta {
@@ -114,25 +119,4 @@ a {
 .post-link {
   color: #0A0A0A;
   margin-bottom: 1em;
-}
-
-p {
-  margin: 1em 0;
-}
-
-img {
-  max-width: 100%;
-}
-
-h1 {
-  font-weight: normal;
-}
-
-ul {
-      list-style-type: disc;
-      margin-left: 1em;
-}
-
-li {
-  margin: 0.5em;
 }

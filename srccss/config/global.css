@@ -19,3 +19,24 @@ body {
     font-size: 0.95em;
   }
 }
+
+p {
+  margin: 1em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+ul {
+      list-style-type: disc;
+      margin-left: 1em;
+}
+
+li {
+  margin: 0.5em;
+}
