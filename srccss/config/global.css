@@ -8,5 +8,6 @@
 
 
 
-@custom-media --medium-up (width >= 40em);
+@custom-media --medium-down (width <= 40em);
+@custom-media --medium-up (width > 40em);
 @custom-media --large-up (width >= 60em);

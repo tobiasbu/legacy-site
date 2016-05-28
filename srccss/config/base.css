@@ -4,6 +4,8 @@ a {
   color: #5b7833;
 }
 
+
+
 .page-content {
     padding: 2em 0;
 }
@@ -30,10 +32,23 @@ a {
   }
 }
 
+.site-brand {
+display: inline-block;
+  @media (--medium-down) {
+  /*  margin: 0 auto;*/
+    display: block;
+  }
+}
+
 .site-title {
   color: #000;
   font-size: 2.0rem;
   /*font-family: 'Droid Serif';*/
+  /*display: block;*/
+  display: inline-block;
+  @media (--medium-down) {
+    display: none;
+  }
 }
 
 .site-nav {
@@ -53,6 +68,9 @@ a {
   margin: 0 1em;
   padding: 0 0.5em;
   color: #000;
+  &:hover{
+    color: #5b7833;
+  }
 }
 
 
