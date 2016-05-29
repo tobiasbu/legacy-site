@@ -2,6 +2,10 @@
 
 .highlight {
 
+
+}
+
+ figure.highlight {
   padding: 1em;
   display: block;
   border: 1px solid rgba(0,0,0,0.1);

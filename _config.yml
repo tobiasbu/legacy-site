@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   tobias beise ulrich website
 
 #comentar isso quando testar local
-baseurl: "/website" # the subpath of your site, e.g. /blog
+#baseurl: "/website" # the subpath of your site, e.g. /blog
 
 
 url: "https://tobiasbu.github.io" # the base hostname & protocol for your site
@@ -22,5 +22,17 @@ encoding: utf-8
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  blanklines: true
+  startings: [html, head, body]
 
 exclude: ['.sass-cache','srccss','deploy.js', 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js']

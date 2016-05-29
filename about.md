@@ -12,3 +12,4 @@ Hi, I’m Tobias Beise Ulrich and I'm game developer in southern Brazil.
 
 *  [Email](mailto:flamenco.bluegrass@gmail.com)
 *  [GitHub](https://github.com/tobiasbu)
+*  [Linkedin](https://www.linkedin.com/in/tobias-beise-ulrich-4295766b)
