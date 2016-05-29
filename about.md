@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Alt Tobi]({{site.baseurl}}/img/bio.png)
+![Alt Tobi]({{site.baseurl}}/img/bio.jpg)
 
 Hi, I’m Tobias Beise Ulrich and I'm game developer in southern Brazil.
 
