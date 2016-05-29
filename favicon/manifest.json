@@ -37,5 +37,8 @@
 			"type": "image\/png",
 			"density": 4
 		}
-	]
+	],
+	"start_url": "http:\/\/tobiasbu.github.io\/website\/",
+	"display": "standalone",
+	"orientation": "portrait"
 }
