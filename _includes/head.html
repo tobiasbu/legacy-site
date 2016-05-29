@@ -5,12 +5,18 @@
 
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="author" content="Tobias B U" />
+  <meta http-equiv="cache-control"   content="private" />
+  <meta http-equiv="content-language" content="pt-br, en-US" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="expires" content = "{{ site.time | date_to_rfc822 }}" />
+
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:type" content="website" >
   <meta property="og:title" content ="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" >
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" >
-  <meta property="og:image" content="{{"/ogimage.jpg" | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:image" content="{{"/img/og.jpg" | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
