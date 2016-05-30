@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+menu: true
 ---
 
 ![Alt Tobi]({{site.baseurl}}/img/bio.jpg)

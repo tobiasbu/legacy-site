@@ -1,0 +1,23 @@
+---
+title: Portfolio
+layout: page
+permalink: /portfolio/
+menu: true
+---
+
+<div class="portfolio">
+
+  {% for post in portfolio.posts %}
+    <li class ="post-item">
+
+      <h2>
+        <a  class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+
+</div>

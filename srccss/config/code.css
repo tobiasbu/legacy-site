@@ -14,6 +14,10 @@
   font-size: 0.95em;
 }
 
+.highlighter-rouge {
+  background: #eef;
+}
+
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #8f5902; font-style: italic } /* Comment */
 .highlight .err { color: #a40000; border: 1px solid #ef2929 } /* Error */

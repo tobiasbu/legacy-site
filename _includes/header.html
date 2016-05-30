@@ -34,11 +34,14 @@
 
   <div class="nav-group">
 
-    <!--<a class="nav-item" href="{{ site.baseurl }}/">Home</a>-->
+    <!-- -->
+    <a class="nav-item" href="{{ site.baseurl }}/">Blog</a>
 
     {% for my_page in site.pages %}
       {% if my_page.title %}
+      {% if my_page.menu %}
       <a class="nav-item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      {% endif %}
       {% endif %}
     {% endfor %}
   </div>
