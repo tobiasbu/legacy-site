@@ -16,8 +16,9 @@ description: > # this means to ignore newlines until "baseurl:"
 
 
 url: "https://tobiasbu.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  tobiasbu
+#twitter_username: jekyllrb
+github_username: tobiasbu
+disqus_username: tobiasbu
 encoding: utf-8
 
 # Build settings
