@@ -1,0 +1,9 @@
+
+.portfolio {
+  max-width: 100%;
+}
+
+.portfolio-item {
+  background-color: black;
+  height: 1em;
+}

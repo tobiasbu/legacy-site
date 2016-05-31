@@ -120,3 +120,7 @@ li.post-item {
   color: #0A0A0A;
   margin-bottom: 1em;
 }
+
+.post-comments {
+  margin: 3em 0;
+}
