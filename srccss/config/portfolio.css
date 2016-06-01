@@ -1,9 +1,67 @@
 
 .portfolio {
+  padding: 1em 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.portfolio-inner {
+
+
+}
+
+.port-item-margin {
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.port-item-big {
   max-width: 100%;
 }
 
-.portfolio-item {
-  background-color: black;
-  height: 1em;
+.port-item-mid {
+  width: 49%;
+  float: left;
+
+  position: relative;
+  display: block;
+  background-color: aquamarine;
+}
+
+
+.lastPort { /*last porfolio item*/
+    margin-right: 0px;
+}
+
+.port-image {
+  overflow: hidden;
+  position: relative;
+  display: block;
+
+}
+
+.portf-image img  {
+  z-index: 1;
+  overflow: hidden;
+}
+
+.port-caption {
+  width: 100%;
+  z-index: 99999;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.port-caption p {
+  padding: 0.5em;
+ text-transform: none;
+ margin: 0;
+ color: white;
+ line-height: initial;
+}
+
+.port-image:hover .port-caption {
+  opacity: 1;
 }

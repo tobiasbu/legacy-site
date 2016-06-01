@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Koko-Kuba
+title: teste
 permalink: /portfolio/teste/
 portfolio: true
-img: 0.png
-section: big
+img: 2.png
 ---
 
 kkkk
