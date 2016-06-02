@@ -19,6 +19,9 @@ layout: default
 
         {% for item in port.projects %}
 
+            {% assign type = "Full" %}
+
+
           {% if item.title == "Featured" %}
 
               {% for subitem in item.childs %}
@@ -32,6 +35,14 @@ layout: default
               {% for subitem in item.childs %}
                   {% include portfolio-item.html subitem = subitem %}
               {% endfor %}
+
+        {% elsif item.title == "Other" %}
+
+          {% assign type = "Split4" %}
+
+            {% for subitem in item.childs %}
+                {% include portfolio-item.html subitem = subitem %}
+            {% endfor %}
 
           {% endif %}
 

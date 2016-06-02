@@ -11,10 +11,24 @@
   {% assign isLast = forloop.last %}
 
   {% if isLast or loopindex != 0 %}
-    {% assign plus = " project-margin lastPort" %}
+    {% assign plus = " project-margin last" %}
   {% else %}
     {% assign plus = " project-margin" %}
   {% endif %}
+
+{% elsif type == "Split4" %}
+
+    {% assign div = "split4" %}
+    {% assign loopindex = forloop.index | modulo: 4 %}
+    {% assign isLast = forloop.last %}
+
+    {% if isLast or loopindex == 0 %}
+      {% assign plus = " project-margin last" %}
+    {% elsif loopindex == 2 %}
+      {% assign plus = " project-margin snd" %}
+    {% else %}
+      {% assign plus = " project-margin" %}
+    {% endif %}
 
 {% endif %}
 
@@ -22,7 +36,14 @@
   <div class="project-{{ div }}{{ plus }}">
     <a href="{{ subitem.url | prepend: purl | prepend: site.baseurl }}">
       <div class="port-image" >
+        <!--<div class="port-caption"><p>{{subitem.title}}</p></div>-->
+        {% if type == "Full" %}
+        <img alt="{{ subitem.title }}" data-src-base='{{ site.baseurl }}/img/' data-src='<704:{{subitem.img}},>704:{{subitem.img}}'/>
+     <noscript><img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}"></noscript>
+        {% else %}
         <img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}">
+        {% endif %}
+
       </div>
     </a>
   </div>
