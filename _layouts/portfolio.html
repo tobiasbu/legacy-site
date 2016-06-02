@@ -12,28 +12,37 @@ layout: default
     <div class="portfolio">
       <div class="portfolio-inner">
 
+        {% assign port = site.data.navigation["portfolio"] %}
+        {% assign purl = port.url %}
+        {% assign type = "Full" %}
 
 
-      {% assign portfolio = (site.pages | where: "portfolio" , "true") %}
-      {% for my_page in portfolio %}
-        {% if my_page.title %}
-        {% assign section = my_page.section %}
-        {% assign div = "mid" %}
-        {% assign loopindex = forloop.index0 | modulo: 2 %}
-        {% assign isLast = forloop.last %}
-          {% if isLast or loopindex != 0 %}
-            <div class="port-item-mid port-item-margin lastPort" >
-          {% else %}
-            <div class="port-item-mid port-item-margin" >
+        {% for item in port.projects %}
+
+          {% if item.title == "Featured" %}
+
+              {% for subitem in item.childs %}
+                  {% include portfolio-item.html subitem = subitem %}
+              {% endfor %}
+
+          {% elsif item.title == "Medium" %}
+
+            {% assign type = "Split" %}
+
+              {% for subitem in item.childs %}
+                  {% include portfolio-item.html subitem = subitem %}
+              {% endfor %}
+
           {% endif %}
-            <a href="{{ my_page.url | prepend: site.baseurl }}">
+
+          <!--<a href="{{ my_page.url | prepend: site.baseurl }}">
               <div class="port-image" >
                 <img src="{{ site.baseurl }}/img/{{my_page.img}}" alt="{{ my_page.title }}">
               </div>
                 </a>
-            </div>
-        {% endif %}
-      {% endfor %}
+            </div> -->
+
+        {% endfor %}
 
         </div>
 

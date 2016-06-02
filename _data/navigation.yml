@@ -1,10 +1,43 @@
-# main links links
-
+# main links
+main:
   - title: "Home"
     url: /
 
   - title: "About"
     url: /about/
 
-  - title: "Projects"
+  - title: "Portfolio"
     url: /portfolio/
+
+
+
+
+
+# portfolio
+portfolio:
+  url: /portfolio
+  projects:
+
+  - title: "Featured"
+    childs:
+    - title: "Koko-Kuba"
+      url: /koko-kuba/
+      img: kk.png
+
+  - title: "Medium"
+    childs:
+    - title: "Marduino"
+      url: /marduino/
+      img: 0.png
+
+    - title: "Marduino"
+      url: /marduino/
+      img: 1.png
+
+    - title: "Marduino"
+      url: /marduino/
+      img: 2.png
+
+    - title: "Marduino"
+      url: /marduino/
+      img: 3.png

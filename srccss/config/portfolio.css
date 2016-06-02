@@ -10,16 +10,20 @@
 
 }
 
-.port-item-margin {
+.portfolio-item {
+  clear: both;
+  position: relative;
+  line-height: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.project-margin {
     margin-right: 2%;
-    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
-.port-item-big {
-  max-width: 100%;
-}
-
-.port-item-mid {
+.project-split {
   width: 49%;
   float: left;
 
@@ -40,7 +44,7 @@
 
 }
 
-.portf-image img  {
+.port-image img  {
   z-index: 1;
   overflow: hidden;
 }

@@ -1,0 +1,28 @@
+
+
+
+{% assign div = "full" %}
+{% assign plus = "" %}
+
+{% if type == "Split" %}
+
+  {% assign div = "split" %}
+  {% assign loopindex = forloop.index0 | modulo: 2 %}
+  {% assign isLast = forloop.last %}
+
+  {% if isLast or loopindex != 0 %}
+    {% assign plus = " project-margin lastPort" %}
+  {% else %}
+    {% assign plus = " project-margin" %}
+  {% endif %}
+
+{% endif %}
+
+
+  <div class="project-{{ div }}{{ plus }}">
+    <a href="{{ subitem.url | prepend: purl | prepend: site.baseurl }}">
+      <div class="port-image" >
+        <img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}">
+      </div>
+    </a>
+  </div>
