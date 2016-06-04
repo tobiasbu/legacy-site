@@ -20,42 +20,88 @@ portfolio:
 
   - title: "Featured"
     childs:
+    - title: "Laserball"
+      url: /laserball/
+      imgWide: game_lb_wide.png
+      img: game_lb.png
+
     - title: "Koko-Kuba"
       url: /koko-kuba/
-      img: kk.png
+      imgWide: game_kk_wide.png
+      img: game_kk.png
 
   - title: "Medium"
     childs:
-    - title: "Marduino"
-      url: /marduino/
-      img: 0.png
+    - title: "Untitled Space"
+      url: /untitled-space/
+      img: game_untitled.png
 
-    - title: "Marduino"
+    - title: "Inside"
       url: /marduino/
-      img: 1.png
+      img: game_inside.png
 
-    - title: "Marduino"
-      url: /marduino/
-      img: 3.png
+    - title: "Super Crate Defender"
+      url: /crate-defender/
+      img: game_cratedef.jpg
 
-    - title: "Marduino"
+    - title: "VRSoccer"
+      url: /vrsoccer/
+      img: game_vrsoccer.png
+
+    - title: "Super Marduino"
       url: /marduino/
-      img: 3.png
+      img: game_marduino.png
+
+    - title: "A Vigança dos Malditos Budistas do Espaço Sideral"
+      url: /avdmbdes/
+      img: game_budas.png
+
+    - title: "Robot Kombat"
+      url: /avdmbdes/
+      img: game_robotkombat.png
+
+    - title: "Legend of Zilda"
+      url: /legend-of-zilda/
+      img: game_zilda.png
+
+    - title: "Diablo RPG Maker"
+      url: /diablo-rmk/
+      img: game_diablo.png
+
+    - title: "Cida & Adão"
+      url: /legend-of-zilda/
+      img: game_cida.png
+
+    - title: "Rhythmos Engine"
+      url: /rhythmos/
+      img: rhythmos.jpg
+
+    - title: "Autorama AR"
+      url: /autorama-ar/
+      img: game_autoramaar.jpg
 
   - title: "Other"
     childs:
-    - title: "Marduino"
-      url: /marduino/
-      img: 0.png
+    - title: "Por um triz"
+      url: /put/
+      img: game_put.jpg
 
-    - title: "Marduino"
-      url: /marduino/
-      img: 1.png
+    - title: "Autorama Simulator"
+      url: /autorama-simul/
+      img: autoramasimul.png
 
-    - title: "Marduino"
-      url: /marduino/
-      img: 3.png
+    - title: "Game of Potatoes"
+      url: /game-of-potatoes/
+      img: game_potatoes.png
 
-    - title: "Marduino"
+    - title: "OBJ Loader"
+      url: /obj-loader/
+      img: objloader.jpg
+
+    - title: "Cuberoids"
+      url: /cuberoids/
+      img: game_cube.jpg
+
+    - title: "Baby Steps in C++"
       url: /marduino/
-      img: 3.png
+      img: cpp.jpg

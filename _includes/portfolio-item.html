@@ -2,7 +2,8 @@
 
 
 {% assign div = "full" %}
-{% assign plus = "" %}
+{% assign plus = " project-margin" %}
+{% assign plusCap = "" %}
 
 {% if type == "Split" %}
 
@@ -18,6 +19,7 @@
 
 {% elsif type == "Split4" %}
 
+    {% assign plusCap = " tiny" %}
     {% assign div = "split4" %}
     {% assign loopindex = forloop.index | modulo: 4 %}
     {% assign isLast = forloop.last %}
@@ -36,9 +38,10 @@
   <div class="project-{{ div }}{{ plus }}">
     <a href="{{ subitem.url | prepend: purl | prepend: site.baseurl }}">
       <div class="port-image" >
-        <!--<div class="port-caption"><p>{{subitem.title}}</p></div>-->
+
+        <div class="port-caption {{plusCap}}"><p>{{subitem.title}}</p></div><!---->
         {% if type == "Full" %}
-        <img alt="{{ subitem.title }}" data-src-base='{{ site.baseurl }}/img/' data-src='<704:{{subitem.img}},>704:{{subitem.img}}'/>
+        <img alt="{{ subitem.title }}" data-src-base='{{ site.baseurl }}/img/' data-src='<704:{{subitem.img}},>704:{{subitem.imgWide}}'/>
      <noscript><img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}"></noscript>
         {% else %}
         <img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}">

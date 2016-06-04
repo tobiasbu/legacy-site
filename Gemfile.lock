@@ -46,6 +46,7 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 1.4)
       typhoeus (~> 0.7)
+    hpricot (0.8.6)
     html-pipeline (2.4.1)
       activesupport (>= 2, < 5)
       nokogiri (>= 1.4)
@@ -121,6 +122,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  hpricot
   wdm (~> 0.1.0)
 
 BUNDLED WITH

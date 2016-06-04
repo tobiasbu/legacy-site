@@ -9,7 +9,7 @@ a {
 
 .wrapper {
   /*width: 90%;*/
-  padding: 0 3%;
+  padding: 0 4%;
   margin: 0 auto;
   @media (--medium-up) {
     padding: 0 calc(50% - 320px);
