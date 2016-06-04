@@ -40,9 +40,13 @@ layout: default
 
           {% assign type = "Split4" %}
 
+          <div class="project-group" >
+
             {% for subitem in item.childs %}
                 {% include portfolio-item.html subitem = subitem %}
             {% endfor %}
+
+            </div>
 
           {% endif %}
 
