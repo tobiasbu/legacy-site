@@ -82,6 +82,14 @@ portfolio:
 
   - title: "Other"
     childs:
+    - title: "tobiJS"
+      url: /tobiJS/
+      img: tobijs.png
+
+    - title: "BasketLeapBall"
+      url: /basket-leap-ball/
+      img: game_basket.png
+
     - title: "Por um triz"
       url: /put/
       img: game_put.jpg
