@@ -23,12 +23,12 @@ portfolio:
     - title: "Laserball"
       url: /laserball/
       imgWide: game_lb_wide.png
-      img: game_lb.png
+      img: game_lb.jpg
 
     - title: "Koko-Kuba"
       url: /koko-kuba/
       imgWide: game_kk_wide.png
-      img: game_kk.png
+      img: game_kk.jpg
 
   - title: "Medium"
     childs:
@@ -46,11 +46,11 @@ portfolio:
 
     - title: "VRSoccer"
       url: /vrsoccer/
-      img: game_vrsoccer.png
+      img: game_vrsoccer.jpg
 
     - title: "Super Marduino"
       url: /marduino/
-      img: game_marduino.png
+      img: game_marduino.jpg
 
     - title: "A Vigança dos Malditos Budistas do Espaço Sideral"
       url: /avdmbdes/
@@ -58,7 +58,7 @@ portfolio:
 
     - title: "Robot Kombat"
       url: /avdmbdes/
-      img: game_robotkombat.png
+      img: game_robotkombat.jpg
 
     - title: "Legend of Zilda"
       url: /legend-of-zilda/
@@ -88,7 +88,7 @@ portfolio:
 
     - title: "BasketLeapBall"
       url: /basket-leap-ball/
-      img: game_basket.png
+      img: game_basket.jpg
 
     - title: "Por um triz"
       url: /put/
@@ -100,7 +100,7 @@ portfolio:
 
     - title: "Game of Potatoes"
       url: /game-of-potatoes/
-      img: game_potatoes.png
+      img: game_potatoes.jpg
 
     - title: "OBJ Loader"
       url: /obj-loader/
