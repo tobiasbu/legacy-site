@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    {% if page.logo == null %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% else %}
+      <img src="{{ site.baseurl }}/img/portfolio/{{page.logo}}" alt="{{ page.title }}">
+    {% endif %}
+
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

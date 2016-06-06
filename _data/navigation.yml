@@ -37,7 +37,7 @@ portfolio:
       img: game_untitled.png
 
     - title: "Inside"
-      url: /marduino/
+      url: /inside/
       img: game_inside.png
 
     - title: "Super Crate Defender"
