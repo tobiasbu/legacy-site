@@ -12,6 +12,10 @@ layout: default
 
   </header>
 
+  {% if page.imageGallery != null %}
+      {% include photoswipeDOM.html %}
+  {% endif %}
+
   <div class="post-content">
     {{ content }}
   </div>

@@ -1,9 +1,50 @@
 
-<footer class="site-footer">
-{% if page.url == "/portfolio/" %}
-    <script src='{{site.baseurl}}/js/responsive-img.min.js'></script>
+
+  {% if page.url == "/portfolio/" %}
+      <script src='{{site.baseurl}}/js/responsive-img.min.js'></script>
+  {% endif %}
+
+{% if page.imageGallery != null %}
+
+<script  type="text/javascript">
+
+    var path = "{{site.baseurl}}/img/";
+    var openPhotoSwipe = function() {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = [
+        {
+            src: path + "game_inside.png", //'https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg',
+            w: 320,
+            h: 240
+        }
+    ];
+
+    // define options (if needed)
+    var options = {
+			 // history & focus options are disabled on CodePen
+      	history: true,
+      	focus: true,
+
+        showAnimationDuration: 0,
+        hideAnimationDuration: 0
+
+    };
+
+    var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+
+
+};
+
+/*openPhotoSwipe();*/
+
+/*document.getElementById('btn').onclick = openPhotoSwipe;*/
+
+</script>
+
 {% endif %}
-</footer>
 
 <!--
 
