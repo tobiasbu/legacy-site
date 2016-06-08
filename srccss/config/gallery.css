@@ -25,12 +25,16 @@
 .three-figure {
     width: 33%;
 
-  @media (--small) {
+/*  @media (--small) {
       width: 100%;
       float: none;
       margin-right: 0px;
       margin-bottom: 0.5%;
-  }
+  }*/
+}
+
+.two-figure {
+    width: 49.5%;
 }
 
 .my-gallery figcaption {

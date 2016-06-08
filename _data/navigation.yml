@@ -57,7 +57,7 @@ portfolio:
       img: game_budas.png
 
     - title: "Robot Kombat"
-      url: /avdmbdes/
+      url: /robotkombat/
       img: game_robotkombat.jpg
 
     - title: "Legend of Zilda"
@@ -69,7 +69,8 @@ portfolio:
       img: game_diablo.png
 
     - title: "Cida & Adão"
-      url: /legend-of-zilda/
+      url: http://gamejolt.com/games/cida-adao/30040
+      link: true
       img: game_cida.png
 
     - title: "Rhythmos Engine"
@@ -83,11 +84,12 @@ portfolio:
   - title: "Other"
     childs:
     - title: "tobiJS"
-      url: /tobiJS/
+      url: https://github.com/tobiasbu/tobiJS
+      link: true
       img: tobijs.png
 
     - title: "BasketLeapBall"
-      url: /basket-leap-ball/
+      url: /basketleapball/
       img: game_basket.jpg
 
     - title: "Por um triz"
@@ -95,7 +97,7 @@ portfolio:
       img: game_put.jpg
 
     - title: "Autorama Simulator"
-      url: /autorama-simul/
+      url: /autorama-simulator/
       img: autoramasimul.png
 
     - title: "Game of Potatoes"
@@ -111,5 +113,5 @@ portfolio:
       img: game_cube.jpg
 
     - title: "Baby Steps in C++"
-      url: /marduino/
+      url: /baby-steps-cpp/
       img: cpp.jpg

@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Inside
-permalink: /portfolio/inside
+permalink: /portfolio/inside/
 date: 2013-05-25 21:38:40.000000000 -03:00
 portfolio: true
 logo: logo_inside.png
@@ -21,7 +21,7 @@ imageGallery:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FI8NYg3EZxw" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<h3>Download:</h3>
+<h3>Release:</h3>
 
 <div class="box">
 Windows - zip 3,29 MB
@@ -52,11 +52,11 @@ stairs, elevators, etc. and save points.<br>
 
 <h3>Details:</h3>
 <p style="font-size:0.8em">
-<strong>Genre:</strong> Action<br>
-<strong>Engine:</strong> RPG Maker 2000<br>
-<strong>Version:</strong> 1.95<br>
-<strong>Date:</strong> 02.07.2012<br>
-<strong>Published:</strong> 16.07.2012<br>
+<strong>Genre:</strong> Action.<br>
+<strong>Engine:</strong> RPG Maker 2000.<br>
+<strong>Version:</strong> 1.95.<br>
+<strong>Date:</strong> 02.07.2012.<br>
+<strong>Published:</strong> 16.07.2012.<br>
 </p>
 
 <h3>Related Links:</h3>

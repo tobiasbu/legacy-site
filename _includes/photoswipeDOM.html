@@ -7,6 +7,12 @@
   {% assign class = "three-figure" %}
   {% assign plus = "" %}
 
+  {% if gallery.size == 2 %}
+      {% assign class = "two-figure" %}
+  {% endif %}
+
+
+
   {% for item in gallery %}
 
     {% if forloop.last %}

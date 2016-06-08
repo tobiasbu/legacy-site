@@ -36,7 +36,7 @@
 
 
   <div class="project-{{ div }}{{ plus }}">
-    <a href="{{ subitem.url | prepend: purl | prepend: site.baseurl }}">
+    <a href="{% if subitem.link == null %}{{ subitem.url | prepend: purl | prepend: site.baseurl }}{% else %}{{subitem.url}}{% endif %}" {% if subitem.link != null %}target="_blank"{% endif %}>
       <div class="port-image" >
 
         <div class="port-caption {{plusCap}}"><p>{{subitem.title}}</p></div><!---->
