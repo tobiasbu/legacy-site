@@ -1,3 +1,33 @@
+
+<!-- Gallery -->
+  {% assign gallery = page.imageGallery.childs %}
+
+  <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+  {% assign class = "three-figure" %}
+  {% assign plus = "" %}
+
+  {% for item in gallery %}
+
+    {% if forloop.last %}
+        {% assign plus = " last" %}
+    {% endif %}
+
+    <figure class="{{ plus }} {{ class }}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="{{ site.baseurl }}/img/portfolio/{{item.img}}" itemprop="contentUrl" data-size="{{page.imageGallery.w}}x{{page.imageGallery.h}}">
+
+          <img src="{{ site.baseurl }}/img/portfolio/{{item.img}}" itemprop="thumbnail" alt="{{item.caption}}"/>
+          </a>
+      <!--<figcaption itemprop="caption description">{{item.caption}}</figcaption> alt="Image description"-->
+    </figure>
+
+
+  {% endfor %}
+
+
+  </div>
+
+
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 

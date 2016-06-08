@@ -1,11 +1,8 @@
 /*https://raw.githubusercontent.com/jwarby/pygments-css/master/tango.css*/
 
-.highlight {
 
 
-}
-
- figure.highlight {
+ figure .highlight {
   padding: 1em;
   display: block;
   border: 1px solid rgba(0,0,0,0.1);

@@ -40,3 +40,8 @@ ul {
 li {
   margin: 0.5em;
 }
+
+video {
+  max-width: 100%    !important;
+  height: auto   !important;
+}
