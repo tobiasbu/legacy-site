@@ -19,7 +19,7 @@ imageGallery:
 
  <span/>
 
-<h3>Release:</h3>
+### Release:
 
 <div class="box">
 Windows - zip 2,47 MB
@@ -30,18 +30,18 @@ Download!
 </a>
 </div>
 
-<h3>Description:</h3>
+### Description:
 
 You need to defend  from bat hordes. Your weapon is wooden crates and you need to launch against your enemies.
 
 Game created with C++, SFML 2.1 and physic lib Box2D.
 
-<h3>Commands:</h3>
+### Commands:
 
 – Mouse: do everything. control aim.<br>
 – Mouse left-key: launch crates and charge the launching force.<br>
 
-<h3>Details:</h3>
+### Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Tower Defense.<br>
 <strong>Version:</strong> 1.5.1<br>

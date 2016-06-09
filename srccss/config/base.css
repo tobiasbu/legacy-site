@@ -184,3 +184,9 @@ li.post-item {
 .widevideo {
   padding-bottom: 56.25%;
 }
+
+.fb {
+  max-width: 100%;
+  margin: 1em 0;
+  text-align: center;
+}

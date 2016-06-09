@@ -17,7 +17,7 @@ imageGallery:
 
  <span/>
 
-<h3>Release:</h3>
+### Release:
 
 <div class="box">
 Windows - zip 17,4 MB
@@ -28,13 +28,13 @@ Download!
 </a>
 </div>
 
-<h3>Description:</h3>
+### Description:
 
 This game was made for the Virtual Reality class. For play this game you need to draw on some paper a race course.
 Using a webcam to scan your course and you will be able to play it. In fact this game is very simple.
 Features: course scanner for webcam and play it!
 
-<h3>Commands:</h3>
+### Commands:
 
 On race scene:
 
@@ -46,7 +46,7 @@ On others scenes:
 
 – Mouse: select options;
 
-<h3>Details:</h3>
+### Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Race and Virtual reality.<br>
 <strong>Engine:</strong> C++, OpenCV, SFML-Audio module, Glut and OpenGL.<br>

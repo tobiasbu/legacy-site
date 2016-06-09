@@ -6,12 +6,12 @@ date: 2013-07-29 14:25:29.000000000 -03:00
 portfolio: true
 ---
 
-<h3>Description:</h3>
+### Description: 
 
 In this section you will find my first games in C++ (2013).
 The source-code and the game is available for download. But, I’ve write this games in portuguese.
 
-<h3>The Zombie Hunter v2.0:</h3>
+### The Zombie Hunter v2.0:
 
 ![Alt Structure]({{site.baseurl}}/img/portfolio/zombiehunter2.png)
 
@@ -32,7 +32,7 @@ Download!
 </a>
 </div>
 
-<h3>The Zombie Hunter v1.0:</h3>
+### The Zombie Hunter v1.0:
 
 ![Alt Structure]({{site.baseurl}}/img/portfolio/zombiehunter.png)
 
@@ -49,7 +49,7 @@ Download!
 </a>
 </div>
 
-<h3>the door v1.5:</h3>
+### the door v1.5:
 
 ![Alt Structure]({{site.baseurl}}/img/portfolio/thedoor.png)
 

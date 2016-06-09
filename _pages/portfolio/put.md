@@ -17,7 +17,7 @@ imageGallery:
 
  <span/>
 
-<h3>Release:</h3>
+### Release:
 
 <div class="box">
 Windows - zip 79,9 MB
@@ -28,12 +28,12 @@ Download!
 </a>
 </div>
 
-<h3>Description:</h3>
+### Description:
 
 I made this game for Unity3D class in college. Its very simple and not long. However is very heavy file for a small game. You are a prisoner and you need to escape from the prison and from the city. This game is only a test of Unity features.
 
 
-<h3>Commands:</h3>
+### Commands:
 
 –  W, A, S, D: move player.<br>
 – Mouse: aim.<br>
@@ -41,7 +41,7 @@ I made this game for Unity3D class in college. Its very simple and not long. How
 – Mouse-middle key: zooming aim.<br>
 – Ctrl: crouch.<br>
 
-<h3>Details:</h3>
+### Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> FPS.<br>
 <strong>Version:</strong> 1.0<br>

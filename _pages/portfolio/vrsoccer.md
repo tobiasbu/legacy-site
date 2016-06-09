@@ -21,7 +21,7 @@ imageGallery:
 <iframe width="640" height="480" src="https://www.youtube.com/embed/9jnzYDv46zk" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<h3>Description:</h3>
+### Description:
 
 VRSoccer is a virtual football game using computer vision.
 The game runs from a camera and projector attached on top of a structure.
@@ -34,7 +34,7 @@ __The Structure:__
 
 ![Alt Structure]({{site.baseurl}}/img/portfolio/vrsoccer_structure.png)
 
-<h3>Details:</h3>
+### Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Virtual Reality / Sport<br>
 <strong>Engine:</strong> Unity + OpenCV<br>

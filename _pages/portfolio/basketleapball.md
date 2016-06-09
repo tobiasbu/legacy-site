@@ -11,7 +11,7 @@ logo: logo_basketleapball.jpg
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VjxBpK03qWU" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<h3>Release:</h3>
+### Release:
 
 <div class="box">
 Windows - zip 16,5 MB
@@ -22,12 +22,12 @@ Download!
 </a>
 </div>
 
-<h3>Description:</h3>
+### Description:
 
 This game was made for the Virtual Reality class. To play this game you need to have the **[LeapMotion](https://github.com/tobiasbu)**.
 Is a very simple game that you use your hands to take the ball and shoot it through a hoop.
 
-<h3>Details:</h3>
+### Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Virtual Reality / Sport.<br>
 <strong>Engine:</strong> Unity + LeapMotion.<br>

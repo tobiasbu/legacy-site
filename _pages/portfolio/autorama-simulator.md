@@ -17,13 +17,13 @@ imageGallery:
 
  <span/>
 
-<h3>Description:</h3>
+### Description:
 
 This app have two sub-applications: Track Editor and The Track Simulator (or Autorama Simulator).
 This application was made to test the potential of curves B-spline, Belzier and others… App written in C++ and OpenGL.
 Create your own track with the Track Editor – (Bspline curve) and simulate it.
 
-<h3>Details:</h3>
+### Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> App.<br>
 <strong>Engine:</strong> C++, Glut and OpenGL.<br>

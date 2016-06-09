@@ -15,7 +15,7 @@ imageGallery:
 ---
  <span/>
 
-<h3>Release:</h3>
+### Release:
 
 <div class="box">
 Windows - zip 118 KB
@@ -26,17 +26,17 @@ Download!
 </a>
 </div>
 
-<h3>Description:</h3>
+### Description:
 
 Game created for the class Graphic Processing. Learning the basics of OpenlGL and Computer Graphics.
 It is a fast game with only 24 seconds.
 
-<h3>Commands:</h3>
+### Commands:
 
 – Arrows: menu selection, move and rotate the camera view.<br>
 – Space: select option and shoot.<br>
 
-<h3>Details:</h3>
+### Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> First Person.<br>
 <strong>Engine:</strong> C++, Glut and OpenGL.<br>

@@ -13,7 +13,7 @@ logo: logo_buda.png
 
  <span/>
 
-<h3>Release:</h3>
+### Release:
 
 <div class="box">
 Windows - zip 7,96 MB
@@ -24,14 +24,14 @@ Download!
 </a>
 </div>
 
-<h3>Description:</h3>
+### Description:
 
 This game is in the style shoot ‘n’ up bullet hell. In English _“The Revenge of the Damned Buddhists from Outer space”_.
 The player controls a ship that must defend against a horde of alien buddhists invaders (strange!). The ship of the player has a shield that absorbs projectiles of their rivals and when a projectile is absorbed, the player will be allowed to shoot.  As more power the player accumulates more efficient the shots are. The ship of the player has only a single point of health and four lives.
 
 All sprites and most of the programming were created by me. Music by __[Eduardo Luiz Beise Ulrich](https://www.facebook.com/Eduardo-Luiz-Beise-Ulrich-503570766455890/?fref=ts)__.
 
-<h3>Commands:</h3>
+### Commands:
 
 – Space: Hold: charge shooting power / Release: shoot the charged power.<br>
 – Arrows: shield in eight directions and absorbs enemies shooting.<br>
@@ -39,7 +39,7 @@ All sprites and most of the programming were created by me. Music by __[Eduardo 
 – ESC: exit the game.<br>
 – F4: trigger between full or window screen.<br>
 
-<h3>Details:</h3>
+### Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Shooter / Bullet Hell.<br>
 <strong>Engine:</strong> Game Maker 8.1.<br>

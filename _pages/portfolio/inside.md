@@ -21,7 +21,7 @@ imageGallery:
 <iframe width="640" height="480" src="https://www.youtube.com/embed/FI8NYg3EZxw" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<h3>Release:</h3>
+### Release:
 
 <div class="box">
 Windows - zip 3,29 MB
@@ -30,7 +30,7 @@ Download!
 </div>
 </div>
 
-<h3>Description:</h3>
+### Description:
 
 The game itself presents a retro design. It is based on games like Metroid and Megaman, following the same platform style. Created in RPG Maker 2000 + Destiny Patch 2.0. A short game but I hope he will serve as an inspiration.
 
@@ -40,7 +40,7 @@ from the brazilian forum _Mundo RPG Maker_ in 2012.
 
 ![Alt Contest: The Demon Inside Us]({{site.baseurl}}/img/portfolio/win_demon.png)
 
-<h3>Commands:</h3>
+### Commands:
 
 -- Z: Attack with sword<br>
 -- Space: Jump of the main character<br>
@@ -50,7 +50,7 @@ stairs, elevators, etc. and save points.<br>
 -- ESC: Quit game<br>
 -- F5 and F4: change the size of the game screen.<br>
 
-<h3>Details:</h3>
+### Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Action.<br>
 <strong>Engine:</strong> RPG Maker 2000.<br>
@@ -59,7 +59,7 @@ stairs, elevators, etc. and save points.<br>
 <strong>Published:</strong> 16.07.2012.<br>
 </p>
 
-<h3>Related Links:</h3>
+### Related Links:
 <p style="font-size:0.8em">
 [EN-US]<br>
 - <a href="https://rpgmaker.net/games/4333/">Inside on rpgmaker.net</a><br>
