@@ -10,18 +10,22 @@ imageGallery:
   h: 600
   childs:
   - caption: teste
-    img: screen_robot0.png
+    img: screen_zilda0.png
   - caption: teste
-    img: screen_robot1.png
+    img: screen_zilda1.png
   - caption: teste
-    img: screen_robot2.png
+    img: screen_zilda2.png
+  - caption: teste
+    img: screen_zilda3.png
 ---
+
+ <span/>
 
 <h3>Release:</h3>
 
 <div class="box">
-Windows - zip 15,4 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/RobotKombat.zip">
+Windows - zip 37 MB
+<a href="https://dl.dropboxusercontent.com/u/90839850/Games/TLZi_1.0.zip">
 <div class="box-link">
 Download!
 </div>
@@ -30,12 +34,15 @@ Download!
 
 <h3>Description:</h3>
 
-Game created using C++ and SFML 2.1.
-Inspired by the games Front Mission e Fire Emblem, RobotKombat,
-is a simple game of strategy developed in the Programming II class.
-Credits: graphics and musics  to SquareEnix.
+__The Legend of Zilda__ is a parody of the game _The Legend of Zelda: Link’s Awakening_. It was developed in the Programming II class: Algorithms and Data Structures. The objective to develop this gams is to cover all the learned material (data structures).
 
-You are a robot engineer and subjected to participate of a major tournament robot gladiators. In this tournament, brings together the best fighters from the world, battling each other to lead a grand prize. But Dietrich-Electrus-Maledictus is the great throne holder, unbeaten for over 7 years. Your goal is win all the challengers and dominate the throne of victory!
+Game itself is simple, resulting in an experience of less than 15 minutes. He follows along the same lines of the classic Zelda without big news. You need to collect three shells and nothing else.
+
+<h3>Commands:</h3>
+
+– Arrows: menu selection e character move.<br>
+– Z: attack, talks to NPC.<br>
+– Space/Enter: select option.<br>
 
 <h3>Details:</h3>
 <p style="font-size:0.8em">

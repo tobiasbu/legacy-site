@@ -17,6 +17,8 @@ imageGallery:
     img: screen_robot2.png
 ---
 
+ <span/>
+
 <h3>Release:</h3>
 
 <div class="box">

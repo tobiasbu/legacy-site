@@ -163,8 +163,8 @@ li.post-item {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
+    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
     margin-bottom: 1em;
@@ -179,4 +179,8 @@ li.post-item {
     width: 100%;
     height: 100%;
 
+}
+
+.widevideo {
+  padding-bottom: 56.25%;
 }

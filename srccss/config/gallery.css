@@ -1,7 +1,7 @@
 
 .my-gallery {
   width: 100%;
-  display: inline-block;
+  display: block;
   line-height: 0px;
   overflow: hidden;
 }
@@ -12,7 +12,8 @@
 .my-gallery figure {
   display: block;
   float: left;
-  margin-right: 0.5%;
+  margin-right: 1%;
+  margin-bottom: 1%;
   /*margin: 0 5px 5px 0;
   width: 150px;*/
 
@@ -23,7 +24,7 @@
 }
 
 .three-figure {
-    width: 33%;
+    width: 32.65%;
 
 /*  @media (--small) {
       width: 100%;

@@ -18,7 +18,7 @@ imageGallery:
 ---
 
 <div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FI8NYg3EZxw" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/FI8NYg3EZxw" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <h3>Release:</h3>

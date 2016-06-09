@@ -16,6 +16,8 @@ imageGallery:
     img: screen_obj2.jpg
 ---
 
+ <span/>
+
 <h3>Release:</h3>
 
 <div class="box">

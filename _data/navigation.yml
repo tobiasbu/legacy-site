@@ -41,7 +41,7 @@ portfolio:
       img: game_inside.png
 
     - title: "Super Crate Defender"
-      url: /crate-defender/
+      url: /super-crate-defender/
       img: game_cratedef.jpg
 
     - title: "VRSoccer"
@@ -74,7 +74,7 @@ portfolio:
       img: game_cida.png
 
     - title: "Rhythmos Engine"
-      url: /rhythmos/
+      url: /rhythmos-engine/
       img: rhythmos.jpg
 
     - title: "Autorama AR"

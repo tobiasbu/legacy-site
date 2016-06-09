@@ -15,6 +15,8 @@ imageGallery:
     img: screen_autoramaar2.jpg
 ---
 
+ <span/>
+
 <h3>Release:</h3>
 
 <div class="box">

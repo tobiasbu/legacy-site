@@ -45,3 +45,13 @@ video {
   max-width: 100%    !important;
   height: auto   !important;
 }
+
+ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+    margin: 1em 0;
+}
+
+ol li {
+  margin: 0.5em 1em 0.5em;
+}

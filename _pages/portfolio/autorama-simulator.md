@@ -15,6 +15,8 @@ imageGallery:
     img: screen_autormasimul1.jpg
 ---
 
+ <span/>
+
 <h3>Description:</h3>
 
 This app have two sub-applications: Track Editor and The Track Simulator (or Autorama Simulator).

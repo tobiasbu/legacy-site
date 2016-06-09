@@ -13,6 +13,7 @@ imageGallery:
   - caption: teste
     img: screen_cube1.png
 ---
+ <span/>
 
 <h3>Release:</h3>
 

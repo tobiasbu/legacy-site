@@ -7,7 +7,7 @@ portfolio: true
 logo: logo_basketleapball.jpg
 ---
 
-<div class="video-container">
+<div class="video-container widevideo">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VjxBpK03qWU" frameborder="0" allowfullscreen></iframe>
 </div>
 

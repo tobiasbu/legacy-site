@@ -18,7 +18,7 @@ imageGallery:
 ---
 
 <div class="video-container">
-<iframe width="420" height="315" src="https://www.youtube.com/embed/9jnzYDv46zk" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/9jnzYDv46zk" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <h3>Description:</h3>
