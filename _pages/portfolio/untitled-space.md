@@ -1,21 +1,14 @@
 ---
 layout: project
-title: Cuberoids
-permalink: /portfolio/cuberoids/
+title: Untitled Space
+permalink: /portfolio/untitled-space/
 date: 2013-12-13 18:15:43.000000000 -02:00
 portfolio: true
-imageGallery:
-  w: 800
-  h: 600
-  childs:
-  - caption: teste
-    img: screen_cube0.png
-  - caption: teste
-    img: screen_cube1.png
+logo: logo_untitled.png
 ---
  <span/>
 
-### Release:
+### Play online:
 
 <div class="box">
 Windows - zip 118 KB
@@ -25,11 +18,6 @@ Download!
 </div>
 </a>
 </div>
-
-### Description:
-
-Game created for the class Graphic Processing. Learning the basics of OpenGL and Computer Graphics.
-It is a fast game with only 24 seconds.
 
 ### Commands:
 

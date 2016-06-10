@@ -25,7 +25,7 @@ imageGallery:
 
 ### Description:
 
-Diablo is a dark fantasy role-playing game developed by Blizzard Entertainment. This project is a fan-game created in RPG Maker 2000 with the implement of the Destiny Patch 2.0. The game is in production and the language is Portuguese, but there will be a version in English.
+Diablo is a dark fantasy role-playing game developed by _Blizzard Entertainment_. This project is a fan-game created in RPG Maker 2000 with the implement of the Destiny Patch 2.0. The game is in production and the language is Portuguese, but there will be a version in English.
 
 ### Summary:
 

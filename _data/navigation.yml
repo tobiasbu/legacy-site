@@ -40,21 +40,25 @@ portfolio:
       url: /inside/
       img: game_inside.png
 
-    - title: "Super Crate Defender"
-      url: /super-crate-defender/
-      img: game_cratedef.jpg
+    - title: "Super Marduino"
+      url: /super-marduino/
+      img: game_marduino.jpg
+
+    - title: "Diablo RPG Maker"
+      url: /diablo-rmk/
+      img: game_diablo.png
+
+    - title: "A Vigança dos Malditos Budistas do Espaço Sideral"
+      url: /avdmbdes/
+      img: game_budas.png
 
     - title: "VRSoccer"
       url: /vrsoccer/
       img: game_vrsoccer.jpg
 
-    - title: "Super Marduino"
-      url: /super-marduino/
-      img: game_marduino.jpg
-
-    - title: "A Vigança dos Malditos Budistas do Espaço Sideral"
-      url: /avdmbdes/
-      img: game_budas.png
+    - title: "Super Crate Defender"
+      url: /super-crate-defender/
+      img: game_cratedef.jpg
 
     - title: "Robot Kombat"
       url: /robotkombat/
@@ -63,10 +67,6 @@ portfolio:
     - title: "Legend of Zilda"
       url: /legend-of-zilda/
       img: game_zilda.png
-
-    - title: "Diablo RPG Maker"
-      url: /diablo-rmk/
-      img: game_diablo.png
 
     - title: "Cida & Adão"
       url: http://gamejolt.com/games/cida-adao/30040
