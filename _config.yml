@@ -31,6 +31,12 @@ kramdown:
 
 highlighter: rouge
 
+collections:
+  games:
+    output: true
+    path: /untitled-space/
+    permalink: /portfolio/:path/
+
 compress_html:
   clippings: all
   comments: all

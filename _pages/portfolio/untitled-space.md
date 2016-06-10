@@ -4,30 +4,43 @@ title: Untitled Space
 permalink: /portfolio/untitled-space/
 date: 2013-12-13 18:15:43.000000000 -02:00
 portfolio: true
-logo: logo_untitled.png
 ---
  <span/>
 
-### Play online:
+ <span/>
 
-<div class="box">
-Windows - zip 118 KB
-<a href="https://www.dropbox.com/s/rk63zu9kgj70yuu/Cuberoids.zip">
-<div class="box-link">
-Download!
+ {::nomarkdown}
+<div class="canvas-wrapper">
+<div class="container">
+<div id=canvas-container>
+
 </div>
-</a>
 </div>
+</div>
+<script type="application/javascript" src="game.js"> </script>
+
+{:/}
+
+<noscript>Your Browser don't support Javascript.</noscript>
+
+ <span/>
 
 ### Commands:
 
-– Arrows: menu selection, move and rotate the camera view.<br>
-– Space: select option and shoot.<br>
+– W, A, S, D: move the spaceship.<br>
+– Space: shoot.<br>
+
+### Description:
+
+This game is a test of my own [framework](https://github.com/tobiasbu/tobiJS) for web-based games.
+The main idea was testing the basic concepts of a game engine architecture. Of course it is hard to create a game engine from scratch.
+I'm the kind of guy who likes to learn about everything about programming. Well, it was challenging enough!
+
+I developing a new version of this game for mobile devices using Unity (yes, own game engines are difficult!).
 
 ### Details:
 <p style="font-size:0.8em">
-<strong>Genre:</strong> First Person.<br>
-<strong>Engine:</strong> C++, Glut and OpenGL.<br>
-<strong>Purpose:</strong> Academic.<br>
-<strong>Date:</strong> November, 2013.<br>
+<strong>Genre:</strong> Shooter.<br>
+<strong>Engine:</strong> <a href="https://github.com/tobiasbu/tobiJS"><strong>tobiJS</strong></a> - A game framework for HTML5 using Javascript.<br>
+<strong>Date:</strong> March, 2016.<br>
 </p>

@@ -32,7 +32,6 @@ Download!
 
 I made this game for Unity3D class in college. Its very simple and not long. However is very heavy file for a small game. You are a prisoner and you need to escape from the prison and from the city. This game is only a test of Unity features.
 
-
 ### Commands:
 
 –  W, A, S, D: move player.<br>

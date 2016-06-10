@@ -19,6 +19,8 @@ The Laserball Machine, is a digital game to play with friends from the [Ideia à
 
 A new concept in video game. Invite a friend to play, get beers randomly chosen by the machine and have fun like never before!
 
+![Alt Laserball]({{site.baseurl}}/img/portfolio/screen_lb0.jpg)
+
 The main team was composed by Beto Roa, Renato Roa, João Ricardo Bittencourt and Tobias Beise Ulrich (me). In this project I was the programmer.
 My boss (Beto Roa) was the game designer and producer, Renato was the artist and João (professor) was the main programmer.
 
@@ -33,7 +35,8 @@ Come to the [Bilhar Porto Dez](http://www.bilharportodez.com.br/) pub to play!
 <div class="fb-page" data-href="https://www.facebook.com/laserball2016/" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/laserball2016/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/laserball2016/">Laserball</a></blockquote></div>
 </div>
 
- <span/>
+
+<hr />
 
 [![Alt Ideia à Vista][2]][1]
 {: style="text-align: center; max-width:200px; margin: auto;" :}
