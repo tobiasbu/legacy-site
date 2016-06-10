@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "New Begin"
+date:  2016-06-10 16:40:00 -02:00
+categories:
+- update
+comments: true
+---
+Greetings internet!
+
+I always wanted to create my own clean and _programmer like_ website.
+So, a [friend of mine](https://lucas.ninja/) presented me [Jekyll](https://jekyllrb.com/) and I could do that.
+Now, new time come!
+
+Here we're! :)
+
+I hosting this website as [GitHub](https://github.com/tobiasbu/website) page projects and a migrate from my **[old WordPress](https://tobiasbu.wordpress.com/)** blog to Jekyll.
+
+I also recreated my _brand_ - the _Tobi's tree_ just because my favorite color is green and love trees.
