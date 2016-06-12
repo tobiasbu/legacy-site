@@ -6,8 +6,8 @@ date: 2013-12-13 18:15:43.000000000 -02:00
 portfolio: true
 logo: logo_kk.png
 imageGallery:
-  w: 800
-  h: 600
+  w: 814
+  h: 452
   childs:
   - caption: teste
     img: screen_kk0.png
