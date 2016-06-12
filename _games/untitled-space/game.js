@@ -1,5 +1,4 @@
 
-
 var VIEW = {
   w : 640,
   h : 480
@@ -7,9 +6,7 @@ var VIEW = {
 
 var myGame = new tobi.Game({width:VIEW.w,height:VIEW.h, parent:"canvas-container"});
 
-myGame.canvas.style.border = "none";
-
-/*window.addEventListener("resize", OnResizeCalled, false);
+window.addEventListener("resize", OnResizeCalled, false);
 
 function OnResizeCalled() {
 
@@ -27,8 +24,8 @@ function OnResizeCalled() {
   }  else {
       myGame.canvas.style.width = VIEW.w * optimalRatio + "px";
       myGame.canvas.style.height = VIEW.h * optimalRatio + "px";
-  }
-}*/
+  }*/
+}
 
 var myLoadingScene = new tobi.Scene(myGame);
 var myScene = new tobi.Scene(myGame);
@@ -478,19 +475,19 @@ if (  this.state == "playing") {
     var angle = 0;
 
 
-  if (this.game.input.keyboard.press(tobi.KeyCode.D)) {
+  if (this.game.input.keyboard.press(tobi.KeyCode.Right)) {
     movingX = 1;
     angle = 2;
 
   }
-  if (this.game.input.keyboard.press(tobi.KeyCode.A)) {
+  if (this.game.input.keyboard.press(tobi.KeyCode.Left)) {
     movingX = -1;
     angle = -2;
 
   }
-  if (this.game.input.keyboard.press(tobi.KeyCode.S))
+  if (this.game.input.keyboard.press(tobi.KeyCode.Down))
     movingY = 1;
-  if (this.game.input.keyboard.press(tobi.KeyCode.W))
+  if (this.game.input.keyboard.press(tobi.KeyCode.Up))
       movingY = -1;
 
     this.position.move(this.speed*movingX,this.speed*movingY);

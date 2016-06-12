@@ -27,7 +27,7 @@ portfolio: true
 
 ### Commands:
 
-– W, A, S, D: move the spaceship.<br>
+– Arrows keys: move the spaceship.<br>
 – Space: shoot.<br>
 
 ### Description:
