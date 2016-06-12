@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tobiasbu/saibot.git"
+    "url": "git+https://github.com/tobiasbu/website.git"
   },
   "keywords": [
     "website",
@@ -19,9 +19,9 @@
   "author": "tobiasbu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tobiasbu/saibot/issues"
+    "url": "https://github.com/tobiasbu/website/issues"
   },
-  "homepage": "https://github.com/tobiasbu/saibot#readme",
+  "homepage": "https://github.com/tobiasbu/website#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "cssnano": "^3.6.2",
