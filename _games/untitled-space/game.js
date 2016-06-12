@@ -6,6 +6,8 @@ var VIEW = {
 
 var myGame = new tobi.Game({width:VIEW.w,height:VIEW.h, parent:"canvas-container"});
 
+myGame.canvas.style.border = "none";
+
 window.addEventListener("resize", OnResizeCalled, false);
 
 function OnResizeCalled() {
