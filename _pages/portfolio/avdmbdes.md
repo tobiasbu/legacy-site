@@ -17,7 +17,7 @@ logo: logo_buda.png
 
 <div class="box">
 Windows - zip 7,96 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/Os%20Malditos%20Budistas%20do%20Espaco%20Sideral.zip">
+<a href="https://dl.dropboxusercontent.com/u/90839850/Games/Os%20Malditos%20Budistas%20do%20Espaco%20Sideral.zip" target="_blank">
 <div class="box-link">
 Download!
 </div>
@@ -29,7 +29,7 @@ Download!
 This game is in the style shoot ‘n’ up bullet hell. In English _“The Revenge of the Damned Buddhists from Outer space”_.
 The player controls a ship that must defend against a horde of alien buddhists invaders (strange!). The ship of the player has a shield that absorbs projectiles of their rivals and when a projectile is absorbed, the player will be allowed to shoot.  As more power the player accumulates more efficient the shots are. The ship of the player has only a single point of health and four lives.
 
-All sprites and most of the programming were created by me. Music by __[Eduardo Luiz Beise Ulrich](https://www.facebook.com/Eduardo-Luiz-Beise-Ulrich-503570766455890/?fref=ts)__.
+All sprites and most of the programming were created by me. Music by __[Eduardo Luiz Beise Ulrich](https://www.facebook.com/Eduardo-Luiz-Beise-Ulrich-503570766455890/?fref=ts){:target="_blank"}__.
 
 ### Commands:
 

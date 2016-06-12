@@ -15,7 +15,7 @@ logo: logo_basketleapball.jpg
 
 <div class="box">
 Windows - zip 16,5 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/BasketLeapBall.zip">
+<a href="https://dl.dropboxusercontent.com/u/90839850/Games/BasketLeapBall.zip" target="_blank">
 <div class="box-link">
 Download!
 </div>
@@ -24,7 +24,7 @@ Download!
 
 ### Description:
 
-This game was made for the Virtual Reality class. To play this game you need to have the **[LeapMotion](https://github.com/tobiasbu)**.
+This game was made for the Virtual Reality class. To play this game you need to have the **[LeapMotion](https://www.leapmotion.com/){:target="_blank"}**.
 Is a very simple game that you use your hands to take the ball and shoot it through a hoop.
 
 ### Details:

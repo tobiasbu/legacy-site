@@ -21,7 +21,7 @@ imageGallery:
 
 <div class="box">
 Windows - zip 17,4 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/AutoramaAR.zip">
+<a href="https://dl.dropboxusercontent.com/u/90839850/Games/AutoramaAR.zip" target="_blank">
 <div class="box-link">
 Download!
 </div>

@@ -15,7 +15,7 @@ logo: logo_lb.jpg
 
 ### Description:
 
-The Laserball Machine, is a digital game to play with friends from the [Ideia à Vista](http://ideiaavista.com.br/) company. Made with wood trim and suede provides a unique experience for players.
+The Laserball Machine, is a digital game to play with friends from the [Ideia à Vista](http://ideiaavista.com.br/){:target="_blank"} company. Made with wood trim and suede provides a unique experience for players.
 
 A new concept in video game. Invite a friend to play, get beers randomly chosen by the machine and have fun like never before!
 
@@ -26,7 +26,7 @@ My boss (Beto Roa) was the game designer and producer, Renato was the artist and
 
 It is a huge and nice project!
 
-Come to the [Bilhar Porto Dez](http://www.bilharportodez.com.br/) pub to play!
+Come to the [Bilhar Porto Dez](http://www.bilharportodez.com.br/){:target="_blank"} pub to play!
 
 
 ### Fan-page
@@ -38,11 +38,11 @@ Come to the [Bilhar Porto Dez](http://www.bilharportodez.com.br/) pub to play!
 
 <hr />
 
-[![Alt Ideia à Vista][2]][1]
+[![Alt Ideia à Vista][2]][1]{:target="_blank"}
 {: style="text-align: center; max-width:200px; margin: auto;" :}
 
   [1]: http://ideiaavista.com.br/
   [2]: {{ site.baseurl }}/img/portfolio/partner_logo1.jpg
 
-_Copyright © 2016  [Ideia à Vista](http://ideiaavista.com.br/). All rights reserved._
+_Copyright © 2016  [Ideia à Vista](http://ideiaavista.com.br/){:target="_blank"}. All rights reserved._
 {: style="text-align: center; font-size: 0.7em; color:#656565;" :}

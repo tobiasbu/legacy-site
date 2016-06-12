@@ -16,7 +16,7 @@ logo: logo_rhythmos.png
 ### Release:
 
 <div class="box">
-<a href="https://www.assetstore.unity3d.com/en/#!/content/39835">
+<a href="https://www.assetstore.unity3d.com/en/#!/content/39835" target="_blank">
 <div class="box-link">
 Get on Unity Asset Store!
 </div>
@@ -24,7 +24,7 @@ Get on Unity Asset Store!
 </div>
 
 <p style="text-align:center">
-<strong><a href="https://drive.google.com/file/d/0B0spb4kkmET9UUVqUjBmSk5BeVk/view">Documentation</a></strong>
+<strong><a href="https://drive.google.com/file/d/0B0spb4kkmET9UUVqUjBmSk5BeVk/view" target="_blank">Documentation</a></strong>
 </p>
 
 ### Description:

@@ -21,7 +21,7 @@ imageGallery:
 
 <div class="box">
 Windows - zip 79,9 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/PorUmTriz-Webplayer.zip">
+<a href="https://dl.dropboxusercontent.com/u/90839850/Games/PorUmTriz-Webplayer.zip" target="_blank">
 <div class="box-link">
 Download!
 </div>

@@ -19,7 +19,7 @@ imageGallery:
 
 <div class="box">
 Windows - zip 118 KB
-<a href="https://www.dropbox.com/s/rk63zu9kgj70yuu/Cuberoids.zip">
+<a href="https://www.dropbox.com/s/rk63zu9kgj70yuu/Cuberoids.zip" target="_blank">
 <div class="box-link">
 Download!
 </div>

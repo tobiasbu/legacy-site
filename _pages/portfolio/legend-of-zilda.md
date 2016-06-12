@@ -25,7 +25,7 @@ imageGallery:
 
 <div class="box">
 Windows - zip 37 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/TLZi_1.0.zip">
+<a href="https://dl.dropboxusercontent.com/u/90839850/Games/TLZi_1.0.zip" target="_blank">
 <div class="box-link">
 Download!
 </div>

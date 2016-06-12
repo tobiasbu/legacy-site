@@ -26,7 +26,7 @@ imageGallery:
 
 <div class="box">
 Get on GitHub:
-<a class="embedly-card" href="https://github.com/tobiasbu/marduino">tobiasbu/marduino</a>
+<a class="embedly-card" href="https://github.com/tobiasbu/marduino" target="_blank">tobiasbu/marduino</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>
 

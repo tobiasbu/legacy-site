@@ -23,7 +23,7 @@ imageGallery:
 
 <div class="box">
 Windows - zip 15,4 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/RobotKombat.zip">
+<a href="https://dl.dropboxusercontent.com/u/90839850/Games/RobotKombat.zip" target="_blank">
 <div class="box-link">
 Download!
 </div>

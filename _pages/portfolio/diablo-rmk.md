@@ -53,5 +53,5 @@ With the help of Archangel Tyrael, you (player) and a group of magi must trap th
 ### Related Links:
 <p style="font-size:0.8em">
 [EN-US]<br>
-- <a href="https://rpgmaker.net/games/4013/">Diablo RMK on rpgmaker.net</a><br>
+- <a href="https://rpgmaker.net/games/4013/" target="_blank">Diablo RMK on rpgmaker.net</a><br>
 </p>

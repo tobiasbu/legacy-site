@@ -23,7 +23,7 @@ imageGallery:
 
 <div class="box">
 Windows - zip 2,47 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/supercratedefender151.zip">
+<a href="https://dl.dropboxusercontent.com/u/90839850/Games/supercratedefender151.zip" target="_blank">
 <div class="box-link">
 Download!
 </div>
