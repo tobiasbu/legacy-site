@@ -1,7 +1,7 @@
 :root {
   background: #fff;
   color: #0A0A0A;
-  font-family: 'Droid Serif', sans-serif;
+  font-family: 'Asap', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -16,7 +16,7 @@ body {
   font-size: 1.14em;
 
   @media (--medium-down) {
-    font-size: 0.95em;
+    font-size: 1em;
   }
 }
 
