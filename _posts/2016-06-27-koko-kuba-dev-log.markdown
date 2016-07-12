@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Devlog de Koko-Kuba"
+title:  "KK Devlog #1: Android e Juicy"
 date:  2016-06-27 09:20:00 -02:00
 categories:
 - devlog

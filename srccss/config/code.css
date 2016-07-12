@@ -2,6 +2,7 @@
 
 code {
   font-family: 'Droid Sans Mono', monospace;
+  font-size: 0.8em;
 }
 
  figure.highlight {
@@ -10,11 +11,11 @@ code {
   border: 1px solid rgba(0,0,0,0.1);
   line-height: 1.4em;
   border-radius: 4px;
-  font-size: 0.95em;
 }
 
 .highlighter-rouge {
   background: #eef;
+  font-size: 0.8em;
 }
 
 .highlight .hll { background-color: #ffffcc }

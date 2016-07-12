@@ -59,3 +59,10 @@ ol li {
 hr {
   margin: 2em 0;
 }
+
+blockquote {
+  margin: 1.5em 0;
+  padding: 0 1em;
+  color: #656565;
+  border-left: 6px solid #656565;
+}
