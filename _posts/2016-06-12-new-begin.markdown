@@ -5,6 +5,7 @@ date:  2016-06-12 10:40:00 -02:00
 categories:
 - update
 comments: true
+ogimage: none
 ---
 Greetings internet!
 

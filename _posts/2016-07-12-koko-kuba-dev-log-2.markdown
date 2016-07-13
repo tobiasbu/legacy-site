@@ -10,7 +10,7 @@ ogimage: kkdev1.jpg
 
 ![Alt Devlog]({{site.baseurl}}/img/posts/{{page.ogimage}})
 
-Finalmente tenho mais tempo para me focar no Koko. Agora que voltei para a minha morada no **[Rio Grande do Sul](https://www.youtube.com/watch?v=4ShRH-tMX3U)** estou quase 100% ativo nele (nem tanto, se não eu morro).
+Finalmente tenho mais tempo para me focar no Koko. Agora que voltei para a minha morada no **[Rio Grande do Sul](https://www.youtube.com/watch?v=4ShRH-tMX3U){:target="_blank"}** estou quase 100% ativo nele (nem tanto, se não eu morro).
 
 Dessa vez o foco de implementações foram a **finalização da interface de usuário**, **desempenho e recodificação**.
 
