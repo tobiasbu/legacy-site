@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "KK Off-topic: Extendendo a Unity"
+title: "KK Off-topic: Estendendo a Unity"
 date:  2016-07-24 15:30:00 -02:00
 categories:
 - devlog
@@ -14,7 +14,7 @@ No dia 16/07/2016, eu estive presente no **PAIN**, encontro de desenvolvedores d
 a fabulosa palestra do game designer **Felipe Dal Molin** da **[Aquiris Game Studio](http://www.aquiris.com.br/?lang=pt_BR){:target="_blank"}**, foram expostos jogos para play-tests. E é claro, Koko-Kuba esteve lá.
 Os feedbacks foram extremamente positivos. Fiquei muito contente com críticas, sugestões e sobretudo, com o pessoal que jogou de cabo a rabo o jogo.
 
-Chamou a minha atenção em que algumas pessoas ficaram interresados no processo de criação do jogo. Não vou falar agora de tópicos de game design, GDD ou coisas semelhantes (quem sabe em algum próximo post). Mas sim, falar das extensões em que **Unity** permite implementar. Também não vou defender a qualidade, produtividade ou qualquer coisa que seja de X engine ou Y engine porém, quero mostrar que o jogo depende de **extensões**, que permitem uma facilidade enorme em sua criação.
+Chamou a minha atenção em que algumas pessoas ficaram interresados no processo de criação do jogo. Não vou falar agora de tópicos de game design, GDD ou coisas semelhantes (quem sabe em algum próximo post). Mas sim, falar das estensões em que **Unity** permite implementar. Também não vou defender a qualidade, produtividade ou qualquer coisa que seja de X engine ou Y engine porém, quero mostrar que o jogo depende de **estensões**, que permitem uma facilidade enorme em sua criação.
 
 ### A Unity
 
@@ -22,8 +22,8 @@ Confesso que eu não gostava da Unity. O motivo bem simples: não tive boa exper
 
 Entretanto, **as coisas mudam**. Eu comecei a usar Unity no modo *hard* com o desenvolvimento do Koko-Kuba. Aprendi a ama-la assim como gosto do Game Maker ou fazer um jogo em Javascript ou C++ *from scratch*.
 
-Unity foi feita para extender e isso é o grande ponto positivo dela e também negativo, pelo fato de em certos casos, ser necessário perder tempo criando ou comprar extensões na **[Unity Asset Store](https://www.assetstore.unity3d.com/){:target="_blank"}**. O projeto do Koko-Kuba tá recheado de extensões para facilitar a minha vida na hora de compor fases.
-A seguir, gostaria de apresentar algumas dessas **extensões que criei**.
+Unity foi feita para estender e isso é o grande ponto positivo dela e também negativo, pelo fato de em certos casos, ser necessário perder tempo criando ou comprar estensões na **[Unity Asset Store](https://www.assetstore.unity3d.com/){:target="_blank"}**. O projeto do Koko-Kuba tá recheado de estensões para facilitar a minha vida na hora de compor fases.
+A seguir, gostaria de apresentar algumas dessas **estensões que criei**.
 
 ### Rhythmos Engine
 
@@ -67,8 +67,8 @@ Exibição de gizmos na cena para edição de níveis. :)
 
 E para terminar, **você pode estar fazendo o seguinte questionamento:**
 
-### Por que raios vou perder tempo extendendo a Unity, fazendo esses tais de Inspector e todas essas paradas?
+### Por que raios vou perder tempo estendendo a Unity, fazendo esses tais de Inspector e todas essas paradas?
 
-Resposta simples: **Unity foi feita para extender**. Além de que na hora de produzir o seu jogo, **vai diminuir considerávelmente** o tempo de criar fases ou qualquer aspecto que seja. Faz com que você também **entenda como a engine funciona**, assim você pode criar **soluções melhores de código**. Extender a Unity te permite **criar soluções genéricas** para seus jogos, até podendo entrar em outro nicho de mercado que é **Unity Asset Store**.
+Resposta simples: **Unity foi feita para estender**. Além de que na hora de produzir o seu jogo, **vai diminuir considerávelmente** o tempo de criar fases ou qualquer aspecto que seja. Faz com que você também **entenda como a engine funciona**, assim você pode criar **soluções melhores de código**. Estender a Unity te permite **criar soluções genéricas** para seus jogos, até podendo entrar em outro nicho de mercado que é **Unity Asset Store**.
 
 Espero que tenham gostado desse off-topic! Nos vemos por aí! :)
