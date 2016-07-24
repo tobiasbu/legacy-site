@@ -14,7 +14,7 @@ No dia 16/07/2016, eu estive presente no **PAIN**, encontro de desenvolvedores d
 a fabulosa palestra do game designer **Felipe Dal Molin** da **[Aquiris Game Studio](http://www.aquiris.com.br/?lang=pt_BR){:target="_blank"}**, foram expostos jogos para play-tests. E é claro, Koko-Kuba esteve lá.
 Os feedbacks foram extremamente positivos. Fiquei muito contente com críticas, sugestões e sobretudo, com o pessoal que jogou de cabo a rabo o jogo.
 
-Chamou a minha atenção em que algumas pessoas ficaram interresados no processo de criação do jogo. Não vou falar agora de tópicos de game design, GDD ou coisas semelhantes (quem sabe em algum próximo post). Mas sim, falar das estensões em que **Unity** permite implementar. Também não vou defender a qualidade, produtividade ou qualquer coisa que seja de X engine ou Y engine porém, quero mostrar que o jogo depende de **estensões**, que permitem uma facilidade enorme em sua criação.
+Chamou a minha atenção em que algumas pessoas ficaram interresados no processo de criação do jogo. Não vou falar agora de tópicos de game design, GDD ou coisas semelhantes (quem sabe em algum próximo post). Mas sim, falar das extensões em que **Unity** permite implementar. Também não vou defender a qualidade, produtividade ou qualquer coisa que seja de X engine ou Y engine porém, quero mostrar que o jogo depende de **extensões**, que permitem uma facilidade enorme em sua criação.
 
 ### A Unity
 
@@ -22,8 +22,8 @@ Confesso que eu não gostava da Unity. O motivo bem simples: não tive boa exper
 
 Entretanto, **as coisas mudam**. Eu comecei a usar Unity no modo *hard* com o desenvolvimento do Koko-Kuba. Aprendi a ama-la assim como gosto do Game Maker ou fazer um jogo em Javascript ou C++ *from scratch*.
 
-Unity foi feita para estender e isso é o grande ponto positivo dela e também negativo, pelo fato de em certos casos, ser necessário perder tempo criando ou comprar estensões na **[Unity Asset Store](https://www.assetstore.unity3d.com/){:target="_blank"}**. O projeto do Koko-Kuba tá recheado de estensões para facilitar a minha vida na hora de compor fases.
-A seguir, gostaria de apresentar algumas dessas **estensões que criei**.
+Unity foi feita para estender e isso é o grande ponto positivo dela e também negativo, pelo fato de em certos casos, ser necessário perder tempo criando ou comprar extensões na **[Unity Asset Store](https://www.assetstore.unity3d.com/){:target="_blank"}**. O projeto do Koko-Kuba tá recheado de extensões para facilitar a minha vida na hora de compor fases.
+A seguir, gostaria de apresentar algumas dessas **extensões que criei**.
 
 ### Rhythmos Engine
 
@@ -31,7 +31,7 @@ A seguir, gostaria de apresentar algumas dessas **estensões que criei**.
 <img style="max-width: 75%;" src="{{site.baseurl}}/img/posts/kkRhythmos.jpg">
 </p>
 
-**[Rhythmos Engine](http://localhost:4000/website/portfolio/rhythmos-engine/){:target="_blank"}** foi criado junto com jogo desde o inicio. Trata-se de uma simples aplicação dentro da Unity para criação de ritmos para jogos. Sem dúvida, a Rhythmos é de enorme importância para um jogo de música. Eu lancei ele na **[Unity Asset Store](https://www.assetstore.unity3d.com/en/#!/content/39835){:target="_blank"}**.
+**[Rhythmos Engine](http://tobiasbu.github.io/website/portfolio/rhythmos-engine/){:target="_blank"}** foi criado junto com jogo desde o inicio. Trata-se de uma simples aplicação dentro da Unity para criação de ritmos para jogos. Sem dúvida, a Rhythmos é de enorme importância para um jogo de música. Eu lancei ele na **[Unity Asset Store](https://www.assetstore.unity3d.com/en/#!/content/39835){:target="_blank"}**.
 
 ### KK Balancing Level Tool
 
