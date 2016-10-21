@@ -44,7 +44,7 @@ compress_html:
   blanklines: true
   startings: [html, head, body]
 
-exclude: ['.sass-cache','srccss','deploy.js', 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js']
+exclude: ['.sass-cache','_css','deploy.js', 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js']
 
 include:
   - _pages

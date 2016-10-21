@@ -25,7 +25,7 @@ module.exports = function(grunt) {
           ]
         },
         dist: {
-          src: 'srccss/main.css',//'css/*.css'
+          src: '_css/main.css',//'css/*.css'
           dest: '_includes/css/main.css'//'./css'
         }
       }
