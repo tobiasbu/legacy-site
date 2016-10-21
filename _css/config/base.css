@@ -93,12 +93,20 @@ a {
   text-align: center;
   margin: 0 1em;
   padding: 0 0.5em;
+  @media (--small) {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
 }
 
-.nav-first {
-  margin: 0 1em 0 0;
-  padding: 0 0.5em 0 0 ;
+@media (--medium-up) {
+  .nav-item:first-child {
+    margin: 0 1em 0 0;
+    padding: 0 0.5em 0 0 ;
+  }
 }
+
 
 .page-heading {
   margin-bottom: 0.5em;

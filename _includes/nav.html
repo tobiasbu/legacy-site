@@ -16,18 +16,8 @@
 
     {% assign nav = site.data.navigation["main"] %}
 
-
     {% for item in nav %}
-
-
-    {% assign isFirst = forloop.first %}
-    {% assign div = "" %}
-
-      {% if isFirst %}
-        {% assign div = " nav-first" %}
-      {% endif %}
-
-        <a class="{{ "nav-item" | append:div }}" href="{{ item.url  | prepend: site.baseurl }}">
+        <a class="nav-item" href="{{ item.url  | prepend: site.baseurl }}">
     				{{ item.title }}
     		</a>
     {% endfor %}
@@ -35,3 +25,10 @@
   </div>
   </div>
 </nav>
+
+<!-- 
+{% assign div = "" %}
+{% assign isFirst = forloop.first %}
+{% if isFirst %}
+  {% assign div = " nav-first" %}
+{% endif %} -->

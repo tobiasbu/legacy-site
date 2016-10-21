@@ -7,7 +7,7 @@
 }
 
 
-@custom-media --small (width <= 27em);
+@custom-media --small (width <= 30em);
 @custom-media --medium-down (width <= 44em);
 @custom-media --medium-up (width > 44em);
 @custom-media --large-up (width >= 60em);
