@@ -41,3 +41,11 @@
 .my-gallery figcaption {
   display: none;
 }
+
+.pswp__bg {
+background: #040404;
+}
+
+.pswp__button:before {
+  background-color: transparent;
+}

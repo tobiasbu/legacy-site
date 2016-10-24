@@ -1,0 +1,102 @@
+# portfolio
+portfolio:
+  url: /portfolio
+  projects:
+
+  - title: "Featured"
+    childs:
+    - title: "Laserball"
+      url: /laserball/
+      imgWide: game_lb_wide.png
+      img: game_lb.jpg
+
+    - title: "Koko-Kuba"
+      url: /koko-kuba/
+      imgWide: game_kk_wide.png
+      img: game_kk.jpg
+
+  - title: "Medium"
+    childs:
+    - title: "Untitled Space"
+      url: /untitled-space/
+      img: game_untitled.png
+
+    - title: "Inside"
+      url: /inside/
+      img: game_inside.png
+
+    - title: "Super Marduino"
+      url: /super-marduino/
+      img: game_marduino.jpg
+
+    - title: "Diablo RPG Maker"
+      url: /diablo-rmk/
+      img: game_diablo.png
+
+    - title: "A Vigança dos Malditos Budistas do Espaço Sideral"
+      url: /avdmbdes/
+      img: game_budas.png
+
+    - title: "VRSoccer"
+      url: /vrsoccer/
+      img: game_vrsoccer.jpg
+
+    - title: "Super Crate Defender"
+      url: /super-crate-defender/
+      img: game_cratedef.jpg
+
+    - title: "Robot Kombat"
+      url: /robotkombat/
+      img: game_robotkombat.jpg
+
+    - title: "Legend of Zilda"
+      url: /legend-of-zilda/
+      img: game_zilda.png
+
+    - title: "Cida & Adão"
+      url: http://gamejolt.com/games/cida-adao/30040
+      link: true
+      img: game_cida.png
+
+    - title: "Rhythmos Engine"
+      url: /rhythmos-engine/
+      img: rhythmos.jpg
+
+    - title: "Autorama AR"
+      url: /autorama-ar/
+      img: game_autoramaar.jpg
+
+  - title: "Other"
+    childs:
+    - title: "tobiJS"
+      url: https://github.com/tobiasbu/tobiJS
+      link: true
+      img: tobijs.png
+
+    - title: "BasketLeapBall"
+      url: /basketleapball/
+      img: game_basket.jpg
+
+    - title: "Por um triz"
+      url: /put/
+      img: game_put.jpg
+
+    - title: "Autorama Simulator"
+      url: /autorama-simulator/
+      img: autoramasimul.png
+
+    - title: "Game of Potatoes"
+      url: /game-of-potatoes/
+      img: game_potatoes.jpg
+
+    - title: "OBJ Loader"
+      url: /obj-loader/
+      img: objloader.jpg
+
+    - title: "Cuberoids"
+      url: /cuberoids/
+      img: game_cube.jpg
+
+    - title: "Baby Steps in C++"
+      url: /baby-steps-cpp/
+      img: cpp.jpg
