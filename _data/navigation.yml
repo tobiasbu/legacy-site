@@ -6,8 +6,8 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "Art & Design"
-    url: /artandesign/
-
   - title: "About"
     url: /about/
+
+  - title: "[LINK] Behance"
+    url: https://www.behance.net/flamencobl6371

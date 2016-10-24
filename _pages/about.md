@@ -15,3 +15,5 @@ I'm designer and game developer in southern Brazil.
 *  [Email](mailto:flamenco.bluegrass@gmail.com){:target="_blank"}
 *  [GitHub](https://github.com/tobiasbu){:target="_blank"}
 *  [Linkedin](https://www.linkedin.com/in/tobias-beise-ulrich-4295766b){:target="_blank"}
+*  [Behance](https://www.behance.net/flamencobl6371){:target="_blank"}
+*  [Twitter](https://twitter.com/tobi_ulrich){:target="_blank"}

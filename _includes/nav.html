@@ -17,16 +17,29 @@
     {% assign nav = site.data.navigation["main"] %}
 
     {% for item in nav %}
-        <a class="nav-item" href="{{ item.url  | prepend: site.baseurl }}">
-    				{{ item.title }}
-    		</a>
+
+    {% assign str = item.title %}
+    {% assign a = str | split: "[LINK] " %}
+    {% assign sizeArr = a | size %}
+
+{% if sizeArr > 1 %}
+<a class="nav-item" href="{{ item.url }}" target="_blank">
+  	{{ a[1] }}
+</a>
+{% else %}
+<a class="nav-item" href="{{ item.url  | prepend: site.baseurl }}">
+  	{{ item.title }}
+</a>
+{% endif %}
+
+
     {% endfor %}
 
   </div>
   </div>
 </nav>
 
-<!-- 
+<!--
 {% assign div = "" %}
 {% assign isFirst = forloop.first %}
 {% if isFirst %}
