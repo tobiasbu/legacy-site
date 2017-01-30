@@ -17,6 +17,14 @@ portfolio:
 
   - title: "Medium"
     childs:
+    - title: "Planet of the Clowns"
+      url: /planet-clowns/
+      img: game_ggj1.png
+
+    - title: "Microwave Survival"
+      url: /microwave-survival/
+      img: game_ggj0.png
+
     - title: "Untitled Space"
       url: /untitled-space/
       img: game_untitled.png

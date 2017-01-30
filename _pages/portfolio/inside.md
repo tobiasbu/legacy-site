@@ -9,12 +9,9 @@ imageGallery:
   w: 640
   h: 480
   childs:
-  - caption: teste
-    img: screen_inside0.png
-  - caption: teste
-    img: screen_inside1.png
-  - caption: teste
-    img: screen_inside2.png
+  - img: screen_inside0.png
+  - img: screen_inside1.png
+  - img: screen_inside2.png
 ---
 
 <div class="video-container">
@@ -25,9 +22,12 @@ imageGallery:
 
 <div class="box">
 Windows - zip 3,29 MB
+<a href="https://dl.dropboxusercontent.com/u/90839850/Games/inside1.95.zip" target="_blank">
 <div class="box-link">
 Download!
+
 </div>
+</a>
 </div>
 
 ### Description:

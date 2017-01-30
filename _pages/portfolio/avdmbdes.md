@@ -29,7 +29,7 @@ Download!
 This game is in the style shoot ‘n’ up bullet hell. In English _“The Revenge of the Damned Buddhists from Outer space”_.
 The player controls a ship that must defend against a horde of alien buddhists invaders (strange!). The ship of the player has a shield that absorbs projectiles of their rivals and when a projectile is absorbed, the player will be allowed to shoot.  As more power the player accumulates more efficient the shots are. The ship of the player has only a single point of health and four lives.
 
-All sprites and most of the programming were created by me. Music by __[Eduardo Luiz Beise Ulrich](https://www.facebook.com/Eduardo-Luiz-Beise-Ulrich-503570766455890/?fref=ts){:target="_blank"}__.
+All sprites and most of the programming were created by me. Music by Eduardo Luiz Beise Ulrich.
 
 ### Commands:
 
