@@ -7,10 +7,9 @@ categories:
 comments: true
 ogimage: kkdev1.jpg
 ---
+Finalmente tenho mais tempo para me focar no Koko. Agora que voltei para a minha morada no **[Rio Grande do Sul](https://www.youtube.com/watch?v=4ShRH-tMX3U){:target="_blank"}** estou quase 100% ativo nele (nem tanto, se não eu morro).
 
 ![Alt Devlog]({{site.baseurl}}/img/posts/{{page.ogimage}})
-
-Finalmente tenho mais tempo para me focar no Koko. Agora que voltei para a minha morada no **[Rio Grande do Sul](https://www.youtube.com/watch?v=4ShRH-tMX3U){:target="_blank"}** estou quase 100% ativo nele (nem tanto, se não eu morro).
 
 Dessa vez o foco de implementações foram a **finalização da interface de usuário**, **desempenho e recodificação**.
 
@@ -21,6 +20,12 @@ Koko-Kuba tem poucos elementos gráficos de interface. Basicamente são botões,
 Um dos objetivos do projeto de interface de usuário do jogo, é exibir pouco texto. Por isso os botões são ícones. Escolhi um formato *“estilo web”* devida as cores muito saturadas da palheta do jogo. Dessa forma, o usuário tem maior visibilidade dos botões, identificando-os com clareza.
 
 Mas a questão em que estava trabalhando era o *design do painel* que é um objeto universal. Aqui embaixo tem a evolução do painel de **Carregar Jogo**, desde da versão alfa até a versão final:
+
+
+
+
+
+->![Alt Devlog]({{site.baseurl}}/img/posts/devkk0.jpg)<-
 
 <p style="text-align: center; margin-bottom: 0.25em; line-height:0;">
 <img src="{{site.baseurl}}/img/posts/devkk0.jpg">

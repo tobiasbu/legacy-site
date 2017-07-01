@@ -7,12 +7,9 @@ categories:
 comments: true
 ogimage: kkdev0.jpg
 ---
-
-![Alt Devlog]({{site.baseurl}}/img/posts/{{page.ogimage}})
-
 Depois de muito tempo sem abrir o “aquário”, voltei no desenvolvimento do Koko-Kuba.
-
 Eu não havia abandonado esse projeto, mas eu precisava de um tempo para outras demandas que captavam meu tempo.
+
 Desde que comecei o dev-diary, ainda no antigo blog, poucas alterações tinham sido feitas até então.
 
 Em resumo, o que basicamente foi feito: **testagem de *builds* para Android** e implementação de *juicy effects* para interface do jogo.

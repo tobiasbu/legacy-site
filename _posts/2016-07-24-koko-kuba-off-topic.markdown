@@ -7,12 +7,13 @@ categories:
 comments: true
 ogimage: kkdev2.jpg
 ---
+No dia 16/07/2016, eu estive presente no **PAIN**, encontro de desenvolvedores de jogos independentes de Porto Alegre. Além de ter
+a fabulosa palestra do game designer **Felipe Dal Molin** da **[Aquiris Game Studio](http://www.aquiris.com.br/?lang=pt_BR){:target="_blank"}**, foram expostos jogos para play-tests.
+
+E é claro, Koko-Kuba esteve lá.
+Os feedbacks foram extremamente positivos. Fiquei muito contente com críticas, sugestões e sobretudo, com o pessoal que jogou de cabo a rabo o jogo.
 
 ![Alt Devlog]({{site.baseurl}}/img/posts/{{page.ogimage}})
-
-No dia 16/07/2016, eu estive presente no **PAIN**, encontro de desenvolvedores de jogos independentes de Porto Alegre. Além de ter
-a fabulosa palestra do game designer **Felipe Dal Molin** da **[Aquiris Game Studio](http://www.aquiris.com.br/?lang=pt_BR){:target="_blank"}**, foram expostos jogos para play-tests. E é claro, Koko-Kuba esteve lá.
-Os feedbacks foram extremamente positivos. Fiquei muito contente com críticas, sugestões e sobretudo, com o pessoal que jogou de cabo a rabo o jogo.
 
 Chamou a minha atenção em que algumas pessoas ficaram interresados no processo de criação do jogo. Não vou falar agora de tópicos de game design, GDD ou coisas semelhantes (quem sabe em algum próximo post). Mas sim, falar das extensões em que **Unity** permite implementar. Também não vou defender a qualidade, produtividade ou qualquer coisa que seja de X engine ou Y engine porém, quero mostrar que o jogo depende de **extensões**, que permitem uma facilidade enorme em sua criação.
 

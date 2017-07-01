@@ -1,28 +1,35 @@
 
 
-
+<div class="wrapper">
 <header class="site-header">
 
-  <div class="wrapper">
+
 
     <div class="header">
 
-
-
-
-    <a  href="{{ site.baseurl }}/">
           <div class="site-brand">
-          <img alt="site.title" src="{{ site.baseurl }}/img/brand0.png">
-        </div>
-      <div class="site-title">
+            <a  href="{{ site.baseurl }}/">
+          <img alt="site.title" src="{{ site.baseurl }}/img/brand2.png">
+            </a>
+          </div>
+
+      <!--<div class="site-title">
 
       {{ site.title }}
     </div>
-    </a>
+    -->
+
+
+    {% include nav.html %}
 
 </div>
-  </div>
+
+<!--  inclde nav.html  -->
+
+
+
 
 </header>
+  </div>
 
 {% include specific.html %}

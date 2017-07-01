@@ -9,18 +9,25 @@
 title: tobiasbu
 email: flamenco.bluegrass@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  design and video games from Tobi.
+  design and video games from tobi.
 author: Tobias B. Ulrich
 
 #comentar isso quando testar local
 baseurl: "/website" # the subpath of your site, e.g. /blog
-
+#plugins_dir: ./_plugins
 
 url: "https://tobiasbu.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username: tobiasbu
 disqus_username: tobiasbu
 encoding: utf-8
+#excerpt_separator: "<!--more-->"
+
+#plugins
+#plugins_dir: ./_plugins
+#plugins_dir: "_plugins/"
+
+permalink: pretty
 
 # Build settings
 markdown: kramdown

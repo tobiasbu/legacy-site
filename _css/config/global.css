@@ -1,22 +1,25 @@
 :root {
   background: #fff;
   color: #0A0A0A;
-  font-family: 'Asap', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
 
 
 @custom-media --small (width <= 32em);
+@custom-media --small-up (width > 32em);
 @custom-media --medium-down (width <= 44em);
 @custom-media --medium-up (width > 44em);
 @custom-media --large-up (width >= 60em);
 
 body {
-  font-size: 1.14em;
+  /*font-size: 1.14em;*/
+  font-size: 100%;
 
   @media (--medium-down) {
-    font-size: 1em;
+    /*font-size: 1em;*/
+    font-size: 91.5%;
   }
 }
 
@@ -24,12 +27,24 @@ p {
   margin: 1em 0;
 }
 
+.center {
+  text-align: center;
+}
+
 img {
   max-width: 100%;
 }
 
+
+
 h1 {
   font-weight: normal;
+  font-size: 1.75em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.17em;
 }
 
 ul {

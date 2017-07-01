@@ -7,8 +7,9 @@ categories:
 comments: true
 ogimage: depre.jpg
 ---
+Estou vivendo um *loop*. Entre quedas e levantadas, afetando o meu modo de viver. O trabalho, os estudos, as relações, o convívio e como um todo, minha vida. Sinto tanto tédio que nem lembro do que é sentir felicidade e prazer.
 
-Estou vivendo um *loop*. Entre quedas e levantadas, afetando o meu modo de viver. O trabalho, os estudos, as relações, o convívio e como um todo, minha vida. Sinto tanto tédio que nem lembro do que é sentir felicidade e prazer. Durante grande parte da minha vida, agravou os sentimentos de raiva, medo, insegurança, solidão, tristeza e vazio, até um dia explodir. Descobri que eu tenho depressão severa no início de 2016. Não lembro de como tudo começou exatamente, mas hoje caí de novo no limbo. Por isso escrevo esse longo relato da minha vida, como uma forma de me libertar, de me abrir, de autocontrole e de me sentir bem comigo mesmo. E que no final das contas, tudo vai ficar bem.
+Durante grande parte da minha vida, agravou os sentimentos de raiva, medo, insegurança, solidão, tristeza e vazio, até um dia explodir. Descobri que eu tenho depressão severa no início de 2016. Não lembro de como tudo começou exatamente, mas hoje caí de novo no limbo. Por isso escrevo esse longo relato da minha vida, como uma forma de me libertar, de me abrir, de autocontrole e de me sentir bem comigo mesmo. E que no final das contas, tudo vai ficar bem.
 
 **Adolescência**
 
