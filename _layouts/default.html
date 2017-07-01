@@ -4,10 +4,11 @@ layout: compress
 <!DOCTYPE html>
 <html>
 
+
   {% include head.html %}
 
   <body>
-
+<div class="wrapper">
     {% include header.html %}
 
     <!-- % include nav.html % -->
@@ -15,13 +16,13 @@ layout: compress
 
 
     <div class="page-content">
-      <div class="wrapper">
+
         {{ content }}
       </div>
-    </div>
+
 
     {% include footer.html %}
-
+</div>
   </body>
 
 </html>

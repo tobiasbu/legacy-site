@@ -10,17 +10,21 @@ a {
 
 .wrapper {
   /*width: 90%;*/
-  padding: 0 3.5%;
+  padding: 1.5em calc(50% - 320px);
   margin: 0 auto;
-  @media (--medium-up) {
-    padding: 0 calc(50% - 320px);
+  @media (--medium-down) {
+    padding: 1.5em;
+
   }
 }
 
 .site-header {
-  padding: 1.5em 0 0;
+
   width: 100%;
-  /*background-color: #eee;
+
+  /*
+  padding: 1.5em 0 0;
+  background-color: #eee;
   background-image: url('{site.baseurl}img/noisy.png');
   background-repeat: repeat-x;*/
 }
