@@ -14,10 +14,7 @@ Desde que comecei o dev-diary, ainda no antigo blog, poucas alterações tinham 
 
 Em resumo, o que basicamente foi feito: **testagem de *builds* para Android** e implementação de *juicy effects* para interface do jogo.
 
-<p style="text-align: center; margin-bottom: 0.25em; line-height:0;">
-<img src="{{site.baseurl}}/img/posts/4283114.jpg">
-<p style="font-style:italic; color:#656565; text-align: center; margin-top:0;" >Nova vibe</p>
-</p>
+{% image /posts/4283114.jpg\0Nova vibe %}
 
 ### Mobile e suas tretas:
 
@@ -29,10 +26,7 @@ Outro aspecto lento e importante , é a compressão de assets. O primeiro build 
 
 Eu vendo os peixes no meu Motorola:
 
-<p style="text-align: center; margin-bottom: 0.25em; line-height:0;">
-<img src="{{site.baseurl}}/img/posts/dwight.gif">
-<p style="font-style:italic; color:#656565; text-align: center; margin-top:0;" >Eu fiquei uns três dias assim</p>
-</p>
+{% image /posts/dwight.gif\0Eu fiquei uns três dias assim %}
 
 ### Interface suculenta:
 

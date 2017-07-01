@@ -4,10 +4,11 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       @text = text
+
     end
 
     def render(context)
-      "#{Time.now}"
+        "#{Time.now}"
     end
   end
 end

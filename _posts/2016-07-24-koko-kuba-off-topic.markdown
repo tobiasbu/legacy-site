@@ -13,7 +13,7 @@ a fabulosa palestra do game designer **Felipe Dal Molin** da **[Aquiris Game Stu
 E é claro, Koko-Kuba esteve lá.
 Os feedbacks foram extremamente positivos. Fiquei muito contente com críticas, sugestões e sobretudo, com o pessoal que jogou de cabo a rabo o jogo.
 
-![Alt Devlog]({{site.baseurl}}/img/posts/{{page.ogimage}})
+<!--![Alt Devlog]({{site.baseurl}}/img/posts/{{page.ogimage}})-->
 
 Chamou a minha atenção em que algumas pessoas ficaram interresados no processo de criação do jogo. Não vou falar agora de tópicos de game design, GDD ou coisas semelhantes (quem sabe em algum próximo post). Mas sim, falar das extensões em que **Unity** permite implementar. Também não vou defender a qualidade, produtividade ou qualquer coisa que seja de X engine ou Y engine porém, quero mostrar que o jogo depende de **extensões**, que permitem uma facilidade enorme em sua criação.
 
@@ -36,33 +36,25 @@ A seguir, gostaria de apresentar algumas dessas **extensões que criei**.
 
 ### KK Balancing Level Tool
 
-<p style="text-align: center; margin-bottom: 0.25em; line-height:0;">
-<img src="{{site.baseurl}}/img/posts/kkBalanceamento.jpg">
-</p>
+{% image /posts/kkBalanceamento.jpg %}
 
 Para balanceamento do jogo, essa ferramenta reúne todos os dados de cada play-test, mostrando cada ação dos jogadores, desempenho, média geral de todos os atributos e apresenta um gráfico com ações positivas e negativas dos jogadores X tempo de gameplay. A função dessa ferramenta é facilitar o ajuste de level design de cada fase do jogo, o que é uma tarefa que envolve muito trabalho.
 
 ### Muitos, mas muitos, custom Inspectors
 
-<p style="text-align: center; margin-bottom: 0.25em; line-height:0;">
-<img src="{{site.baseurl}}/img/posts/kkInspectors.jpg">
-</p>
+{% image /posts/kkInspectors.jpg %}
 
 A Unity é baseado em *GameObjects* que contém componentes. Cada componente possui um *Inspector*, que nada mais é que uma exibição de atributos. É uma forma legal de alterar variaveis daquele elemento especifico. Mas existem certas circustâncias que nem sempre a Unity vai suprir com todas as demandas de primitivas, objetos, ou até deixando a exibição feia. Por isso, a Unity possibilita criar inspectors alternativos. Eu usei muita parte do desenvolvimento criando esses inspectors com a simples finalidade de deixar tudo mais prático.
 
 ### Custom Particle System
 
-<p style="text-align: center; margin-bottom: 0.25em; line-height:0;">
-<img src="{{site.baseurl}}/img/posts/kkParticleSys.jpg">
-</p>
+{% image /posts/kkParticleSys.jpg %}
 
 Afim de obter maior controle em alguns efeitos especias, criei meu próprio sistema simples com utilização de *Sprites*. Possui custom Inspector + exibição do resultado na cena de edição.
 
 ### Custom Tile System
 
-<p style="text-align: center; margin-bottom: 0.25em; line-height:0;">
-<img src="{{site.baseurl}}/img/posts/kkTileSystem.jpg">
-</p>
+{% image /posts/kkTileSystem.jpg %}
 
 Exibição de gizmos na cena para edição de níveis. :)
 
