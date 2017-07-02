@@ -27,7 +27,7 @@ li.post-item {
   font-size: 0.8em;
   display: block;
   margin: 0 0 1em;
-  color: #656565
+  color: var(--graylight);
 }
 
 .post-header {
@@ -40,11 +40,15 @@ li.post-item {
   font-size: 0.85em;
   font-weight: bold;
   display: block;
-  color: #656565
+  color: var(--gray);
+  &:hover
+  {
+    text-decoration: underline;
+  }
 }
 
 .post-link {
-  color: #101010;
+  color: var(--dark);
   margin-bottom: 1em;
 }
 
@@ -58,7 +62,7 @@ li.post-item {
   border-radius: 4px;*/
   margin: 2.5em 0;
   font-size: 0.8em;
-  color: #656565;
+  color: var(--gray);
   text-align: center;
 }
 
@@ -69,11 +73,15 @@ li.post-item {
 /*  border-radius: 4px;*/
   margin: 0.5em auto;
   font-size: 1.25em;
- background-color: #171e47;
- color: #fff;
+ background-color: var(--link);
+ color: var(--bg);
   &:hover{
-    color: #fff;
-    background-color: #273278;
+    color: var(--bg);
+    background-color: var(--hover);
+  }
+
+  &:active {
+      background-color: var(--link);
   }
 
   @media (--medium-down) {

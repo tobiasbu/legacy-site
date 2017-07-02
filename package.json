@@ -29,6 +29,8 @@
     "grunt": "^1.0.1",
     "grunt-contrib-htmlmin": "^1.4.0",
     "grunt-postcss": "^0.8.0",
+    "postcss-css-variables": "^0.7.0",
+    "postcss-custom-properties": "^6.1.0",
     "postcss-font-magician": "^1.4.0",
     "postcss-import": "^8.1.2"
   },

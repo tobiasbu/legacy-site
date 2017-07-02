@@ -18,9 +18,12 @@ module.exports = function(grunt) {
           processors: [
             //require('pixrem')(), // add fallbacks for rem units
             require('postcss-import')(),
+
             require('postcss-cssnext')({browsers: 'last 2 versions'}), // add vendor prefixes
+            require('postcss-css-variables')(),
             //require('autoprefixer')({browsers: ['last 2 versions']}),
             require('postcss-font-magician')(),
+
             require('cssnano')({ autoprefixer: false }) // minify the result
           ]
         },

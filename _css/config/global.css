@@ -1,11 +1,20 @@
+
 :root {
-  background: #fff;
-  color: #101010;
+  --bg: #fdfdfd;
+  --dark: #26242d;
+  --link: #171e47;
+  --hover: #273278;
+  --hoverlighten: #303d8b;
+  --gray: #656565;
+  --graylight: #929292;
+
+  background: var(--bg);
+  color: var(--dark); /*#101010;*/
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-}
 
+}
 
 @custom-media --small (width <= 32em);
 @custom-media --small-up (width > 32em);
@@ -30,34 +39,46 @@ p {
 a {
   text-decoration:none;
   transition: .3s;
-  color: #101010;
+  color: var(--dark); /*#101010;*/
   &:hover{
-    color: #273278;
+    color: var(--hover);
   }
   &:active{
-    color: #101010;
+    color: var(--dark);
   }
 }
 
-p a {
-  color: #171e47;
+p a,li a {
+  color: var(--link);
   &:hover{
-    color: #273278;
+    color: var(--hoverlighten);
   }
   &:active{
-    color: #101010;
+    color: var(--dark);
   }
-}
-
-.center {
-  text-align: center;
 }
 
 img {
   max-width: 100%;
 }
 
+.center-area {
+  text-align: center;
+  margin: 2em 0;
+}
 
+.center-area img {
+  display: inline-block;
+  margin: auto;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.center-area p {
+  color: var(--gray);
+  margin: 0.5em 0 2em;
+  font-style: italic;
+}
 
 h1 {
   font-weight: normal;
@@ -100,6 +121,6 @@ hr {
 blockquote {
   margin: 1.5em 0;
   padding: 0 1em;
-  color: #656565;
-  border-left: 6px solid #656565;
+  color: var(--gray); /*#656565;*/
+  border-left: 6px solid var(--graylight);
 }

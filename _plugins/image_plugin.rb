@@ -28,24 +28,24 @@ module Jekyll
 
       if size >= 1
 
-        final = "<p style=\"text-align: center;"
+        final = "<div class=\"center-area\">"
 
-        if size == 2
-            final << "margin: 2em 0 0.5em; line-height:0;\">"
-        else
-            final << "margin: 2em 0\">"
+          #if size == 2
+          #    final << " style=\"margin: 2em 0 0.5em\">"
+          #else
+            #final << "margin: 2em 0\">"
             #kind[1] = kind[1].encode("iso-8859-1").force_encoding("cp1252").encode('utf-8')
-        end
+          #end
 
         final << "<img src=\"#{context.registers[:site].config['baseurl']}/img#{kind[0]}\">"
 
         if size == 2
-          final << "<p style=\"font-style:italic; color:#656565; text-align: center; margin:0 0 2em;\">"
+          final << "<p>" #style=\"font-style:italic; color:#656565; text-align: center; margin:0 0 2em;
           final << kind[1]
           final << "</p>"
         end
 
-        final << "</p>"
+        final << "</div>"
       end
 
 

@@ -3,7 +3,16 @@ layout: default
 ---
 <article class="post">
 
-  <header class="post-header" style="margin:0em auto 1em auto; /*max-width:560px;*/">
+{% assign styleh = "margin:0em auto 1em auto;" %}
+{% assign ps = "" %}
+
+{% if page.logo != null %}
+{% assign ps = " text-align: center;" %}
+{% endif %}
+
+<!--margin:0em auto 1em auto; /*max-width:560px;*/-->
+
+  <header class="post-header" style="{{styleh}}{{ps}}">
     {% if page.logo == null %}
     <h1 class="post-title">{{ page.title }}</h1>
     {% else %}

@@ -120,7 +120,7 @@
 
   position: absolute;
 
-  background-color: #171e47; /*rgba(0,0,0,0.9)*/
+  background-color: var(--hover); /*rgba(0,0,0,0.9)*/
   border-top: 1px rgba(255,255,255,0.65) solid;
 /*  border-right: 1px white solid; left: -100%;*/
 @media (--medium-up) {
@@ -140,7 +140,7 @@
   /*font-style: italic;*/
  text-transform: none;
  margin: 0;
- color: #fff;
+ color: var(--bg);
  line-height: initial;
  text-align: center;
 
