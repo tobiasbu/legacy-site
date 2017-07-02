@@ -23,14 +23,7 @@ Nova versão do jogo The Zombie Hunter! Muitos bugs corrigidos e novas implement
 * Dois novos tipos de Sinalizadores;<br>
 * E três novas fases;<br>
 
-<div class="box">
-Windows - zip 139 KB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/The%20Zombie%20Hunter%20v2.zip" target="_blank">
-<div class="box-link">
-Download!
-</div>
-</a>
-</div>
+{% boxlink https://dl.dropboxusercontent.com/u/90839850/Games/The%20Zombie%20Hunter%20v2.zip\0Windows - zip 139 KB %}
 
 ### The Zombie Hunter v1.0:
 
@@ -40,14 +33,7 @@ Nesse jogo você, entra no papel de um caçador de zumbis. E um cenário pós-ap
 
 Um jogo que mistura campo minado, batalha naval e zumbis!
 
-<div class="box">
-Windows - zip 107 KB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/The%20Zombie%20Hunter%20v1.zip" target="_blank">
-<div class="box-link">
-Download!
-</div>
-</a>
-</div>
+{% boxlink https://dl.dropboxusercontent.com/u/90839850/Games/The%20Zombie%20Hunter%20v2.zip\0Windows - zip 107 KB %}
 
 ### the door v1.5:
 
@@ -56,11 +42,4 @@ Download!
 Um mini teste de adventure game, usando a console do Windows com C++.
 Este é meu primeiro experimento em programação C++!
 
-<div class="box">
-Windows - zip 25 KB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/the%20door%20v15.zip" target="_blank">
-<div class="box-link">
-Download!
-</div>
-</a>
-</div>
+{% boxlink https://dl.dropboxusercontent.com/u/90839850/Games/the%20door%20v15.zip\0Windows - zip 107 KB %}

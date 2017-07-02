@@ -24,14 +24,7 @@ _Game created at Global Game Jam 2017_
 
 ### Release:
 
-<div class="box">
-Windows - .7z 18,2 MB
-<a href="http://globalgamejam.org/2017/games/microwave-survivor" target="_blank">
-<div class="box-link">
-Get on Global Game Jam page
-</div>
-</a>
-</div>
+{% boxlink http://globalgamejam.org/2017/games/microwave-survivor\0Windows - zip 18,2 MB\0Get on Global Game Jam page %}
 
 ### Description:
 

@@ -1,0 +1,113 @@
+
+.page-content {
+    padding: 2em 0;
+}
+
+.page-heading {
+  margin-bottom: 1.5em;
+  font-weight: normal;
+  font-size: 1.75em;
+}
+
+
+/*.post-title {
+  margin: 0.5em 0;
+}*/
+
+ul.post-list {
+  list-style-type: none;
+  margin: 0 ;
+}
+
+li.post-item {
+  margin: 0 0 4em 0;
+}
+
+.post-meta {
+  font-size: 0.8em;
+  display: block;
+  margin: 0 0 1em;
+  color: #656565
+}
+
+.post-header {
+  text-align: left;
+  margin-bottom: 1.5em;
+}
+
+.post-read-more
+{
+  font-size: 0.85em;
+  font-weight: bold;
+  display: block;
+  color: #656565
+}
+
+.post-link {
+  color: #101010;
+  margin-bottom: 1em;
+}
+
+.post-comments {
+  margin: 3em 0;
+}
+
+.box {
+  display: block;
+/*  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;*/
+  margin: 2.5em 0;
+  font-size: 0.8em;
+  color: #656565;
+  text-align: center;
+}
+
+.box-link {
+  width: 50%;
+  padding: 0.75rem;
+  display: block;
+/*  border-radius: 4px;*/
+  margin: 0.5em auto;
+  font-size: 1.25em;
+ background-color: #171e47;
+ color: #fff;
+  &:hover{
+    color: #fff;
+    background-color: #273278;
+  }
+
+  @media (--medium-down) {
+    width: 100%;
+  }
+
+}
+
+.video-container {
+    position: relative;
+    /*padding-top: 30px;*/
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.widevideo {
+  padding-bottom: 56.25%;
+}
+
+.fb {
+  max-width: 100%;
+  margin: 1em 0;
+  text-align: center;
+}

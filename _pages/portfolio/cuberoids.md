@@ -17,14 +17,7 @@ imageGallery:
 
 ### Release:
 
-<div class="box">
-Windows - zip 118 KB
-<a href="https://www.dropbox.com/s/rk63zu9kgj70yuu/Cuberoids.zip" target="_blank">
-<div class="box-link">
-Download!
-</div>
-</a>
-</div>
+{% boxlink https://www.dropbox.com/s/rk63zu9kgj70yuu/Cuberoids.zip\0Windows - zip 118 KB %}
 
 ### Description:
 

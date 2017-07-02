@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "KK Devlog #2: Painéis, Desempenho e Recodificação"
+title: "KK Devlog #2: Painéis, Desempenho e Recodificação"
 date:  2016-07-12 18:20:00 -02:00
 categories:
 - devlog

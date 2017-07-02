@@ -17,6 +17,10 @@ portfolio:
 
   - title: "Medium"
     childs:
+    - title: "Rhythmos Engine"
+      url: /rhythmos-engine/
+      img: rhythmos.jpg
+
     - title: "Planet of the Clowns"
       url: /planet-clowns/
       img: game_ggj1.png
@@ -65,10 +69,6 @@ portfolio:
       url: http://gamejolt.com/games/cida-adao/30040
       link: true
       img: game_cida.png
-
-    - title: "Rhythmos Engine"
-      url: /rhythmos-engine/
-      img: rhythmos.jpg
 
     - title: "Autorama AR"
       url: /autorama-ar/

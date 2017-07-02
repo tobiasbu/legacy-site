@@ -1,6 +1,7 @@
 @import 'suitcss-base';
 @import 'config/global.css';
-@import 'config/base.css';
+@import 'config/header.css';
+@import 'config/content.css';
 @import 'config/code.css';
 @import 'config/portfolio.css';
 @import 'config/gallery.css';

@@ -1,6 +1,6 @@
 :root {
   background: #fff;
-  color: #0A0A0A;
+  color: #101010;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -25,6 +25,28 @@ body {
 
 p {
   margin: 1em 0;
+}
+
+a {
+  text-decoration:none;
+  transition: .3s;
+  color: #101010;
+  &:hover{
+    color: #273278;
+  }
+  &:active{
+    color: #101010;
+  }
+}
+
+p a {
+  color: #171e47;
+  &:hover{
+    color: #273278;
+  }
+  &:active{
+    color: #101010;
+  }
 }
 
 .center {

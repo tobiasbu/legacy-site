@@ -15,13 +15,7 @@ logo: logo_rhythmos.png
 
 ### Release:
 
-<div class="box">
-<a href="https://www.assetstore.unity3d.com/en/#!/content/39835" target="_blank">
-<div class="box-link">
-Get on Unity Asset Store!
-</div>
-</a>
-</div>
+{% boxlink https://www.assetstore.unity3d.com/en/#!/content/39835\0\0Get on Unity Asset Store! %}
 
 <p style="text-align:center">
 <strong><a href="https://drive.google.com/file/d/0B0spb4kkmET9UUVqUjBmSk5BeVk/view" target="_blank">Documentation</a></strong>
@@ -49,7 +43,9 @@ When you download it from Unity Asset Store, you will get two DLLs: RhythmosEdit
 
 ### Details:
 <p style="font-size:0.8em">
-<strong>Genre:</strong> Extenstion.<br>
+<strong>Version:</strong> 1.1<br>
+<strong>Genre:</strong> Audio Extenstion.<br>
 <strong>Engine:</strong> Unity.<br>
-<strong>Date:</strong> July, 2015.<br>
+<strong>Last Update:</strong> June, 2017.<br>
+<strong>Release Date:</strong> July, 2015.<br>
 </p>

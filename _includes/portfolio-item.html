@@ -32,6 +32,7 @@
       {% assign plus = " project-margin" %}
     {% endif %}
 
+
 {% endif %}
 
 
@@ -39,10 +40,12 @@
     <a href="{% if subitem.link == null %}{{ subitem.url | prepend: purl | prepend: site.baseurl }}{% else %}{{subitem.url}}{% endif %}" {% if subitem.link != null %}target="_blank"{% endif %}>
       <div class="port-image" >
 
+
+
         <div class="port-caption {{plusCap}}"><p>{{subitem.title}}</p></div><!---->
         {% if type == "Full" %}
         <img alt="{{ subitem.title }}" data-src-base='{{ site.baseurl }}/img/' data-src='<704:{{subitem.img}},>704:{{subitem.imgWide}}'/>
-     <noscript><img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}"></noscript>
+        <noscript><img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}"></noscript>
         {% else %}
         <img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}">
         {% endif %}

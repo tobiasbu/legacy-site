@@ -27,7 +27,7 @@
   display: block;
   /*background-color: aquamarine;*/
 
-  @media (--medium-down) {
+  @media (--small) {
     float: none;
     margin-right: 0%;
     width: auto;
@@ -35,12 +35,17 @@
   }
 }
 
-
+.project-full {
+  @media (--medium-down) {
+    max-width: 560px;
+    margin: 0 auto 1.5%;
+  }
+}
 
 .project-full, .project-split .port-image {
 
-  @media (--medium-down) {
-    max-width: 560px;
+  @media (--small) {
+    /*max-width: 560px;*/
     margin: auto auto 1.5% auto;
     text-align: center;
   }
@@ -71,7 +76,7 @@
   display: block;
   /*background-color: aquamarine;*/
 
-  @media (--medium-down) {
+  @media (--small) {
 
     width: 49.25%;
   }
@@ -82,7 +87,7 @@
 }
 
 .snd {
-  @media (--medium-down) {
+  @media (--small) {
     margin-right: 0px;
   }
 }
@@ -109,16 +114,15 @@
   overflow: hidden;
 }
 
-
 .port-caption {
-  /*width: 100%; opacity: 0;*/
+  width: 100%;
   z-index: 99999;
 
   position: absolute;
 
-  background-color: #000; /*rgba(0,0,0,0.9)*/
-/*  border-top: 1px white solid;
-  border-right: 1px white solid; left: -100%;*/
+  background-color: #171e47; /*rgba(0,0,0,0.9)*/
+  border-top: 1px rgba(255,255,255,0.65) solid;
+/*  border-right: 1px white solid; left: -100%;*/
 @media (--medium-up) {
   bottom: -50%;
   transition: bottom 0.25s;
@@ -132,13 +136,13 @@
 
 .port-caption p {
   padding: 0.75em;
-  font-size: 0.9rem;
-  font-style: italic;
+  font-size: 0.9em;
+  /*font-style: italic;*/
  text-transform: none;
  margin: 0;
  color: #fff;
  line-height: initial;
- text-align: left;
+ text-align: center;
 
 }
 

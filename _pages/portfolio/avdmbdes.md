@@ -15,14 +15,7 @@ logo: logo_buda.png
 
 ### Release:
 
-<div class="box">
-Windows - zip 7,96 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/Os%20Malditos%20Budistas%20do%20Espaco%20Sideral.zip" target="_blank">
-<div class="box-link">
-Download!
-</div>
-</a>
-</div>
+{% boxlink https://dl.dropboxusercontent.com/u/90839850/Games/Os%20Malditos%20Budistas%20do%20Espaco%20Sideral.zip\0Windows - zip 7,96 MB %}
 
 ### Description:
 

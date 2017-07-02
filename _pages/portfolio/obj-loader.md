@@ -20,14 +20,7 @@ imageGallery:
 
 ### Release:
 
-<div class="box">
-Windows - zip 5,13 MB
-<a href="https://dl.dropboxusercontent.com/u/90839850/Games/OBJ%20Loader.zip" target="_blank">
-<div class="box-link">
-Download!
-</div>
-</a>
-</div>
+{% boxlink https://dl.dropboxusercontent.com/u/90839850/Games/OBJ%20Loader.zip\0Windows - zip 5,13 MB %}
 
 ### Description:
 
