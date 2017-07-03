@@ -31,7 +31,7 @@ function init()
     //var delta = px =
     // Math.atan((px2-py) / (px2 - px))* 180 / Math.PI;
     var ang = Math.atan2(py2 - py,px2 - px) * 180 / Math.PI;
-    var bg = "linear-gradient(" + ang + "deg,#3b87b6,#241f6f)";
+    var bg = "linear-gradient(" + ang + "deg,#3b87b6,#241f6f)"; // #3b87b6,#241f6f
 
     this.style.backgroundImage = bg;
     console.log(px - px2);
