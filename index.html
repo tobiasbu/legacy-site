@@ -6,7 +6,7 @@ layout: default
 
 
 
-  <h2 class="page-heading">Latest posts:</h2>
+  <h1 class="page-heading">Latest posts:</h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -28,7 +28,7 @@ layout: default
 
 
         {% assign description = post.excerpt %}
-      
+
 
         <p>{{ description | remove: "<p>" | remove: "</p>" | lstrip }}</p>
         <p>

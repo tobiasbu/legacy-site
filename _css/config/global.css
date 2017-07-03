@@ -1,10 +1,12 @@
 
 :root {
-  --bg: #fdfdfd;
+  --bg: #fdfdfd; /*#fbfbfb;*/
+  --darken: #151517;
   --dark: #26242d;
-  --link: #171e47;
-  --hover: #273278;
-  --hoverlighten: #303d8b;
+  --darking: #1d272d;
+  --link: #305e7a;/*#241f6f;*/ /*#171e47;*/
+  --hover: #3b87b6;/*#39329a;*/
+  --hoverlighten: #3b87b6;/*#3e37a8;*/
   --gray: #656565;
   --graylight: #929292;
 
@@ -83,6 +85,12 @@ img {
 h1 {
   font-weight: normal;
   font-size: 1.75em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.35em;
+  margin: 1em 0;
 }
 
 h3 {

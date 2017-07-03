@@ -13,7 +13,7 @@ Finalmente tenho mais tempo para me focar no Koko. Agora que voltei para a minha
 
 Dessa vez o foco de implementações foram a **finalização da interface de usuário**, **desempenho e recodificação**.
 
-### Novo Design do Painel
+## Novo Design do Painel
 
 Koko-Kuba tem poucos elementos gráficos de interface. Basicamente são botões, painéis e texto.
 
@@ -27,7 +27,7 @@ Mas a questão em que estava trabalhando era o *design do painel* que é um obje
 
 O painel é basicamente usado também *in-game*. Para realizar a nova arte do painel, busquei referências do **grafismo dos índios tupi-guarani**, misturando a temática aquática do jogo. Eu queria criar algo semelhante a uma rocha submersa com insígnias esculpidas.
 
-### Desempenho e Recodificação
+## Desempenho e Recodificação
 
 Esse jogo nasceu dentro duma cadeira da universidade. Um semestre não é o suficiente para termina-lo. Na época, como muitos, em tempo apertado, segui pelo caminho *fast and safe* de programação:
 
@@ -43,7 +43,7 @@ Lembro de quando era um pequeno gafanhoto, e estava lendo um livro do Bjarne Str
 
 Mas, porém, entretanto, estamos aqui para aprender e seguir a canção.
 
-### Singleton, uma treta a ser evitada a qualquer custo
+## Singleton, uma treta a ser evitada a qualquer custo
 
 **Singleton**, é um design pattern de programação, em que existe apenas uma única instância do objeto e pode ser acessado por qualquer um. Por exemplo, um Gerenciador de Som.
 

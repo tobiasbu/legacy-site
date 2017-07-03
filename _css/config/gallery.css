@@ -43,7 +43,7 @@
 }
 
 .pswp__bg {
-background: var(--dark); /*#040404;*/
+background: #040404; /*#040404;*/
 }
 
 .pswp__button:before {

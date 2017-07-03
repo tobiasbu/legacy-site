@@ -16,7 +16,7 @@ Em resumo, o que basicamente foi feito: **testagem de *builds* para Android** e 
 
 {% image /posts/4283114.jpg\0Nova vibe %}
 
-### Mobile e suas tretas:
+## Mobile e suas tretas:
 
 Primeiramente imaginei que não ia funcionar. E bem, funcionou!
 
@@ -28,7 +28,7 @@ Eu vendo os peixes no meu Motorola:
 
 {% image /posts/dwight.gif\0Eu fiquei uns três dias assim %}
 
-### Interface suculenta:
+## Interface suculenta:
 
 As animações do botões do jogo me incomodavam. Ou qualquer elemento da interface tava muito *duro* e *“triste”*. Em um jogo *for fun*, os botoes e a interface em geral, tem que ter esse *~ease~* e "não tapa na cara". Aqui o antes e depois:
 
@@ -50,7 +50,7 @@ Eu encontrei esse fabuloso **[link](http://robertpenner.com/easing/){:target="_b
 
 E para terminar, aqui vai uma lista de tarefas prontas:
 
-### Lista completa de implementações PRONTAS (e bonitas):
+## Lista completa de implementações PRONTAS (e bonitas):
 
 - Auto detecção de idioma (inglês ou português)
 - Teste build para Android 1 (sem nenhum alteração)

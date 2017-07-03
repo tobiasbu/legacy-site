@@ -23,19 +23,22 @@
   {% include favicon.html %}
 
 <!--  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+% if page.title == "Error 404" %
+% endif %
 -->
- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
   {% include analytics.html %}
 
-{% if page.imageGallery != null %}
-      {% include photoswipeJS.html %}
-{% endif %}
+  {% if page.imageGallery != null %}
+        {% include photoswipeJS.html %}
+  {% endif %}
 
-  <style>
-    {% include css/main.css %}
-  </style>
+  <style>{% include css/main.css %}</style>
 
   {% include specific_head.html %}
 
