@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "KK Off-topic: Estendendo a Unity"
-date:  2016-07-24 15:30:00 -02:00
+date:  2016-07-24 15:30:00 -03:00
 categories:
 - devlog
 comments: true

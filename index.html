@@ -9,7 +9,7 @@ layout: default
   <h1 class="page-heading">Latest posts:</h2>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit: 5 %}
       <li class ="post-item">
 
         <h3>
@@ -27,10 +27,10 @@ layout: default
 
 
 
-        {% assign description = post.excerpt %}
+        {% assign description = post.excerpt | strip_html | lstrip | truncatewords: 24, "..." %}
 
 
-        <p>{{ description | remove: "<p>" | remove: "</p>" | lstrip }}</p>
+        <p>{{ description  }}</p>
         <p>
         <a class="post-read-more" href="{{ post.url | prepend: site.baseurl }}">Read More →</a>
         </p>
@@ -39,6 +39,6 @@ layout: default
   </ul>
 
 <a class="" href="{{ "/archive/" | prepend: site.baseurl }}">Archive</a>
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> | remove: "<p>" | remove: "</p>" | lstrip-->
 
 </div>

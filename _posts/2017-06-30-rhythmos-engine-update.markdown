@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Update: Rhythmos Engine 1.1v"
-date:  2017-06-30 16:30:00 -02:00
+date:  2017-06-30 16:30:00 -03:00
 categories:
 - update
 comments: true

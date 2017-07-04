@@ -26,11 +26,11 @@
 
 body {
   /*font-size: 1.14em;*/
-  font-size: 100%;
+  font-size: 98%;
 
   @media (--medium-down) {
     /*font-size: 1em;*/
-    font-size: 91.5%;
+    font-size: 91%;
   }
 }
 
@@ -127,8 +127,9 @@ hr {
 }
 
 blockquote {
-  margin: 1.5em 0;
-  padding: 0 1em;
+  margin: 2.25em 0;
+  padding: 0 1.25em;
+  font-weight: bold;
   color: var(--gray); /*#656565;*/
   border-left: 6px solid var(--graylight);
 }

@@ -18,13 +18,10 @@ module Jekyll
       end
 
       kind = @text.squeeze(" ")
-
       kind = kind.split('\0');
-
       size = kind.size
-
-      # arguments: image, legend
       final = ""
+      style = false
 
       if size >= 1
 
@@ -36,13 +33,27 @@ module Jekyll
             #final << "margin: 2em 0\">"
             #kind[1] = kind[1].encode("iso-8859-1").force_encoding("cp1252").encode('utf-8')
           #end
+          if size >= 3
+            if kind[2].length > 5
+              style = true
+            end
+          end
 
-        final << "<img src=\"#{context.registers[:site].config['baseurl']}/img#{kind[0]}\">"
+          final << "<img style src=\"#{context.registers[:site].config['baseurl']}/img#{kind[0]}\""
 
-        if size == 2
+
+          if style
+            final << " style=\"#{kind[2]}\""
+          end
+
+          final << ">"
+
+        if size >= 2
+          if kind[1].length > 2
           final << "<p>" #style=\"font-style:italic; color:#656565; text-align: center; margin:0 0 2em;
           final << kind[1]
           final << "</p>"
+          end
         end
 
         final << "</div>"

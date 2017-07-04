@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Begin"
-date:  2016-06-12 10:40:00 -02:00
+date:  2016-06-12 10:40:00 -03:00
 categories:
 - update
 comments: true
