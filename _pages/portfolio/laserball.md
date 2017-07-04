@@ -7,13 +7,11 @@ portfolio: true
 logo: logo_lb.jpg
 ---
 
-<div class="video-container widevideo">
- <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flaserball2016%2Fvideos%2F594284824054190%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-</div>
+{% video https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flaserball2016%2Fvideos%2F594284824054190%2F&show_text=0&width=560\0wide %}
 
  <span/>
 
-### Description:
+## Description:
 
 The Laserball Machine, is a digital game to play with friends from the [Ideia à Vista](http://ideiaavista.com.br/){:target="_blank"} company. Made with wood trim and suede provides a unique experience for players.
 
@@ -29,7 +27,7 @@ It is a huge and nice project!
 Come to the [Bilhar Porto Dez](http://www.bilharportodez.com.br/){:target="_blank"} pub to play!
 
 
-### Fan-page
+## Fan-page
 
 <div class="fb">
 <div class="fb-page" data-href="https://www.facebook.com/laserball2016/" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/laserball2016/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/laserball2016/">Laserball</a></blockquote></div>

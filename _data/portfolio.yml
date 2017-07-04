@@ -5,15 +5,15 @@ portfolio:
 
   - title: "Featured"
     childs:
-    - title: "Laserball"
-      url: /laserball/
-      imgWide: game_lb_wide.png
-      img: game_lb.jpg
-
     - title: "Koko-Kuba"
       url: /koko-kuba/
       imgWide: game_kk_wide.png
       img: game_kk.jpg
+
+    - title: "Laserball"
+      url: /laserball/
+      imgWide: game_lb_wide.png
+      img: game_lb.jpg
 
   - title: "Medium"
     childs:

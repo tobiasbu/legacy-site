@@ -38,9 +38,9 @@ p {
   margin: 1em 0;
 }
 
-a {
+a, .archive-item a {
   text-decoration:none;
-  transition: .3s;
+  transition: color .25s;
   color: var(--dark); /*#101010;*/
   &:hover{
     color: var(--hover);

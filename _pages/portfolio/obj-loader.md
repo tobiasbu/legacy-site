@@ -18,11 +18,11 @@ imageGallery:
 
  <span/>
 
-### Release:
+## Release:
 
 {% boxlink https://dl.dropboxusercontent.com/u/90839850/Games/OBJ%20Loader.zip\0Windows - zip 5,13 MB %}
 
-### Description:
+## Description:
 
 Created in the class Computer Graphics, this app has the purpose to read a 3D model in the Wavefront OBJ format.
 Only for windows was created in C++, OpenGL e Glut.
@@ -33,7 +33,7 @@ camera manipulation,
 windows dialog and
 select and remove object parts.
 
-### Commands:
+## Commands:
 
 – Mouse: do everything;
 

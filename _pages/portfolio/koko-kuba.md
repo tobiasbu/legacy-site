@@ -38,7 +38,7 @@ _**This game is under development.**_
 
 KokoKuba is a rhythmic game where a tribe of fish, moved by music, must go to the dark seas and battle against tritons.
 
-### Partners:
+## Partners:
 
 <div class="block" >
 
@@ -73,7 +73,7 @@ KokoKuba is a rhythmic game where a tribe of fish, moved by music, must go to th
 
 
 
-### Details:
+## Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Rhythmic.<br>
 <strong>Engine:</strong> Unity.<br>

@@ -15,21 +15,21 @@ imageGallery:
 ---
  <span/>
 
-### Release:
+## Release:
 
 {% boxlink https://www.dropbox.com/s/rk63zu9kgj70yuu/Cuberoids.zip\0Windows - zip 118 KB %}
 
-### Description:
+## Description:
 
 Game created for the class Graphic Processing. Learning the basics of OpenGL and Computer Graphics.
 It is a fast game with only 24 seconds.
 
-### Commands:
+## Commands:
 
 – Arrows: menu selection, move and rotate the camera view.<br>
 – Space: select option and shoot.<br>
 
-### Details:
+## Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> First Person.<br>
 <strong>Engine:</strong> C++, Glut and OpenGL.<br>

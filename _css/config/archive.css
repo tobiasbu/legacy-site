@@ -1,0 +1,32 @@
+
+
+.archive-list {
+  list-style-type: none;
+  margin: 1.5em 0;
+}
+
+.archive-item {
+  margin: 1em 0;
+  align-items: center;
+  flex-direction: row;
+}
+
+.archive-item a {
+  font-weight: 600;
+}
+
+.archive-item span {
+  /*display: flex;*/
+  font-size: 0.75em;
+  margin: 0 1.75em 0 0;
+  display: inline-block;
+  width: 4em;
+  text-align: end;
+  color: var(--gray);
+  @media (--medium-down) {
+    display: block;
+    margin: 0 0 0.2em 0;
+    width: 100%;
+    text-align: start;
+  }
+}

@@ -16,13 +16,9 @@ imageGallery:
     img: screen_marduino2.jpg
 ---
 
-<div class="video-container widevideo">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y5DeofZac5w" frameborder="0" allowfullscreen></iframe>
-</div>
+{% video https://www.youtube.com/embed/y5DeofZac5w\0wide %}
 
-### Release:
-
-
+## Release:
 
 <div class="box">
 Get on GitHub:
@@ -37,14 +33,14 @@ This a simple game test like the _Super Mario Land_ for GameBoy.
 
 I would like to say thanks to my friend Reginaldo da Silva who teach me a little bit about electronics and to lend me his Arduino Uno.
 
-### Requirements:
+## Requirements:
 
 -- Arduino Uno<br>
 -- Nokia 5110 display<br>
 -- Three buttons<br>
 -- Additional libraries Adafruit GFX and Adafruit_PCD8544<br>
 
-### Details:
+## Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Platform.<br>
 <strong>Engine:</strong> Arduino Uno.<br>

@@ -13,7 +13,7 @@ logo: logo_rhythmos.png
 
  <span/>
 
-### Release:
+## Release:
 
 {% boxlink https://www.assetstore.unity3d.com/en/#!/content/39835\0\0Get on Unity Asset Store! %}
 
@@ -21,7 +21,7 @@ logo: logo_rhythmos.png
 <strong><a href="https://drive.google.com/file/d/0B0spb4kkmET9UUVqUjBmSk5BeVk/view" target="_blank">Documentation</a></strong>
 </p>
 
-### Description:
+## Description:
 
 RhythmosEngine is a rhythms creation tool based on musical notation for Unity.
 Use in your applications and games for free!
@@ -34,14 +34,14 @@ Use in your applications and games for free!
 – Utility functions and classes like checking precision of rhythm, compare rhythms and play.<br>
 – Works with Unity 3.5.0 and above versions.<br>
 
-### FAQ:
+## FAQ:
 
 If you have question, suggestions or  improvements ideas please send a e-mail.
 
 1. **How do I install it?**<br>
 When you download it from Unity Asset Store, you will get two DLLs: RhythmosEditor.dll and RhythmosEngine.dll. Basically you need to put the RhythmosEditor.dll on the Assets/Editor directory of you project. It will appear in the top bar menu a new section Tools>RhythmosEditor. For RhythmosEngine it is recommended to place on Assets/Plugins directory.
 
-### Details:
+## Details:
 <p style="font-size:0.8em">
 <strong>Version:</strong> 1.1<br>
 <strong>Genre:</strong> Audio Extenstion.<br>

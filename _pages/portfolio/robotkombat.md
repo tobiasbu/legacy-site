@@ -19,11 +19,11 @@ imageGallery:
 
  <span/>
 
-### Release:
+## Release:
 
 {% boxlink https://dl.dropboxusercontent.com/u/90839850/Games/RobotKombat.zip\0Windows - zip 15,4 MB\0 %}
 
-### Description:
+## Description:
 
 Game created using C++ and SFML 2.1.
 Inspired by the games Front Mission e Fire Emblem, RobotKombat,
@@ -32,7 +32,7 @@ Credits: graphics and musics  to SquareEnix.
 
 You are a robot engineer and subjected to participate of a major tournament robot gladiators. In this tournament, brings together the best fighters from the world, battling each other to lead a grand prize. But Dietrich-Electrus-Maledictus is the great throne holder, unbeaten for over 7 years. Your goal is win all the challengers and dominate the throne of victory!
 
-### Details:
+## Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Strategy.<br>
 <strong>Engine:</strong> C++ and SFML.<br>

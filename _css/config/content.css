@@ -97,7 +97,7 @@ li.post-item {
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
-    margin-bottom: 1em;
+    margin: 2em 0;
 }
 
 .video-container iframe,

@@ -17,15 +17,15 @@ imageGallery:
 
  <span/>
 
-### Release:
+## Release:
 
 {% boxlink https://dl.dropboxusercontent.com/u/90839850/Games/PorUmTriz-Webplayer.zip\0Windows - zip 79,9 MB %}
 
-### Description:
+## Description:
 
 I made this game for Unity3D class in college. Its very simple and not long. However is very heavy file for a small game. You are a prisoner and you need to escape from the prison and from the city. This game is only a test of Unity features.
 
-### Commands:
+## Commands:
 
 –  W, A, S, D: move player.<br>
 – Mouse: aim.<br>
@@ -33,7 +33,7 @@ I made this game for Unity3D class in college. Its very simple and not long. How
 – Mouse-middle key: zooming aim.<br>
 – Ctrl: crouch.<br>
 
-### Details:
+## Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> FPS.<br>
 <strong>Version:</strong> 1.0<br>

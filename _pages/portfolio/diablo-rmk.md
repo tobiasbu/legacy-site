@@ -19,15 +19,13 @@ imageGallery:
     img: screen_diablo3.png
 ---
 
-<div class="video-container">
-<iframe width="640" height="480" src="https://www.youtube.com/embed/uPAZpw5VGas" frameborder="0" allowfullscreen></iframe>
-</div>
+{% video https://www.youtube.com/embed/uPAZpw5VGas %}
 
-### Description:
+## Description:
 
 Diablo is a dark fantasy role-playing game developed by _Blizzard Entertainment_. This project is a fan-game created in RPG Maker 2000 with the implement of the Destiny Patch 2.0. The game is in production and the language is Portuguese, but there will be a version in English.
 
-### Summary:
+## Summary:
 
 The game takes place before the first Diablo.
 
@@ -35,22 +33,21 @@ Angels and Demons waged a war for centuries, until the ascension of man. So Heav
 
 With the help of Archangel Tyrael, you (player) and a group of magi must trap the Three Lords of Hell from the world of Humans.
 
-### Features:
+## Features:
 
 - Point-and-click action-RPG - Hero moves according to Mouse;
 - "Diablo Essential Tabs" - Character Attributes, Inventory (with grid), Quests, Skills;
 - New dialog system like the Diablo III;
 - HUD with orbs animation like Diablo III and shortcuts for items and skills;
 
-
-### Details:
+## Details:
 <p style="font-size:0.8em">
 <strong>Genre:</strong> RPG.<br>
 <strong>Engine:</strong> RPG Maker 2000 + Destiny Path 2.0.<br>
 <strong>Date:</strong> 04.02.2011.<br>
 </p>
 
-### Related Links:
+## Related Links:
 <p style="font-size:0.8em">
 [EN-US]<br>
 - <a href="https://rpgmaker.net/games/4013/" target="_blank">Diablo RMK on rpgmaker.net</a><br>

@@ -25,12 +25,12 @@ portfolio: true
 
  <span/>
 
-### Commands:
+## Commands:
 
 – Arrows keys: move the spaceship.<br>
 – Space: shoot.<br>
 
-### Description:
+## Description:
 
 This game is a test of my own [framework](https://github.com/tobiasbu/tobiJS){:target="_blank"} for web-based games.
 The main idea was testing the basic concepts of a game engine architecture. Of course it is hard to create a game engine from scratch.
