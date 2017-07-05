@@ -2,11 +2,7 @@
 layout: default
 ---
 
-<div class="home">
-
-
-
-  <h1 class="page-heading">Latest posts:</h2>
+<h1 class="page-heading">Latest posts:</h2>
 
   <ul class="post-list">
     {% for post in site.posts limit: 5 %}
@@ -16,18 +12,17 @@ layout: default
           <a  class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
 
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
+          {% if post.lang %}
+            {% if post.lang != "EN" %}
+           | <small class="post-lang">{{post.lang}}</small>
+           {% endif %}
+          {% endif %}
+        </span>
+       
 
 
-        <p>
-          {% capture my_variable %}
-         bom dia
-          {% endcapture %}
-        </p>
-
-
-
-        {% assign description = post.excerpt | strip_html | lstrip | truncatewords: 24, "..." %}
+        {% assign description = post.excerpt | strip_html | lstrip | truncate: 124, "..." %}
 
 
         <p>{{ description  }}</p>
@@ -39,6 +34,8 @@ layout: default
   </ul>
 
 <a class="" href="{{ "/archive/" | prepend: site.baseurl }}">Archive</a>
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> | remove: "<p>" | remove: "</p>" | lstrip-->
 
-</div>
+<!--<div class="home">
+</div>-->
+
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> | remove: "<p>" | remove: "</p>" | lstrip-->

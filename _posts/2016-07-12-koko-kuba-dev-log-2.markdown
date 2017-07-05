@@ -6,6 +6,7 @@ categories:
 - devlog
 comments: true
 ogimage: kkdev1.jpg
+lang: pt-BR
 ---
 Finalmente tenho mais tempo para me focar no Koko. Agora que voltei para a minha morada no **[Rio Grande do Sul](https://www.youtube.com/watch?v=4ShRH-tMX3U){:target="_blank"}** estou quase 100% ativo nele (nem tanto, se não eu morro).
 

@@ -6,6 +6,7 @@ categories:
 - devlog
 comments: true
 ogimage: kkdev0.jpg
+lang: pt-BR
 ---
 Depois de muito tempo sem abrir o “aquário”, voltei no desenvolvimento do Koko-Kuba.
 Eu não havia abandonado esse projeto, mas eu precisava de um tempo para outras demandas que captavam meu tempo.

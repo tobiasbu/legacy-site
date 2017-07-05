@@ -6,6 +6,7 @@ categories:
 - devlog
 comments: true
 ogimage: kkdev2.jpg
+lang: pt-BR
 ---
 No dia 16/07/2016, eu estive presente no **PAIN**, encontro de desenvolvedores de jogos independentes de Porto Alegre. Além de ter
 a fabulosa palestra do game designer **Felipe Dal Molin** da **[Aquiris Game Studio](http://www.aquiris.com.br/?lang=pt_BR){:target="_blank"}**, foram expostos jogos para play-tests.

@@ -6,6 +6,7 @@ categories:
 - update
 comments: true
 ogimage: none
+lang: EN
 ---
 Greetings internet!
 

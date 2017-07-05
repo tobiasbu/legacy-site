@@ -6,6 +6,7 @@ categories:
 - offtopic
 comments: true
 ogimage: depre.jpg
+lang: pt-BR
 ---
 Estou vivendo um *loop*. Entre quedas e levantadas, afetando o meu modo de viver. O trabalho, os estudos, as relações, o convívio e como um todo, minha vida. Sinto tanto tédio que nem lembro do que é sentir felicidade e prazer.
 

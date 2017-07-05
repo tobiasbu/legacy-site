@@ -9,14 +9,13 @@
   font-size: 1.75em;
 }
 
-
 /*.post-title {
   margin: 0.5em 0;
 }*/
 
 .post-header {
   text-align: left;
-  margin-bottom: 1.75em;
+  margin-bottom: 2em;
 }
 
 .post-meta {
@@ -24,6 +23,10 @@
   display: block;
   margin: 0;
   color: var(--graylight);
+}
+
+.post-lang {
+color: var(--gray);
 }
 
 ul.post-list {

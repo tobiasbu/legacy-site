@@ -6,6 +6,7 @@ categories:
 - update
 comments: true
 ogimage: postcover_rhy0.jpg
+lang: EN
 ---
 After three years, I finally upgraded **[Rhythmos Engine](https://www.assetstore.unity3d.com/en/#!/content/39835){:target="_blank"}** for Unity.
 I promised to myself, that it would only update if any user reports a bug or requests for new feature.
