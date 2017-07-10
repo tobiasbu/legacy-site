@@ -7,7 +7,10 @@ portfolio: true
 logo: logo_lb.jpg
 ---
 
-{% video https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flaserball2016%2Fvideos%2F594284824054190%2F&show_text=0&width=560\0wide %}
+<div class="video-container widevideo">
+<iframe src="https://player.vimeo.com/video/187491485" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
 
  <span/>
 
@@ -19,20 +22,10 @@ A new concept in video game. Invite a friend to play, get beers randomly chosen 
 
 ![Alt Laserball]({{site.baseurl}}/img/portfolio/screen_lb0.jpg)
 
-The main team was composed by Beto Roa, Renato Roa, João Ricardo Bittencourt and Tobias Beise Ulrich (me). In this project I was the programmer.
-My boss (Beto Roa) was the game designer and producer, Renato was the artist and João (professor) was the main programmer.
+The main team was composed by Beto Roa, Renato Roa, João Ricardo Bittencourt and Tobias Ulrich (me). In this project I was the programmer.
+My old boss (Beto Roa) was the game designer and producer, Renato was the artist and João (professor) was the main programmer.
 
 It is a huge and nice project!
-
-Come to the [Bilhar Porto Dez](http://www.bilharportodez.com.br/){:target="_blank"} pub to play!
-
-
-## Fan-page
-
-<div class="fb">
-<div class="fb-page" data-href="https://www.facebook.com/laserball2016/" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/laserball2016/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/laserball2016/">Laserball</a></blockquote></div>
-</div>
-
 
 <hr />
 

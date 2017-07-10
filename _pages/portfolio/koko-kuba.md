@@ -45,14 +45,14 @@ KokoKuba is a rhythmic game where a tribe of fish, moved by music, must go to th
 {% for i in (0..2) %}
 
   {% assign ext = ".png" %}
-  {% assign link = "https://www.facebook.com/Ampli-Studio-145663258806718" %}
+  <!--% assign link = "https://www.facebook.com/Ampli-Studio-145663258806718" %-->
   {% assign styli = "float: left; margin-right: 1%;" %}
 
     {% if i == 1 %}
         {% assign ext = ".jpg" %}
-        {% assign link = "http://ideiaavista.com.br/" %}
+        <!--  assign link = "http://ideiaavista.com.br/"  -->
     {% elsif i == 2 %}
-        {% assign link = "https://www.facebook.com/Eduardo-Luiz-Beise-Ulrich-503570766455890" %}
+       <!-- % assign link = "https://www.facebook.com/Eduardo-Luiz-Beise-Ulrich-503570766455890" % -->
         {% assign styli = "float: left; margin-right: 0%;" %}
     {% endif %}
 
@@ -60,10 +60,10 @@ KokoKuba is a rhythmic game where a tribe of fish, moved by music, must go to th
 
 
   <div class="centered" style="width:32%;">
-  <a href="{{ link }}" target="_blank">
+  <!--<a href="{{ link }}" target="_blank">  </a>-->
     <img src="{{ site.baseurl }}/img/portfolio/{{fname}}">
 
-    </a>
+   
   </div>
 
 

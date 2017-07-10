@@ -10,11 +10,6 @@ portfolio:
       imgWide: game_kk_wide.png
       img: game_kk.jpg
 
-    - title: "Laserball"
-      url: /laserball/
-      imgWide: game_lb_wide.png
-      img: game_lb.jpg
-
   - title: "Medium"
     childs:
     - title: "Rhythmos Engine"
@@ -24,6 +19,10 @@ portfolio:
     - title: "Planet of the Clowns"
       url: /planet-clowns/
       img: game_ggj1.png
+
+    - title: "Laserball"
+      url: /laserball/
+      img: game_lb.jpg
 
     - title: "Microwave Survival"
       url: /microwave-survival/
@@ -53,22 +52,9 @@ portfolio:
       url: /vrsoccer/
       img: game_vrsoccer.jpg
 
-    - title: "Super Crate Defender"
-      url: /super-crate-defender/
-      img: game_cratedef.jpg
-
-    - title: "Robot Kombat"
-      url: /robotkombat/
-      img: game_robotkombat.jpg
-
     - title: "Legend of Zilda"
       url: /legend-of-zilda/
       img: game_zilda.png
-
-    - title: "Cida & Adão"
-      url: http://gamejolt.com/games/cida-adao/30040
-      link: true
-      img: game_cida.png
 
     - title: "Autorama AR"
       url: /autorama-ar/
@@ -80,6 +66,19 @@ portfolio:
       url: https://github.com/tobiasbu/tobiJS
       link: true
       img: tobijs.png
+
+    - title: "Robot Kombat"
+      url: /robotkombat/
+      img: game_robotkombat.jpg
+
+    - title: "Super Crate Defender"
+      url: /super-crate-defender/
+      img: game_cratedef.jpg
+
+    - title: "Cida & Adão"
+      url: http://gamejolt.com/games/cida-adao/30040
+      link: true
+      img: game_cida.png
 
     - title: "BasketLeapBall"
       url: /basketleapball/
