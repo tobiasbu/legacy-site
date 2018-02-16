@@ -38,7 +38,13 @@
         {% include photoswipeJS.html %}
   {% endif %}
 
-  <style>{% include css/main.css %}</style>
+  <style>
+  {% if page.title == "Page not found" %}
+    {% include css/error.css %}
+  {% else %}
+    {% include css/main.css %}
+  {% endif %}
+</style>
 
   {% include specific_head.html %}
 

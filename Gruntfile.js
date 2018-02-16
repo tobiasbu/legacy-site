@@ -5,37 +5,85 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
+    postcss_init: {
+      options: {
+        processors: [
+          require('postcss-import')()
+        ]
+      }
+    },
+
+    copy: {
+      postcss: {
+        files: [
+          {
+            src: '_css/*.css',
+            dest: '_includes/css/',
+            expand: true,
+            flatten: true
+          }
+        ]
+      }
+    },
+
     postcss: {
         options: {
-        /*  map: true, // inline sourcemaps
-
+          map: true, // inline sourcemaps
           // or
-          map: {
+         /*map: {
               inline: false, // save all sourcemaps as separate files...
-              annotation: 'dist/css/maps/' // ...to the specified directory
+              annotation: '_includes/css/maps/' // ...to the specified directory
           },*/
 
           processors: [
             //require('pixrem')(), // add fallbacks for rem units
             require('postcss-import')(),
-
+            require('autoprefixer')({browsers: ['last 2 versions']}),
             require('postcss-cssnext')({browsers: 'last 2 versions'}), // add vendor prefixes
             require('postcss-css-variables')(),
-            //require('autoprefixer')({browsers: ['last 2 versions']}),
+            
             require('postcss-font-magician')(),
 
             require('cssnano')({ autoprefixer: false }) // minify the result
           ]
         },
         dist: {
-          src: '_css/main.css',//'css/*.css'
-          dest: '_includes/css/main.css'//'./css'
+          expand: true,
+          //cwd: '_includes/css/',
+          //cwd:'_includes/dev/',
+          src: ['css/*.css'],
+          dest:'_includes/'
+          
+          
+          //ext: '.css'
         }
+        
+        /*dist: {
+          files: [
+            {
+              src: '_css/*.css',
+              dest: '_includes/css/'
+            }
+          ]
+        }*/
+        /*dist: {
+          files: [
+            {
+              src: ['_css/main.css', '_css/error.css'],//'_css/*.css',
+              dest: '_includes/css/',
+              expand: false
+            }
+          ]*/
+          //src: '_css/*.css',//['_css/main.css', '_css/error.css'],//'css/*.css'
+         // dest: '_includes/css/*.css'//'./css'
+ 
+        
       }
   });
 
   // Load the plugin that provides the "uglify" task.
   //grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-postcss');
 
   // Default task(s).
