@@ -14,6 +14,7 @@ tags:
 - opengl
 - shader
 comments: true
+lang: EN
 ---
 
 As I said in the <a href="https://tobiasbu.wordpress.com/2016/01/14/2015-year-in-review/" target="_blank">last post</a> in this time I want to talk about Computer Graphics.  Last year I was in a course of Architecture Graphics where I improved my knowledge on shaders. And this aspect has shown me that I have a certain passion in CG.

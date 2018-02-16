@@ -14,6 +14,7 @@ tags:
 - tempos
 - universidade
 comments: true
+lang: pt-BR
 ---
 Ah! O primeiro semestre na universidade!
 

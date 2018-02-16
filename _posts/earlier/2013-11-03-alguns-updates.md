@@ -12,6 +12,7 @@ tags:
 - robotkombat
 - updates
 comments: true
+lang: pt-BR
 ---
 Muito bem! Eis me aqui a escrever novamente., pois o tempo ligeiramente escapa do controle.
 

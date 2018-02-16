@@ -1,4 +1,42 @@
 
-.site-footer {
-  background-color: #2f563d;
+.site-footer 
+{
+  margin: 4em 0 2.5em;
+}
+
+.site-footer::before
+{
+  display: block;
+  width: 160px;
+  height: 1px;
+  margin: 1.5em 0;
+  background: #c8c8c8;
+  content: "";
+}
+
+.site-footer-container
+{
+  flex-direction: row;
+  -moz-box-direction: normal;
+  -moz-box-orient: horizontal;
+  -o-box-direction: normal;
+  -o-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -ms-box-direction: normal;
+  -ms-box-orient: horizontal;
+}
+
+.site-footer a 
+{
+  margin-right: 1.75em;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  @media (--small) {
+    display: block;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+  }
 }

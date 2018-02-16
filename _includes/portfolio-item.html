@@ -42,12 +42,18 @@
 
 
 
-        <div class="port-caption {{plusCap}}"><p>{{subitem.title}}</p></div><!---->
+        <div class="port-overlay {{plusCap}}"><p>{{subitem.title}}</p></div><!---->
         {% if type == "Full" %}
         <img alt="{{ subitem.title }}" data-src-base='{{ site.baseurl }}/img/' data-src='<704:{{subitem.img}},>704:{{subitem.imgWide}}'/>
         <noscript><img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}"></noscript>
         {% else %}
-        <img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}">
+         {% if subitem.img %}
+         <img src="{{ site.baseurl }}/img/{{subitem.img}}" alt="{{ subitem.title }}">
+         {% else %}
+         <div class="simple">
+          <p>asdasd</p>
+           </div>
+        {% endif %}
         {% endif %}
 
       </div>

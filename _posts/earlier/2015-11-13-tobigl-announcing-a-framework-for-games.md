@@ -13,6 +13,7 @@ tags:
 - game
 - opengl
 comments: true
+lang: EN
 ---
 When I met the OpenGL in Computer Graphics class it was love at first sight. Somehow, I coded many classes to handle matrices, textures, meshes and another stuff. That made me have a great desire to learn more about OpenGL. And for me the best way to learn is in practice. Asking myself: why not build a game framework using OpenGL? I know that on the Internet there are several things about it. But I'm crazy a lot for improve my code knowledge especially in computer graphics.
 

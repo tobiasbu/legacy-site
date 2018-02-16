@@ -1,5 +1,13 @@
 
 
+.archive-link
+{
+  font-size: 0.85em;
+  display: block;
+  color: var(--gray);
+  text-transform: uppercase;
+}
+
 .archive-list {
   list-style-type: none;
   margin: 2em 0;
@@ -21,7 +29,7 @@
   margin: 0 1.75em 0 0;
   display: inline-block;
   width: 4em;
-  text-align: end;
+  /*text-align: end;*/
   color: var(--gray);
   @media (--medium-down) {
     display: block;

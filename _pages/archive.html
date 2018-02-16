@@ -26,6 +26,13 @@ layout: page
   <li class ="archive-item">
   <span>{{ post.date | date: "%b %-d" }}</span>
   <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  <span> 
+   {% if post.lang %}
+   {% if post.lang != "EN" %}
+   | <small class="post-lang">{{post.lang}}</small>
+   {% endif %}
+  {% endif %}
+</span>
   </li>
 
   {% if forloop.last %}

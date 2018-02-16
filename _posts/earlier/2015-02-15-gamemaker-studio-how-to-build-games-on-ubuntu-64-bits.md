@@ -12,6 +12,7 @@ tags:
 - how to build games ubuntu
 - ubuntu
 comments: true
+lang: EN
 ---
 Hello there!
 

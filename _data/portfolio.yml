@@ -5,13 +5,27 @@ portfolio:
 
   - title: "Featured"
     childs:
+  
+
+  - title: "Medium"
+    childs:
+    - title: "Sword and Shield"
+      url: /sword-and-shield/
+      img: raytracer.png
+
     - title: "Koko-Kuba"
       url: /koko-kuba/
       imgWide: game_kk_wide.png
       img: game_kk.jpg
 
-  - title: "Medium"
-    childs:
+    - title: "BomberAI"
+      url: /bomber-ai/
+      img: raytracer.png
+
+    - title: "Raytracer"
+      url: /raytracer/
+      img: raytracer.png
+
     - title: "Rhythmos Engine"
       url: /rhythmos-engine/
       img: rhythmos.jpg
@@ -24,10 +38,7 @@ portfolio:
       url: /laserball/
       img: game_lb.jpg
 
-    - title: "Microwave Survival"
-      url: /microwave-survival/
-      img: game_ggj0.png
-
+   
     - title: "Untitled Space"
       url: /untitled-space/
       img: game_untitled.png
@@ -44,24 +55,20 @@ portfolio:
       url: /diablo-rmk/
       img: game_diablo.png
 
-    - title: "A Vigança dos Malditos Budistas do Espaço Sideral"
-      url: /avdmbdes/
-      img: game_budas.png
+  - title: "Other"
+    childs:
+    - title: "Odalric Bot"
+      url: /odalric/
+      img: game_vrsoccer.jpg
+    
+    - title: "Microwave Survival"
+      url: /microwave-survival/
+      img: game_ggj0.png
 
     - title: "VRSoccer"
       url: /vrsoccer/
       img: game_vrsoccer.jpg
 
-    - title: "Legend of Zilda"
-      url: /legend-of-zilda/
-      img: game_zilda.png
-
-    - title: "Autorama AR"
-      url: /autorama-ar/
-      img: game_autoramaar.jpg
-
-  - title: "Other"
-    childs:
     - title: "tobiJS"
       url: https://github.com/tobiasbu/tobiJS
       link: true
@@ -71,9 +78,17 @@ portfolio:
       url: /robotkombat/
       img: game_robotkombat.jpg
 
+    - title: "Autorama AR"
+      url: /autorama-ar/
+      img: game_autoramaar.jpg
+
     - title: "Super Crate Defender"
       url: /super-crate-defender/
       img: game_cratedef.jpg
+
+    - title: "Legend of Zilda"
+      url: /legend-of-zilda/
+      img: game_zilda.png
 
     - title: "Cida & Adão"
       url: http://gamejolt.com/games/cida-adao/30040
@@ -99,6 +114,10 @@ portfolio:
     - title: "OBJ Loader"
       url: /obj-loader/
       img: objloader.jpg
+
+    - title: "A Vigança dos Malditos Budistas do Espaço Sideral"
+      url: /avdmbdes/
+      img: game_budas.png
 
     - title: "Cuberoids"
       url: /cuberoids/

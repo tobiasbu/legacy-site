@@ -1,9 +1,20 @@
 
+    <div class="site-footer">
+            <div class="site-footer-container">
+                {% assign footer = site.data.footer["footer"] %}
+                {% assign footerlink = port.url %}
+                {% for item in footer %}
+                    <a href={{ item.url }} target="_blank">{{ item.title }}</a>
+                {% endfor %}
+            </div>
+    </div>
+
 
   {% if page.url == "/portfolio/" %}
       <script src='{{site.baseurl}}/js/responsive-img.min.js'></script>
   {% endif %}
 
+  
 {% if page.imageGallery != null %}
 
 <script  type="text/javascript">

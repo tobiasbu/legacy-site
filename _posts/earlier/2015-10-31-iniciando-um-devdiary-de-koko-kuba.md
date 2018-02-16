@@ -11,6 +11,7 @@ tags:
 - devdiary
 - koko-kuba
 comments: true
+lang: pt-BR
 ---
 <p>Depois de um longo período de pausa, volto ao desenvolvimento do Koko-Kuba. O inicio de seu desenvolvimento se deu a partir de uma cadeira na universidade, em fevereiro até julho deste ano. Para quem não conhece o projeto, irei explica-lo a cada post.</p>
 

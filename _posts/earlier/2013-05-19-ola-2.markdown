@@ -5,6 +5,7 @@ date: 2013-05-19 03:35:09.000000000 -03:00
 categories:
 - miscellaneous
 comments: true
+lang: pt-BR
 ---
 Seja bem-vindo a mais um blog de Tobi!
 

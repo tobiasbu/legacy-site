@@ -15,6 +15,7 @@ tags:
 - unity3d
 excerpt: Yes! My first plugin  Rhythmos Engine was lauched on Unity Asset Store! :-D
 comments: true
+lang: EN
 ---
 <p>Yes! My first plugin  <strong>Rhythmos Engine</strong> was lauched on Unity Asset Store! :-D</p>
 

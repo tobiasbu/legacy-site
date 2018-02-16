@@ -14,6 +14,7 @@ tags:
 - platform game
 - summer challenge
 comments: true
+lang: EN
 ---
 Hi. That is my first post in English. :)
 

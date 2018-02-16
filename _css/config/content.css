@@ -1,12 +1,21 @@
 
 .page-content {
-    padding: 2em 0;
+    padding: 3em 0 2em;
 }
 
 .page-heading {
-  margin-bottom: 1.5em;
-  font-weight: normal;
-  font-size: 1.75em;
+  margin-bottom: 1.25em;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+
+.page-heading::after {
+  display: block;
+  width: 160px;
+  height: 1px;
+  margin: 1.5em 0;
+  background: #c8c8c8;
+  content: "";
 }
 
 /*.post-title {
@@ -62,8 +71,6 @@ li.post-item {
 
 .box {
   display: block;
-/*  border: 1px solid rgba(0,0,0,0.1);
-  border-radius: 4px;*/
   margin: 2.5em 0;
   font-size: 0.8em;
   color: var(--gray);
@@ -74,7 +81,6 @@ li.post-item {
   width: 50%;
   padding: 0.75rem;
   display: block;
-/*  border-radius: 4px;*/
   margin: 0.5em auto;
   font-size: 1.25em;
  background-color: var(--link);
