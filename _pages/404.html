@@ -1,10 +1,25 @@
 ---
+layout: compress
 title: Page not found
 permalink: /404.html
 menu: false
-layout: error404
 ---
+<!DOCTYPE html>
+<html>
 
-<p>
-Page not found.
-</p>
+{% include head.html %}
+
+  <body>
+    <div class="page-content">
+      <div class="inner">
+          <h1 class="page-heading">Page not found</h2>
+            <p class="info">
+                The page you are looking for can't be found.
+            </p>
+            <p>
+              <a href="{{site.baseurl}}/">← Back to home page</a>
+            </p>
+      </div>
+    </div>
+  </body>
+</html>

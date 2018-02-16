@@ -43,12 +43,34 @@
     }
   }
   
-  
+  .inner
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+.page-content {
+    padding: 3em 0 2em;
+}
+
+.page-heading {
+  margin-bottom: 1.25em;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+
   p {
     margin: 1em 0;
   }
+
+  .info
+  {
+    margin: 3em 0 3em;
+  }
   
-  a, .archive-item a {
+  a {
     text-decoration:none;
     transition: color .25s;
     color: var(--dark); /*#101010;*/
@@ -79,18 +101,6 @@
     margin: 2em 0;
   }
   
-  .center-area img {
-    display: inline-block;
-    margin: auto;
-    line-height: 0;
-    vertical-align: middle;
-  }
-  
-  .center-area p {
-    color: var(--gray);
-    margin: 0.5em 0 2em;
-    font-style: italic;
-  }
   
   h1 {
     font-weight: normal;
