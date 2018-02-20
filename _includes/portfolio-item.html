@@ -12,9 +12,9 @@
   {% assign isLast = forloop.last %}
 
   {% if isLast or loopindex != 0 %}
-    {% assign plus = " project-margin last" %}
+    {% assign plus = " last" %}
   {% else %}
-    {% assign plus = " project-margin" %}
+    {% assign plus = " " %}
   {% endif %}
 
 {% elsif type == "Split4" %}
@@ -25,11 +25,11 @@
     {% assign isLast = forloop.last %}
 
     {% if isLast or loopindex == 0 %}
-      {% assign plus = " project-margin last" %}
+      {% assign plus = " last" %}
     {% elsif loopindex == 2 %}
-      {% assign plus = " project-margin snd" %}
+      {% assign plus = " snd" %}
     {% else %}
-      {% assign plus = " project-margin" %}
+      {% assign plus = "" %}
     {% endif %}
 
 
