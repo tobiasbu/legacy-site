@@ -17,10 +17,22 @@
 var ghpages = require('gh-pages');
 var path = require('path');
 
-ghpages.publish(path.join(__dirname, '_site'), (err) => {
+var config = {
+  branch: 'dist',
+  push: true,
+  message: 'Site update',
+  remote: 'origin',
+  silent: false,
+  logger: function(message) 
+  {
+    console.log('log: ' + message);
+  }
+};
+
+ghpages.publish(path.join(__dirname, '_site'), config, (err) => {
   if (err) {
-    console.log('Error!', err)
+    console.error('error! ', err)
   } else {
-    console.log('Mission accomplished.')
+    console.log('deploying is done!')
   }
 })

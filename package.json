@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/tobiasbu/tbu/issues"
   },
-  "homepage": "https://github.com/tobiasbu/tbu#readme",
+  "homepage": "https://github.com/tobiasbu/",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "cssnano": "^3.6.2",
