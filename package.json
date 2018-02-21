@@ -4,8 +4,10 @@
   "description": "new web site project",
   "main": "index.js",
   "scripts": {
+    "build": "bundle exec jekyll build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "node deploy"
+    "gh_deploy": "node deploy",
+    "deploy": "git subtree push --prefix _site build master"
   },
   "repository": {
     "type": "git",
