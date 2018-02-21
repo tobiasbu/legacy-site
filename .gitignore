@@ -8,3 +8,5 @@ npm-debug.log
 Gemfile.lock
 
 _dontcommit
+
+.jekyll-metadata

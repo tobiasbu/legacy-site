@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "bundle exec jekyll build",
+    "push_deploy": "git subtree push --prefix _site build master",
+    "deploy": "git push build `git subtree split --prefix _site master`:master --force",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gh_deploy": "node deploy",
-    "deploy": "git subtree push --prefix _site build master"
+    "gh_deploy": "node deploy"
+   
   },
   "repository": {
     "type": "git",
