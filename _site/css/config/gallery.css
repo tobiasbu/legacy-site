@@ -1,0 +1,51 @@
+
+.my-gallery {
+  width: 100%;
+  display: block;
+  line-height: 0px;
+  overflow: hidden;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  /*margin: 0 5px 5px 0;
+  width: 150px;*/
+
+}
+
+.my-gallery .last {
+    margin-right: 0%;
+}
+
+.three-figure {
+    width: 32.65%;
+
+/*  @media (--small) {
+      width: 100%;
+      float: none;
+      margin-right: 0px;
+      margin-bottom: 0.5%;
+  }*/
+}
+
+.two-figure {
+    width: 49.5%;
+}
+
+.my-gallery figcaption {
+  display: none;
+}
+
+.pswp__bg {
+background: var(--darken); /*#040404;*/
+}
+
+.pswp__button:before {
+  background-color: transparent;
+}
