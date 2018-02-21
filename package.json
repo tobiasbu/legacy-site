@@ -1,6 +1,6 @@
 {
   "name": "saibot",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "new web site project",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tobiasbu/website.git"
+    "url": "git+https://github.com/tobiasbu/tbu.git"
   },
   "keywords": [
     "website",
@@ -19,9 +19,9 @@
   "author": "tobiasbu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tobiasbu/website/issues"
+    "url": "https://github.com/tobiasbu/tbu/issues"
   },
-  "homepage": "https://github.com/tobiasbu/website#readme",
+  "homepage": "https://github.com/tobiasbu/tbu#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "cssnano": "^3.6.2",

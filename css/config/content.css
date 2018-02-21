@@ -1,12 +1,15 @@
 
 .page-content {
-    padding: 3em 0 2em;
+    /*padding: 3em 0 2em;*/
+}
+
+.heading-wrapper
+{
+  padding-top: 3em;
 }
 
 .page-heading {
   margin-bottom: 1.25em;
-  font-weight: 700;
-  font-size: 1.65em;
 }
 
 .page-heading::after {

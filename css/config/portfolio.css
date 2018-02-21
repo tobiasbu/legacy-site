@@ -1,5 +1,15 @@
 
 .portfolio {
+  @media (--medium-up) {
+    padding-left: var(--wrapper-pad);
+    padding-right: var(--wrapper-pad);
+  }
+  margin: 0 auto;
+
+}
+
+.portfolio-inner
+{
   line-height: 0;
   overflow: hidden;
 }

@@ -15,7 +15,6 @@ portfolio:
 
     - title: "Koko-Kuba"
       url: /koko-kuba/
-      imgWide: game_kk_wide.png
       img: game_kk.jpg
 
     - title: "BomberAI"
