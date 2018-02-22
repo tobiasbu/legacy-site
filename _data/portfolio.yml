@@ -11,15 +11,11 @@ portfolio:
     childs:
     - title: "Sword and Shield"
       url: /sword-and-shield/
-      img: raytracer.png
-
-    - title: "Koko-Kuba"
-      url: /koko-kuba/
-      img: game_kk.jpg
+      img: game_swordandshield.png
 
     - title: "BomberAI"
       url: /bomber-ai/
-      img: raytracer.png
+      img: game_bomberai.png
 
     - title: "Raytracer"
       url: /raytracer/
@@ -33,18 +29,17 @@ portfolio:
       url: /planet-clowns/
       img: game_ggj1.png
 
+    - title: "Koko-Kuba"
+      url: /koko-kuba/
+      img: game_kk.jpg
+
     - title: "Laserball"
       url: /laserball/
       img: game_lb.jpg
 
-   
     - title: "Untitled Space"
       url: /untitled-space/
       img: game_untitled.png
-
-    - title: "Inside"
-      url: /inside/
-      img: game_inside.png
 
     - title: "Super Marduino"
       url: /super-marduino/
@@ -54,24 +49,32 @@ portfolio:
       url: /diablo-rmk/
       img: game_diablo.png
 
+    - title: "Inside"
+      url: /inside/
+      img: game_inside.png
+
+    - title: "A Vigança dos Malditos Budistas do Espaço Sideral"
+      url: /avdmbdes/
+      img: game_budas.png
+
   - title: "Other"
     childs:
     - title: "Odalric Bot"
       url: /odalric/
-      img: game_vrsoccer.jpg
+      img: odalricbot.png
     
     - title: "Microwave Survival"
       url: /microwave-survival/
       img: game_ggj0.png
 
-    - title: "VRSoccer"
-      url: /vrsoccer/
-      img: game_vrsoccer.jpg
-
     - title: "tobiJS"
       url: https://github.com/tobiasbu/tobiJS
       link: true
       img: tobijs.png
+
+    - title: "VRSoccer"
+      url: /vrsoccer/
+      img: game_vrsoccer.jpg
 
     - title: "Robot Kombat"
       url: /robotkombat/
@@ -113,10 +116,6 @@ portfolio:
     - title: "OBJ Loader"
       url: /obj-loader/
       img: objloader.jpg
-
-    - title: "A Vigança dos Malditos Budistas do Espaço Sideral"
-      url: /avdmbdes/
-      img: game_budas.png
 
     - title: "Cuberoids"
       url: /cuberoids/

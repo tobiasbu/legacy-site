@@ -18,19 +18,23 @@
   },
   "keywords": [
     "website",
-    "project",
-    "tobi"
+    "blog",
+    "portfolio",
+    "tobiasbu",
+    "tbu"
   ],
   "author": "tobiasbu",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tobiasbu/tbu/issues"
   },
   "homepage": "https://github.com/tobiasbu/",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
+    "babel-preset-env": "^1.6.1",
     "cssnano": "^3.6.2",
     "gh-pages": "^0.11.0",
+    "git-last-commit": "^0.3.0",
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-htmlmin": "^1.4.0",

@@ -17,10 +17,12 @@
 var ghpages = require('gh-pages');
 var path = require('path');
 
+var gitlast = require('git-last-commit');
+
+
 var config = {
   branch: 'master',
   push: true,
-  message: 'Site update',
   remote: 'release',
   silent: false,
   logger: function(message) 
@@ -29,10 +31,44 @@ var config = {
   }
 };
 
-ghpages.publish(path.join(__dirname, '_site'), config, (err) => {
-  if (err) {
-    console.error('error! ', err)
-  } else {
-    console.log('deploying is done!')
-  }
-})
+
+var chain = new Promise(
+
+  function(resolve, reject) {
+
+    gitlast.getLastCommit(function(err, commit) {
+
+      var commitMessage = "Blog updates..."
+
+      if (err)
+      {
+        console.error('error: Failed to get last commit information', err);
+      } 
+      else
+      {
+        if (commit.body !== undefined)
+        {
+          commitMessage = commit.body.replace(/-/g, " ");
+        }
+      }
+
+      resolve(commitMessage);
+
+    })
+});
+
+chain.then(function(commitMessage) {
+
+  console.log('log: Starting deploying:\nlog: Commit: ' + commitMessage);
+
+  config.message = commitMessage;
+
+  ghpages.publish(path.join(__dirname, '_site'), config, (err) => {
+    if (err) {
+      console.error('error: ', err)
+    } else {
+      console.log('log: Deploying is Done!')
+    }
+  })
+});
+

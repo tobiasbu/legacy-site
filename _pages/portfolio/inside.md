@@ -55,11 +55,8 @@ stairs, elevators, etc. and save points.<br>
 - <a href="https://www.youtube.com/watch?v=FI8NYg3EZxw" target="_blank">Gameplay Video by Rush 2112</a><br>
 <br>
 [PT-BR]<br>
-- <a href="http://www.mundorpgmaker.com.br/topic/81977-inside-rm2k/" target="_blank">Mundo RPG Maker Thread</a><br>
-- <a href="https://rpgmaker.net/games/4333/" target="_blank">Mundo RPG Maker - Inside Page's</a><br>
 - <a href="http://www.gameblast.com.br/2013/02/rpg-maker-o-criador-de-jogos-que-fez.html" target="_blank">GameBlast article by Gabriel Toschi</a><br>
 - <a href="https://www.youtube.com/watch?v=qDYuNg3mNww" target="_blank">Gameplay video by duckyduckyduckyquack</a><br>
-- <a href="https://www.youtube.com/watch?v=Q3YdwL4Y150" target="_blank">Gameplay video by mupduw</a><br>
 - <a href="https://www.youtube.com/watch?v=jHlpPfhX-mg" target="_blank">Gameplay video by rpgmakergamers</a><br>
 - <a href="https://www.youtube.com/watch?v=_xoPlbVYqnA" target="_blank">Gameplay video by MerciaCristina7</a><br>
 </p>
