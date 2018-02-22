@@ -1,15 +1,16 @@
 {
-  "name": "saibot",
+  "name": "tobiasbu",
   "version": "2.0.1",
   "description": "new web site project",
   "main": "index.js",
   "scripts": {
     "build": "bundle exec jekyll build",
-    "push_deploy": "git subtree push --prefix _site build master",
-    "deploy": "git push build `git subtree split --prefix _site master`:master --force",
+    "_subtree_deploy": "git subtree push --prefix _site build master",
+    "_subtree_deploy2": "git push build `git subtree split --prefix _site master`:master --force",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gh_deploy": "node deploy"
-   
+    "deploy": "node deploy",
+    "update": "npm run clean && npm run build && npm run deploy",
+    "clean": "rm -rf node_modules/gh-pages/.cache"
   },
   "repository": {
     "type": "git",

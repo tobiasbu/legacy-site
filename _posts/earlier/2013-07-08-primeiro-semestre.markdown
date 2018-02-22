@@ -3,7 +3,7 @@ layout: post
 title: Primeiro Semestre (e uns “mimimi's”)
 date: 2013-07-08 22:54:53.000000000 -03:00
 categories:
-- Thoughts
+- thoughts
 tags:
 - art-games
 - Bjarne Stroustrup

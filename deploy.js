@@ -18,10 +18,10 @@ var ghpages = require('gh-pages');
 var path = require('path');
 
 var config = {
-  branch: 'dist',
+  branch: 'master',
   push: true,
   message: 'Site update',
-  remote: 'origin',
+  remote: 'release',
   silent: false,
   logger: function(message) 
   {

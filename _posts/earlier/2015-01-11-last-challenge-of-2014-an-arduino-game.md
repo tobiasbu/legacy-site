@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 categories:
-- productions
+- dev
 tags:
 - arduino
 - desafio de verao
