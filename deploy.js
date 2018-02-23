@@ -1,24 +1,14 @@
-/**
- * Given the following directory structure:
- *
- *   build/
- *     index.html
- *     js/
- *       site.js
- *
- * The usage below will create a `gh-pages` branch that looks like this:
- *
- *   index.html
- *   js/
- *     site.js
- *
- */
 
+const chalk = require('chalk');
 var ghpages = require('gh-pages');
 var path = require('path');
 
 var gitlast = require('git-last-commit');
 
+
+const error = chalk.bold.red;
+const log = chalk.bold.blue;
+const success = chalk.bold.green;
 
 var config = {
   branch: 'master',
@@ -32,6 +22,7 @@ var config = {
 };
 
 
+
 var chain = new Promise(
 
   function(resolve, reject) {
@@ -42,12 +33,12 @@ var chain = new Promise(
 
       if (err)
       {
-        console.error('error: Failed to get last commit information', err);
+        console.error(error('error:') +  'Failed to get last commit information!', err);
       } 
       else
       {
         
-        console.log(commit);
+        //console.log(commit);
 
 
         commitMessage = commit.subject; //body.replace('/-/g', " ");
@@ -61,15 +52,16 @@ var chain = new Promise(
 
 chain.then(function(commitMessage) {
 
-  console.log('log: Starting deploying:\nlog: Commit: ' + commitMessage);
+  console.log(log('log:') + ' Starting deploying.');
+  console.log(log('log:') + ' Commit: ' + chalk.underline('%s'),commitMessage);
 
   config.message = commitMessage;
 
   ghpages.publish(path.join(__dirname, '_site'), config, (err) => {
     if (err) {
-      console.error('error: ', err)
+      console.error(error('error: '), err)
     } else {
-      console.log('log: Deploying is Done!')
+      console.log(log('log:') + success('Deploying is Done!'));
     }
   })
 });

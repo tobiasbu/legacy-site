@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Odalric Bot
-permalink: /portfolio/odalric
+permalink: /portfolio/odalric/
 date: 2018-02-22 21:27:00.000000000 -03:00
 portfolio: true
 ---
