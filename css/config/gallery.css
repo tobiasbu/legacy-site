@@ -12,19 +12,19 @@
 .my-gallery figure {
   display: block;
   float: left;
-  margin-right: 1%;
-  margin-bottom: 1%;
+  /*margin-right: 1%;
+  margin-bottom: 1%;*/
   /*margin: 0 5px 5px 0;
   width: 150px;*/
 
 }
 
-.my-gallery .last {
+/*.my-gallery .last {
     margin-right: 0%;
-}
+}*/
 
 .three-figure {
-    width: 32.65%;
+    width: 33.333333333333333333333333333333%;/*32.65%;*/
 
 /*  @media (--small) {
       width: 100%;
@@ -35,7 +35,7 @@
 }
 
 .two-figure {
-    width: 49.5%;
+    width: 50%;/*49.5%;*/
 }
 
 .my-gallery figcaption {

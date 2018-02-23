@@ -46,10 +46,12 @@ var chain = new Promise(
       } 
       else
       {
-        if (commit.body !== undefined)
-        {
-          commitMessage = commit.body.replace(/-/g, " ");
-        }
+        
+        console.log(commit);
+
+
+        commitMessage = commit.subject; //body.replace('/-/g', " ");
+        
       }
 
       resolve(commitMessage);

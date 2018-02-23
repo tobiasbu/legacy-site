@@ -23,29 +23,27 @@
     "tobiasbu",
     "tbu"
   ],
-  "author": "tobiasbu",
+  "author": "tobiansbu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tobiasbu/tbu/issues"
   },
   "homepage": "https://github.com/tobiasbu/",
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
-    "babel-preset-env": "^1.6.1",
-    "cssnano": "^3.6.2",
-    "gh-pages": "^0.11.0",
+    "autoprefixer": "^8.0.0",
+    "cssnano": "^3.10.0",
+    "gh-pages": "^1.1.0",
     "git-last-commit": "^0.3.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-htmlmin": "^1.4.0",
-    "grunt-postcss": "^0.8.0",
-    "postcss-css-variables": "^0.7.0",
-    "postcss-custom-properties": "^6.1.0",
-    "postcss-font-magician": "^1.4.0",
-    "postcss-import": "^8.1.2"
+    "grunt": "^1.0.2",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-postcss": "^0.9.0",
+    "postcss-css-variables": "^0.8.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-font-magician": "^2.1.0",
+    "postcss-import": "^11.1.0"
   },
   "dependencies": {
-    "normalize.css": "^4.1.1",
-    "suitcss-base": "^2.0.0"
+    "normalize.css": "^8.0.0",
+    "suitcss-base": "^4.0.0"
   }
 }
