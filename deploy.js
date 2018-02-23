@@ -15,9 +15,9 @@ var config = {
   push: true,
   remote: 'release',
   silent: false,
-  logger: function(message) 
-  {
-    console.log('log: ' + message);
+  user: {
+    name: 'Tobias Ulrich',
+    email: 'flamenco.bluegrass@gmail.com'
   }
 };
 
@@ -61,7 +61,7 @@ chain.then(function(commitMessage) {
     if (err) {
       console.error(error('error: '), err)
     } else {
-      console.log(log('log:') + success('Deploying is Done!'));
+      console.log(log('log:') + success(' Deploying is Done!'));
     }
   })
 });
