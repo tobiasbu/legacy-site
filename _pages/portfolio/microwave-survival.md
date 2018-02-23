@@ -19,11 +19,11 @@ imageGallery:
 _Game created at Global Game Jam 2017_
 {: style="font-weight:bold; text-align: center; margin-top: 1.5em;" :}
 
-## Release:
+## Release
 
 {% boxlink http://globalgamejam.org/2017/games/microwave-survivor\0Windows - zip 18,2 MB\0Get on Global Game Jam page %}
 
-## Description:
+## Description
 
 Microwave Survival (or Survivor) is a bullet hell survivor game, where the player is inside the microwave and must survive from the worst enemies ever: photon waves! Try yourself, if you get in trouble, find some food to help you stay a little longer.
 
@@ -39,7 +39,7 @@ This game was created by the following team:<br>
 -- Space: eat pizza;<br>
 -- Mouse: UI commands;<br>
 
-## Details:
+## Details
 
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Survival / Bullet Hell.<br>

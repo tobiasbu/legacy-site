@@ -2,19 +2,19 @@
 layout: project
 title: Odalric Bot
 permalink: /portfolio/odalric/
-date: 2018-02-22 21:27:00.000000000 -03:00
+date: 2018-02-23 00:54:00.000000000 -03:00
 portfolio: true
 ---
 
-## Source code:
+## Source code
 
 {% boxlink https://github.com/tobiasbu/odalric\0\0Get source code on GitHub %}
 
-## Description:
+## Description
 
 OdalricBot is a Terran StarCraft BroodWar bot written from scratch in C++ based on BWAPI 4.1.2.
 
-The architeture is based on managers strongly inspired on [UAlbertaBot](https://github.com/davechurchill/ualbertabot) and [Steamhammer](http://satirist.org/ai/starcraft/steamhammer/).
+The architeture is based on managers strongly inspired on [UAlbertaBot](https://github.com/davechurchill/ualbertabot){:target="_blank"} and [Steamhammer](http://satirist.org/ai/starcraft/steamhammer/){:target="_blank"}.
 
 Development focused on the robustness and expansion of the architecture. However, given the short development time, the bot efficiency is unbalanced.
 
@@ -36,13 +36,13 @@ The follow image shows the final architecture approach. There is a lot of featur
 
 ## References
 
-- [BWAPI Documentation](https://bwapi.github.io/)
-- [SSCAIT](https://sscaitournament.com/)
-- [Jay Scott](http://satirist.org/)
-- [Starcraft AI Blog](http://satirist.org/ai/starcraft/blog/)
-- [UAlbertaBot](https://github.com/davechurchill/ualbertabot)
-- [Steamhammer](http://satirist.org/ai/starcraft/steamhammer/)
-- [OpprimoBot](https://github.com/jhagelback/OpprimoBot)
+- [BWAPI Documentation](https://bwapi.github.io/){:target="_blank"}
+- [SSCAIT](https://sscaitournament.com/){:target="_blank"}
+- [Jay Scott](http://satirist.org/){:target="_blank"}
+- [Starcraft AI Blog](http://satirist.org/ai/starcraft/blog/){:target="_blank"}
+- [UAlbertaBot](https://github.com/davechurchill/ualbertabot){:target="_blank"}
+- [Steamhammer](http://satirist.org/ai/starcraft/steamhammer/){:target="_blank"}
+- [OpprimoBot](https://github.com/jhagelback/OpprimoBot){:target="_blank"}
 
 ## Details:
 

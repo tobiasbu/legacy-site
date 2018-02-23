@@ -14,7 +14,7 @@ logo: logo_lb.jpg
 
  <span/>
 
-## Description:
+## Description
 
 The Laserball Machine, is a digital game to play with friends from the [Ideia à Vista](http://ideiaavista.com.br/){:target="_blank"} company. Made with wood trim and suede provides a unique experience for players.
 

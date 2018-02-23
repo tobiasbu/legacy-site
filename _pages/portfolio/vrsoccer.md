@@ -19,7 +19,7 @@ imageGallery:
 
 {% video https://www.youtube.com/embed/9jnzYDv46zk %}
 
-## Description:
+## Description
 
 VRSoccer is a virtual football game using computer vision.
 The game runs from a camera and projector attached on top of a structure.
@@ -28,11 +28,12 @@ Game created with Unity3D and OpenCV.
 
 _(Photos taken by Rafael Hocevar)_
 
-__The Structure:__
+__The Structure__
 
 ![Alt Structure]({{site.baseurl}}/img/portfolio/vrsoccer_structure.png)
 
-## Details:
+## Details
+
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Virtual Reality / Sport<br>
 <strong>Engine:</strong> Unity + OpenCV<br>

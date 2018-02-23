@@ -19,22 +19,23 @@ imageGallery:
 
  <span/>
 
-## Release:
+## Release
 
 {% boxlink https://dl.dropboxusercontent.com/u/90839850/Games/supercratedefender151.zip\0Windows - zip 2,47 MB %}
 
-## Description:
+## Description
 
 You need to defend  from bat hordes. Your weapon is wooden crates and you need to launch against your enemies.
 
 Game created with C++, SFML 2.1 and physic lib Box2D.
 
-## Commands:
+## Commands
 
 – Mouse: do everything. control aim.<br>
 – Mouse left-key: launch crates and charge the launching force.<br>
 
-## Details:
+## Details
+
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Tower Defense.<br>
 <strong>Version:</strong> 1.5.1<br>

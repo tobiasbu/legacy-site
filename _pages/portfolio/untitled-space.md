@@ -25,12 +25,12 @@ portfolio: true
 
  <span/>
 
-## Commands:
+## Commands
 
 – Arrows keys: move the spaceship.<br>
 – Space: shoot.<br>
 
-## Description:
+## Description
 
 This game is a test of my own [framework](https://github.com/tobiasbu/tobiJS){:target="_blank"} for web-based games.
 The main idea was testing the basic concepts of a game engine architecture. Of course it is hard to create a game engine from scratch.
@@ -38,7 +38,8 @@ I'm the kind of guy who likes to learn about everything about programming. Well,
 
 I developing a new version of this game for mobile devices using Unity (yes, own game engines are difficult!).
 
-### Details:
+### Details
+
 <p style="font-size:0.8em">
 <strong>Genre:</strong> Shooter.<br>
 <strong>Engine:</strong> <a href="https://github.com/tobiasbu/tobiJS" target="_blank"><strong>tobiJS</strong></a> - A game framework for HTML5 using Javascript.<br>
