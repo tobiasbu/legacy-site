@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "bundle exec jekyll build",
+    "debug": "bundle exec jekyll serve",
     "_subtree_deploy": "git subtree push --prefix _site build master",
     "_subtree_deploy2": "git push build `git subtree split --prefix _site master`:master --force",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -30,7 +31,6 @@
   },
   "homepage": "https://github.com/tobiasbu/",
   "devDependencies": {
-    "autoprefixer": "^8.0.0",
     "cssnano": "^3.10.0",
     "gh-pages": "^1.1.0",
     "git-last-commit": "^0.3.0",

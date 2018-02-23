@@ -36,9 +36,8 @@ module.exports = function(grunt) {
           },*/
 
           processors: [
-            //require('pixrem')(), // add fallbacks for rem units
             require('postcss-import')(),
-            require('autoprefixer')({browsers: ['last 2 versions']}),
+            /*require('autoprefixer')({browsers: ['last 2 versions']}),*/
             require('postcss-cssnext')({browsers: 'last 2 versions'}), // add vendor prefixes
             require('postcss-css-variables')(),
             
@@ -49,8 +48,6 @@ module.exports = function(grunt) {
         },
         dist: {
           expand: true,
-          //cwd: '_includes/css/',
-          //cwd:'_includes/dev/',
           src: ['css/*.css'],
           dest:'_includes/'
           
@@ -58,32 +55,10 @@ module.exports = function(grunt) {
           //ext: '.css'
         }
         
-        /*dist: {
-          files: [
-            {
-              src: '_css/*.css',
-              dest: '_includes/css/'
-            }
-          ]
-        }*/
-        /*dist: {
-          files: [
-            {
-              src: ['_css/main.css', '_css/error.css'],//'_css/*.css',
-              dest: '_includes/css/',
-              expand: false
-            }
-          ]*/
-          //src: '_css/*.css',//['_css/main.css', '_css/error.css'],//'css/*.css'
-         // dest: '_includes/css/*.css'//'./css'
- 
-        
       }
   });
 
   // Load the plugin that provides the "uglify" task.
-  //grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-postcss');
 
   // Default task(s).
@@ -105,56 +80,4 @@ module.exports = function(grunt) {
        //shell.exec('git branch -D gh-pages')
    });*/
 
-
-  /*
-  npm install grunt-real-favicon --save-dev
-
-   grunt.loadNpmTasks('grunt-real-favicon');
-
-   grunt.initConfig({
-   	realFavicon: {
-   		favicons: {
-   			src: 'TODO: Path to your master picture',
-   			dest: 'TODO: Path to the directory where to store the icons',
-   			options: {
-   				iconsPath: '/favicon/',
-   				html: [ 'TODO: List of the HTML files where to inject favicon markups' ],
-   				design: {
-   					ios: {
-   						pictureAspect: 'backgroundAndMargin',
-   						backgroundColor: '#ffffff',
-   						margin: '14%'
-   					},
-   					desktopBrowser: {},
-   					windows: {
-   						pictureAspect: 'whiteSilhouette',
-   						backgroundColor: '#5b7833',
-   						onConflict: 'override'
-   					},
-   					androidChrome: {
-   						pictureAspect: 'backgroundAndMargin',
-   						margin: '10%',
-   						backgroundColor: '#ffffff',
-   						themeColor: '#ffffff',
-   						manifest: {
-   							name: 'tobiasbu',
-   							display: 'browser',
-   							orientation: 'notSet',
-   							onConflict: 'override',
-   							declared: true
-   						}
-   					},
-   					safariPinnedTab: {
-   						pictureAspect: 'silhouette',
-   						themeColor: '#5b7833'
-   					}
-   				},
-   				settings: {
-   					scalingAlgorithm: 'Lanczos',
-   					errorOnImageTooSmall: false
-   				}
-   			}
-   		}
-   	}
-  });*/
 };

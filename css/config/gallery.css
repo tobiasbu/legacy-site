@@ -12,19 +12,17 @@
 .my-gallery figure {
   display: block;
   float: left;
-  /*margin-right: 1%;
-  margin-bottom: 1%;*/
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
   /*margin: 0 5px 5px 0;
   width: 150px;*/
 
 }
 
-/*.my-gallery .last {
-    margin-right: 0%;
-}*/
+
 
 .three-figure {
-    width: 33.333333333333333333333333333333%;/*32.65%;*/
+  width: calc(33.33333333333333333% - 0.1875rem);/*32.65%;*/
 
 /*  @media (--small) {
       width: 100%;
@@ -35,12 +33,17 @@
 }
 
 .two-figure {
-    width: 50%;/*49.5%;*/
+    width: calc(50% - 0.125rem);/*49.5%;*/
+}
+
+.my-gallery .last {
+    margin-right: 0;
 }
 
 .my-gallery figcaption {
   display: none;
 }
+
 
 .pswp__bg {
 background: var(--darken); /*#040404;*/
