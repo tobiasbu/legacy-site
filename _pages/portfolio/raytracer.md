@@ -23,40 +23,48 @@ In this section
 
 ### Pseudo-Code
 
-~~~
-For each Image pixel
+{% pseudocode %}
+Function render()
+
+ForEach image pixel
 
     Compute ray Direction for current Pixel based on the Camera;
     Trace the computed Ray on the Scene where:
 
-        Initialize tCloser to Infinity
-        Initialize objectCloser to NULL
+        tCloser <- Infinity
+        objectCloser <- NULL
 
-        For each Object
-            If the Ray intersect Object
-                If Ray distance is below to tCloser
-                    Set objectCloser to current Object
-                    Set tCloser to intersection distance
+        ForEach Object
+            If ray Intersects Object
+                If ray Distance < tCloser
+                    objectCloser <- Object 
+                    tCloser <- Distance // intersection distance
                 End If
             End If
         End ForEach
 
-        Initialize finalColor to Black OR Background Color
+        finalColor <- Black OR Background Color
 
-        If objectCloser is not equal NULL
+        If objectCloser != NULL
             For each Light source
-                Compute Light contribution
-                Compute Shade contribution of the closer Object Material and Light contribution.
-                Add contributions to finalColor
+
+                // Compute light contribution
+                lightContrib <- Light.ComputeContribution(ray)
+
+                // Compute shading of the closer object Material.
+                finalColor <- objectCloser.Shading(ray, lightContrib)
+
             End ForEach
 
-            Fill current pixel to finalColor
+            // Fill current pixel to finalColor
+            Image.SetPixel(finalColor);
         Else
-            Fill current pixel with Background color
+            // Fill current pixel with background color
+             Image.SetPixel(finalColor);
         End If
 
 End ForEach
-~~~
+{% endpseudocode %}
 
 
 ### Acceleration Structures

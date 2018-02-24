@@ -14,7 +14,7 @@ author: Tobias B. Ulrich
 
 #comentar isso quando testar local
 baseurl: "" # the subpath of your site, e.g. /blog
-#plugins_dir: ./_plugins
+
 
 url: "https://tobiasbu.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
@@ -24,8 +24,12 @@ encoding: utf-8
 #excerpt_separator: "<!--more-->"
 
 #plugins
+plugins:
+  - jekyll-pseudocode
+
 #plugins_dir: ./_plugins
 #plugins_dir: "_plugins/"
+
 
 permalink: pretty
 
