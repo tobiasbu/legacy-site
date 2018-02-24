@@ -32,11 +32,25 @@ permalink: pretty
 # Build settings
 markdown: kramdown
 
+highlighter: rouge
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
 kramdown:
   input: GFM
   auto_ids: false
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
 
-highlighter: rouge
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  # syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+   # css_class: 'highlight'
+   # span:
+   #   line_numbers: false
+   # block:
+   #   line_numbers: true
 
 collections:
   games:
@@ -51,7 +65,7 @@ compress_html:
   blanklines: true
   startings: [html, head, body]
 
-exclude: ['.sass-cache','css/config','deploy.js', 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js', '_plugins']
+exclude: ['.sass-cache','css/config','deploy.js', LICENSE.md, 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js', '_plugins']
 
 include:
   - _pages

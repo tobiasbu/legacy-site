@@ -65,7 +65,7 @@ float intensity = dot(cor.rgb,proportion);
 2. We can set a contrast adjustment working with the input values _intensity_ and _contrast coeficient_.
 
 {% highlight glsl %}
-intensity = clamp(contrast * (intensity - 0.5) + 0.5, 0.0,; 1.0);
+intensity = clamp(contrast * (intensity - 0.5) + 0.5, 0.0, 1.0);
 {% endhighlight %}
 
 3. Finally the green color mathematically consistent:
@@ -84,14 +84,16 @@ finalColor = cor * vec3(0.0,green, 0.0);
 layout (location = 0) in vec3 position;
 layout (location = 1) in vec3 normal;
 layout (location = 2) in vec2 texCoords;
+
 out vec2 TexCoords;
 uniform mat4 model;
 uniform mat4 view;
 uniform mat4 projection;
+
 void main()
 {
-gl_Position = projection * view * model * vec4(position, 1.0f);
-TexCoords = texCoords;
+  gl_Position = projection * view * model * vec4(position, 1.0f);
+  TexCoords = texCoords;
 }
 {% endhighlight %}
 
@@ -101,6 +103,7 @@ TexCoords = texCoords;
 #version 400
 in vec2 TexCoords;
 out vec3 color;
+
 uniform sampler2D screenTexture; // frame buffer
 uniform sampler2D noiseTexture; // noise texture
 uniform sampler2D googleTexture; // google texture
@@ -109,30 +112,38 @@ float contrast = 0.5;
 uniform float intensityAdjust; // = 1;
 uniform float noiseAmplification; // 1
 uniform float bufferAmplication; // 1
-<p>void main()
+
+void main()
 {
-// uv coord for noise texture and swirl effect
-vec2 uv;
-uv.x = 0.35*sin(elapsedTime*50.0);
-uv.y = 0.35*cos(elapsedTime*50.0);
-// noise texture color + rotation by time
-vec3 noise = texture(noiseTexture, TexCoords.st + uv).rgb * noiseAmplification;
-// google mask
-vec3 googleColor = texture(googleTexture, TexCoords.st).rgb;
-// frame buffer + litle swirl
-vec3 sceneColor = texture(screenTexture,
-  TexCoords.st + (noise.xy*0.005)).rgb * bufferAmplication;
-//color intensity - color dominant
-const vec3 lumvec = vec3(0.30, 0.59, 0.11);
-float intentisy = dot(lumvec,sceneColor);
-// adjust contrast - 0...1<br />
-intentisy = clamp(contrast * (intentisy - 0.5) + 0.5, 0.0, 1.0);
-// final green result 0...1
-float green = clamp(intentisy / 0.59, 0.0, 1.0) * intensityAdjust;
-// vision color - getting green max
-vec3 visionColor = vec3(0,green,0);//vec3(0.1, 0.95, 0.2);
-// final color
-color = (sceneColor + (noise*0.2)) * visionColor * googleColor;
+  // uv coord for noise texture and swirl effect
+  vec2 uv;
+  uv.x = 0.35*sin(elapsedTime*50.0);
+  uv.y = 0.35*cos(elapsedTime*50.0);
+
+  // noise texture color + rotation by time
+  vec3 noise = texture(noiseTexture, TexCoords.st + uv).rgb/n * noiseAmplification;
+
+  // google mask
+  vec3 googleColor = texture(googleTexture, TexCoords.st).rgb;
+
+  // frame buffer + litle swirl
+  vec3 sceneColor = texture(screenTexture, TexCoords.st + (noise.xy*0.005)).rgb * bufferAmplication;
+
+  //color intensity - color dominant
+  const vec3 lumvec = vec3(0.30, 0.59, 0.11);
+  float intentisy = dot(lumvec,sceneColor);
+
+  // adjust contrast - 0...1<br />
+  intentisy = clamp(contrast * (intentisy - 0.5) + 0.5, 0.0, 1.0);
+
+  // final green result 0...1
+  float green = clamp(intentisy / 0.59, 0.0, 1.0) * intensityAdjust;
+
+  // vision color - getting green max
+  vec3 visionColor = vec3(0,green,0);//vec3(0.1, 0.95, 0.2);
+
+  // final color
+  color = (sceneColor + (noise*0.2)) * visionColor * googleColor;
 }
 {% endhighlight %}
 
