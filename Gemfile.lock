@@ -28,7 +28,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-pseudocode (0.1.3)
+    jekyll-pseudocode-b (0.1.0)
       jekyll
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -63,7 +63,7 @@ PLATFORMS
 DEPENDENCIES
   hpricot
   jekyll (= 3.7.2)
-  jekyll-pseudocode (~> 0.1.3)
+  jekyll-pseudocode-b (~> 0.1.0)
   wdm (~> 0.1.1)
 
 BUNDLED WITH

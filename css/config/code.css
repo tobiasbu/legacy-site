@@ -1,27 +1,9 @@
 /*https://raw.githubusercontent.com/jwarby/pygments-css/master/tango.css*/
 
 code {
-  font-family: 'Droid Sans Mono', monospace;
+  font-family: 'Ubuntu Mono', 'Consolas', monospace;
   font-size: 1em;
 }
-
-/*pre 
-{
-  white-space: pre-wrap;/*pre-wrap;
-}*/
-
-/*code span
-{
-  
-}*/
-
-
-
-
-
- 
-
- 
 
  .highlight pre code 
 { 
@@ -31,14 +13,14 @@ code {
  }
 
 
-.highlight, .pseudo-code
+.highlight/*, .pseudo-code*/
 {
   overflow: scroll;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
- figure.highlight, .pseudo-code {
+ figure.highlight/*, .pseudo-code*/ {
   padding: 0.85em;
   display: block;
   line-height: 1.4em;
@@ -47,7 +29,13 @@ code {
   background-color: #272822;
 }
 
-.pseudo-code pre code
+.highlighter-rouge {
+  background: #eef;
+  font-size: 1em;
+}
+
+
+/*.pseudo-code pre code
  {
   display: block; 
   white-space: pre; 
@@ -57,32 +45,8 @@ code {
 .pseudo-code
 {
   background-color: transparent;
-}
+}*/
 
-.pseudocode {
-  text-indent: 50px;
-  font-family: "Courier New", Courier, monospace;
-  white-space: pre-wrap;
-}
-
-.symbol {
-  font-weight: bold;
-  text-transform: lowercase;
-}
-
-.function {
-  text-transform: uppercase;
-}
-
-.variable {
-  font-style: italic;
-}
-
-
-.highlighter-rouge {
-  background: #eef;
-  font-size: 1em;
-}
 
 
 

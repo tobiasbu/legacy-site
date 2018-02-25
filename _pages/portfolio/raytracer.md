@@ -25,45 +25,35 @@ In this section
 
 {% pseudocode %}
 Function render()
+  For Each image pixel
+  // Compute ray Direction for current Pixel based on the Camera;
+  ray <- camera.ComputeRay();
+  // Trace the computed Ray on the scene where:
+  tCloser <- infinity
+  objectCloser <- null
 
-ForEach image pixel
+  For Each object
+    If ray.Intersects(object)
+        If ray distance < tCloser
+            objectCloser <- Object // closer object
+            tCloser <- Distance // intersection distance
 
-    Compute ray Direction for current Pixel based on the Camera;
-    Trace the computed Ray on the Scene where:
+  finalColor <- backgroundColor
 
-        tCloser <- Infinity
-        objectCloser <- NULL
+  If objectCloser != null
 
-        ForEach Object
-            If ray Intersects Object
-                If ray Distance < tCloser
-                    objectCloser <- Object 
-                    tCloser <- Distance // intersection distance
-                End If
-            End If
-        End ForEach
+    // Then with the closest intersected object
+    For each Light source
+        // Compute light contribution
+        lightContrib <- Light.ComputeContribution(ray)
+        // Compute shading of the closer object Material.
+        finalColor <- objectCloser.Shading(ray, lightContrib)
 
-        finalColor <- Black OR Background Color
-
-        If objectCloser != NULL
-            For each Light source
-
-                // Compute light contribution
-                lightContrib <- Light.ComputeContribution(ray)
-
-                // Compute shading of the closer object Material.
-                finalColor <- objectCloser.Shading(ray, lightContrib)
-
-            End ForEach
-
-            // Fill current pixel to finalColor
-            Image.SetPixel(finalColor);
-        Else
-            // Fill current pixel with background color
-             Image.SetPixel(finalColor);
-        End If
-
-End ForEach
+    image.SetPixel(finalColor);
+  Else
+    // Otherwise, not object intersected.
+    // Fill current pixel with background color
+    image.SetPixel(finalColor);
 {% endpseudocode %}
 
 

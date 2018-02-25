@@ -1,0 +1,64 @@
+
+
+.pseudocode {
+    font-family: "Ubuntu Mono", "Consolas", monospace;
+    font-size: 1em;
+    white-space: pre-wrap;
+    padding: 0.85em;
+    display: block;
+    line-height: 1.35em;
+    border-radius: 4px;
+    margin: 1.5em 0;
+    overflow: scroll;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #fff;
+    /*border-color: #F3F3F3 1px solid;*/
+}
+
+  
+.indent
+{
+    
+}
+
+.symbol {
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #8cbd5f;
+}
+
+.function {
+text-transform: capitalize;
+color: #5a81a8;
+}
+
+.comment
+{
+    color: #66747B;
+}
+
+.variable {
+font-style: italic;
+}
+
+.string
+{
+    color:#EC7600;
+}
+
+.numeric
+{
+    color: #ddb11d;
+}
+  
+.operator
+{
+    color: #5a81a8;
+}
+
+.math-symbol
+{
+    color: #AF00DB;
+}
+

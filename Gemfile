@@ -9,5 +9,5 @@ gem 'wdm', '~> 0.1.1' if Gem.win_platform?
 gem "hpricot"
 
 group :jekyll_plugins do
-    gem 'jekyll-pseudocode', '~> 0.1.3'
+    gem 'jekyll-pseudocode-b', '~> 0.1.0'
 end
