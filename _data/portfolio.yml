@@ -14,7 +14,7 @@ portfolio:
       img: game_swordandshield.png
 
     - title: "BomberAI"
-      url: /bomber-ai/
+      url: /bomberai/
       img: game_bomberai.png
 
     - title: "Raytracer"
