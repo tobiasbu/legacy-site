@@ -4,6 +4,26 @@ title: Raytracer
 permalink: /portfolio/raytracer/
 date: 2018-02-24 00:00:00.000000000 -03:00
 portfolio: true
+imageGallery:
+  w: 800
+  h: 600
+  childs:
+  - caption: Standford Dragon
+    img: raytracer0.png
+  - caption: Happy Budha
+    img: raytracer1.png
+  - caption: 'Three Spheres: Phong, Relfexive and Refractory'
+    img: raytracer2.png
+  - caption: '1001 Spheres: Cel Shading'
+    img: raytracer3.png
+  - caption: 'Gooch shading with outline option'
+    img: raytracer4.png
+  - caption: 'Soft and Hard shadows'
+    img: raytracer5.png
+  - caption: 'Cube map and Texture mapping (normal and overlay)'
+    img: raytracer6.png
+  - caption: 'Transformations'
+    img: raytracer7.png
 ---
 
 Comming soon...

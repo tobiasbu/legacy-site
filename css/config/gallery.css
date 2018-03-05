@@ -36,6 +36,10 @@
     width: calc(50% - 0.125rem);/*49.5%;*/
 }
 
+.four-figure {
+  width: calc(25% - 0.2550rem);/*49.5%;*/
+}
+
 .my-gallery .last {
     margin-right: 0;
 }
