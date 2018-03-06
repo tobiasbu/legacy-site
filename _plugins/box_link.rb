@@ -26,10 +26,18 @@ module Jekyll
 
       if size >= 1
 
+        source_dir = context.registers[:site].source
+        path = source_dir + "/_svg/desktop-download.svg" #{context.registers[:site]
+            
+        contents = File.open(path, "rb") { |f| f.read }
+
         # link
         final = "<div class=\"box\">"
         final << "<a class=\"box-link\" href=\"#{kind[0]}\" target=\"_blank\">"
 
+        final << "#{contents}"
+
+        final << "<span>"
         # box name
         if size >= 3
           if kind[2].length >= 3
@@ -40,6 +48,7 @@ module Jekyll
         else
           final << "Download"
         end
+        final << "</span>"
 
         final << "</a>"
 

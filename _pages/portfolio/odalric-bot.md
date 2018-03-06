@@ -8,7 +8,7 @@ portfolio: true
 
 ## Source code
 
-{% boxlink https://github.com/tobiasbu/odalric\0\0Get source code on GitHub %}
+{% gitbox https://github.com/tobiasbu/odalric\0 %}
 
 ## Description
 

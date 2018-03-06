@@ -85,9 +85,10 @@ li.post-item {
   padding: 0.75rem;
   display: block;
   margin: 0.5em auto;
-  font-size: 1.25em;
+  font-size: 1rem;
  background-color: var(--link);
  color: var(--bg);
+ font-weight: 600;
   &:hover{
     color: var(--bg);
     background-color: var(--hover);
@@ -101,6 +102,16 @@ li.post-item {
     width: 100%;
   }
 
+}
+
+.box-icon
+{
+  vertical-align: middle;
+  margin-right: 1rem;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 0;
 }
 
 .video-container {

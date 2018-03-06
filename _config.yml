@@ -69,7 +69,7 @@ compress_html:
   blanklines: true
   startings: [html, head, body]
 
-exclude: ['.sass-cache','css/config','deploy.js', LICENSE.md, 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js', '_plugins']
+exclude: ['.sass-cache','css/config','_svg', 'deploy.js', LICENSE.md, 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js', '_plugins']
 
 include:
   - _pages
