@@ -18,6 +18,7 @@ module Jekyll
       end
 
       kind = @text.squeeze(" ")
+      kind = kind.strip;
       kind = kind.split('\0');
       size = kind.size
       final = ""
@@ -50,8 +51,10 @@ module Jekyll
 
         if size >= 2
           if kind[1].length > 2
+          site = context.registers[:site]
+          converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
           final << "<p>" #style=\"font-style:italic; color:#656565; text-align: center; margin:0 0 2em;
-          final << kind[1]
+          final << "#{converter.convert(kind[1])}"
           final << "</p>"
           end
         end

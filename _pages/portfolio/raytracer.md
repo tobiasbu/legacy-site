@@ -26,11 +26,12 @@ imageGallery:
     img: raytracer7.png
 ---
 
-Comming soon...
 
 ## Releases and Source code
 
 {% gitbox https://github.com/tobiasbu/raytracer %}
+
+{% boxlink https://github.com/tobiasbu/raytracer/releases\0"27.5 MB - Windows" %}
 
 ## Description
 
@@ -41,7 +42,7 @@ The ray tracer is based on **light paths** as well as in the real world, simulat
 
 ## Raytracer Project
 
-In this section 
+In this section it’s presented a bit of the project implementation: 
 
 ### Workflow
 
@@ -102,11 +103,37 @@ There are several variations and optimizations, even for real-time use.
 
 To optimize the render routine of the raytracer there more points to consider. In this project I added the following items:
 
-1. BVH - Surface Area Heuristics
-2. Polygonal mesh sub-division
-3. Parallel ray tracing
+#### 1. BVH - Surface Area Heuristics
+
+It is a BVH division method, which seeks to **minimize** the time spent during the rays intersections.
+While the BVH is built, it is estimated whether it is better to create a leaf node or divide the node by checking the child nodes.
+
+The cost of each node is **proportional to the area of the bounding volume** and the number of primitives that the node contains.
+The best division minimizes the cost of each node. However, this method **increases the time** of BVH construction.
+This same algorithm is used in _kD-tree_.
+
+#### 2. Polygonal mesh sub-division
+
+Specific BVH for mesh. It follows the same principle of a the scene BVH's, however for each polygon of a mesh a bounding volume is created.
+
+{% image /portfolio/raytracer_meshbvh.jpg\0Image by [Thomas Diewald](http://thomasdiewald.com/blog/?p=1488){:target="_blank"}\0max-width:320px; %}
+
+#### 3. Parallel ray tracing
+
+To speed up the ray tracing process, we subdivide the image buffer by number `n` threads.
+Each thread is responsible for treating ray tracing with a "piece" of buffer.
+
+{% image /portfolio/raytracer_parallalel.png\0\0max-width:320px; %}
 
 ## Future Improvements
+
+There are several issues and improvements to do in this project:
+- First, create a UI for scene management (using [imgui](https://github.com/ocornut/imgui) or similiar). It's pretty bad to edit _.TXT_ files to edit the scene elements.
+- It will be interesting to have a node graph editor for shaders materials which deploys to the raytracer engine and OpenGL.
+- The parallel raytracing is not speeding up properly as expected. At this point require some research.
+- Also we will gain more speed if we implement the render routines on **hardware accelerators** such as [CUDA](https://developer.nvidia.com/cuda-zone) or [OpenCL](https://www.amd.com/pt-br/solutions/professional/hpc/opencl)
+- Some files loaders as _Wavefront *.OBJ Loader_ is very slow in some cases. Requires improvement and detection of bad meshes.
+- And of course, error handling and unit test will be welcome.
 
 ## Features
 
