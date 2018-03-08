@@ -26,15 +26,17 @@
 
     {% if pair == 0 %}
 
-    {% if class == "two-figure" %}
-    {% assign check = forloop.index | modulo: 2 %}
-    {% else %}
-    {% assign check = forloop.index | modulo: 4 %}
-    {% endif %}
-
-      {% if forloop.last or check == 0 %}
-        {% assign plus = " last" %}
+      {% if class == "two-figure" %}
+        {% assign check = forloop.index | modulo: 2 %}
+      {% elsif class == "four-figure" %}
+        {% assign check = forloop.index | modulo: 4 %}
       {% endif %}
+
+        {% if forloop.last or check == 0 %}
+          {% assign plus = " last" %}
+        {% elsif check == 2%}
+          {% assign plus = " snd" %}
+        {% endif %}
 
     {% else %}
 
@@ -44,7 +46,7 @@
 
     {% endif %}
 
-    <figure class="{{ class }} {{ plus }}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <figure class="{{ class }}{{ plus }}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
       <a href="{{ site.baseurl }}/img/portfolio/{{item.img}}" itemprop="contentUrl" data-size="{{page.imageGallery.w}}x{{page.imageGallery.h}}">
 
           <img src="{{ site.baseurl }}/img/portfolio/{{item.img}}" itemprop="thumbnail" alt="{{item.caption}}"/>

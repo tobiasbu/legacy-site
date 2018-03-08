@@ -93,11 +93,7 @@
 
 }
 
-.snd {
-  @media (--small) {
-    margin-right: 0;
-  }
-}
+
 
 .thd {
 

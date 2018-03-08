@@ -38,6 +38,18 @@
 
 .four-figure {
   width: calc(25% - 0.2550rem);/*49.5%;*/
+
+  @media (--medium-down) {
+    width: calc(50% - 0.125rem);
+  }
+}
+
+@media (--medium-down) {
+  .my-gallery .snd {
+
+      margin-right: 0;
+    
+  }
 }
 
 .my-gallery .last {
