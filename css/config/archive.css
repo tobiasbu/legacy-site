@@ -29,6 +29,8 @@
   margin: 0 1.75em 0 0;
   display: inline-block;
   width: 4em;
+  text-transform: uppercase;
+  /* display: block; */
   /*text-align: end;*/
   color: var(--gray);
   @media (--medium-down) {

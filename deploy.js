@@ -34,6 +34,7 @@ var chain = new Promise(
       if (err)
       {
         console.error(error('error:') +  'Failed to get last commit information!', err);
+        reject(err);
       } 
       else
       {

@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tobiasbu.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username: tobiasbu
-disqus_username: tobiasbu
+# disqus_username: tobiasbu
 encoding: utf-8
 #excerpt_separator: "<!--more-->"
 
@@ -69,7 +69,7 @@ compress_html:
   blanklines: true
   startings: [html, head, body]
 
-exclude: ['.sass-cache','css/config','_svg', 'deploy.js', LICENSE.md, 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js', '_plugins']
+exclude: ['.sass-cache','css/config','_svg', 'deploy.js', LICENSE.md, 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js', '_plugins', _'bkp']
 
 include:
   - _pages
