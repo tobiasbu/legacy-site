@@ -43,6 +43,18 @@ npm run start
 
 ## Blog update
 
+
+1. Add git remote for the website hosting
+
+```bash
+# Set a new remote *MUST BE* release
+git remote add release https://github.com/user/repo.git
+# Verify new remote
+git remote -v
+```
+
+2. Run:
+
 ```bash
 npm run update
 ```
