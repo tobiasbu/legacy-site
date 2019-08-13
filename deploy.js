@@ -13,6 +13,7 @@ const success = chalk.bold.green;
 var config = {
   branch: 'master',
   push: true,
+  // git@github.com:tobiasbu/tobiasbu.github.io.git
   remote: 'release',
   silent: false,
   user: {
