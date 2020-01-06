@@ -106,8 +106,11 @@ npm run start
 
 ```bash
 # Add a new remote for you local git. *MUST BE* 'release'
-git remote add release https://github.com/user/repo.git
-# Verify new remote
+git remote add release https://github.com/<USER>/<REPO>.git
+# or
+git remote add release git@github.com:<USER>/<REPO>.git
+
+# Verify if new remote was added successfully
 git remote -v
 ```
 
