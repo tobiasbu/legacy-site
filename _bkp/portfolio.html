@@ -1,0 +1,68 @@
+---
+title: Portfolio
+permalink: /portfolio/
+layout: portfolio
+---
+
+<!--<article class="post">
+
+<h1 class="page-heading">{{ page.title }}</h1>
+
+  <div class="post-content">-->
+    <div class="portfolio">
+      <div class="portfolio-inner">
+
+        {% assign port = site.data.portfolio["portfolio"] %}
+        {% assign purl = port.url %}
+        {% assign type = "Full" %}
+
+
+        {% for item in port.projects %}
+
+            {% assign type = "Full" %}
+
+
+          {% if item.title == "Featured" %}
+
+              {% for subitem in item.childs %}
+                  {% include portfolio-item.html subitem = subitem %}
+              {% endfor %}
+
+          {% elsif item.title == "Medium" %}
+
+            {% assign type = "Split" %}
+
+              {% for subitem in item.childs %}
+                  {% include portfolio-item.html subitem = subitem %}
+              {% endfor %}
+
+            {% elsif item.title == "Other" %}
+
+          {% assign type = "Split4" %}
+
+          <div class="project-group" >
+
+            {% for subitem in item.childs %}
+                {% include portfolio-item.html subitem = subitem %}
+            {% endfor %}
+
+            </div>
+
+          {% endif %}
+
+          <!--<a href="{{ my_page.url | prepend: site.baseurl }}">
+              <div class="port-image" >
+                <img src="{{ site.baseurl }}/img/{{my_page.img}}" alt="{{ my_page.title }}">
+              </div>
+                </a>
+            </div> -->
+
+        {% endfor %}
+
+        </div>
+
+    <!-- </div>
+
+  </div>
+
+</article>-->

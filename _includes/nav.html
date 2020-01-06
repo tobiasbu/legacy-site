@@ -1,0 +1,21 @@
+<nav role="navigation" id="main-nav">
+  <ul>
+    {% assign nav = site.data.navigation["main"] %}
+    {% for item in nav %}
+      {% assign str = item.title %}
+      {% assign a = str | split: "[LINK] " %}
+      {% assign sizeArr = a | size %}
+      <li>
+      {% if sizeArr > 1 %}
+        <a href="{{ item.url }}" target="_blank">
+          {{ a[1] }}
+        </a>
+      {% else %}   
+        <a href="{{ item.url  | prepend: site.baseurl }}">
+          {{ item.title }}
+        </a>
+      {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

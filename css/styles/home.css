@@ -1,0 +1,24 @@
+#welcome {
+  background-color: var(--tbu-color);
+}
+
+.hello {
+  position: relative;
+  color: var(--tbu-bg);
+  font-size: var(--tbu-font-size-xxxl);
+  text-align: center;
+  padding: 6rem 4rem;
+  margin: auto;
+  text-align: center;
+  @media (--large-down) {
+    font-size: var(--tbu-font-size-xxl);
+  }
+  @media (--medium-down) {
+    font-size: var(--tbu-font-size-xl);
+    padding: 4rem 3rem;
+  }
+  @media (--small-down) {
+    font-size: var(--tbu-font-size-l);
+    padding: 2rem;
+  }
+}

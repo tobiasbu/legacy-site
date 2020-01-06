@@ -1,0 +1,49 @@
+
+{% if include.size == 4 %}
+  {% assign suffix = 's' %}
+  {% assign title = 'h4' %}
+{% elsif include.size == 2 %}
+  {% assign suffix = 'l' %}
+  {% assign title = 'h3' %}
+{% endif %}
+
+<div class="project-{{ suffix }}">
+  <div class="project-title">
+    <{{title}} {% if project.small %} style="font-size: 0.85rem; font-weight: 500; line-height: 1.05;" {% endif %}>
+      {{ project.title }}
+    </{{title}}>
+    <p class="meta">{{ project.meta }}</p>
+  </div>
+  {% if project.link %}
+    <a href="{{ project.link }}">
+  {% endif %}
+  <div class="project-cover">
+    {% if project.link %}
+      <div class="project-overlay"></div>
+      {% endif %}
+      <picture>
+        {% if project.img_ws %}
+
+          {% assign mediaQuery = "(min-width: 593px)" %}
+
+          {% if include.size == 2 %}
+            {% assign mediaQuery = "(min-width: 801px)" %}
+          {% endif %}
+
+          <source media="{{ mediaQuery }}" srcset="{{ site.baseurl }}{{ portfolio.baseurl }}{{ project.img }}">
+          <source srcset="{{ site.baseurl }}{{ portfolio.baseurl }}{{ project.img_ws }}">
+        {% endif %}
+        <img class="project-image" src="{{ site.baseurl }}{{ portfolio.baseurl }}{{ project.img }}" 
+        {% if project.pixel %}
+          style="image-rendering: pixelated;"
+        {% endif %} 
+        alt="{{ project.title }}"/>
+    </picture>
+  </div>
+  {% if project.link %}
+    </a>
+  {% endif %}
+  <div class="project-info">
+    {{ project.excerpt | markdownify }}
+  </div>
+</div>

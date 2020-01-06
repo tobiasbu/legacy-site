@@ -1,0 +1,27 @@
+<div class="award">
+
+    <div class="icon">
+      {% svg star.svg %}
+    </div>
+    <div class="info">
+      <p class="title">
+        {{ include.award.title }}
+      </p>
+      <span class="reviewer">
+        — 
+        {% if include.award.event %}
+          {{ include.award.event }}
+        {% endif %}
+
+        {% if include.award.link && include.award.reviewer %}
+            {% if include.award.event %}
+              /
+            {% endif %}
+            <a href="{{ project.award.link }}" target="_blank">{{ include.award.reviewer }}</a>
+          {% elsif include.award.reviewer %}
+            {{ include.award.reviewer }}
+          {% endif %}
+      </div>
+    </span>
+  </div>
+

@@ -1,0 +1,170 @@
+
+baseurl: img/thumbs/
+
+sections:
+  featured:
+    name: "Featured Projects"
+    col: 2
+    projects:
+      - title: "Koko-Kuba"
+        img: thumb_koko.png
+        img_ws: thumb_koko_ws.png
+        meta: In progress
+        excerpt: "A game about a fish tribe that through music must face the deep and polluted seas of Brazil."
+        award:
+          title: “Best Game in all categories”
+          reviewer: "Atomic Rocket Entertainment"
+          event: "I Semana Atômica (2015)"
+          link: https://www.facebook.com/AtomicRocketGames
+
+  others:
+    projects:
+    - title: Purpurina
+      img: thumb_purpurina.png
+      img_ws: thumb_purpurina_ws.jpg # mobile image
+      link: https://github.com/purpurina-engine
+      meta: 2016 - in progress
+      excerpt: "A small and open-source HTML5 game engine canvas based."
+
+    - title: Untitled Space
+      img: thumb_untitled.png
+      img_ws: thumb_untitled_ws.jpg
+      meta: 2016
+      excerpt: "Short shoot'em up game testing [Purpurina](https://github.com/purpurina-engine) capabilities"
+
+    - title: "Laserball"
+      img: thumb_lb.jpg
+      img_ws: thumb_lb_ws.jpg
+      meta: Ideia a Vista, 2014-2016
+      excerpt: "Laserball is a two-player digital gaming table for pubs."
+
+    - title: "Rhythmos Engine"
+      img: thumb_rhythmos.png
+      img_ws: thumb_rhythmos_ws.jpg
+      link: https://assetstore.unity.com/packages/tools/audio/rhythmos-engine-39835
+      meta: 2015
+      excerpt: "Rhythm creation tool for Unity."
+
+    - title: "Super Marduino"
+      img: thumb_marduino.jpg
+      img_ws: thumb_marduino_ws.jpg
+      link: https://github.com/tobiasbu/marduino
+      meta: Experimental, 2014
+      excerpt: "A platform game developed with Arduino Uno."
+
+    - title: "Cida & Adão"
+      img: thumb_cida.png
+      img_ws: thumb_cida_ws.jpg
+      link: https://gamejolt.com/games/cida-adao/30040
+      meta: ObservaSinos, 2014
+      excerpt: "A game about food wealth mainly between young people."
+
+    - title: "Diablo RPG Maker"
+      img: thumb_drmk.png
+      img_ws: thumb_drmk_ws.jpg
+      link: https://rpgmaker.net/games/4013/
+      meta: 2012
+      excerpt: "Diablo fan-game created with RPG Maker 2000 (cancelled)."
+      award:
+        title: "Project of the Month - June / 2012"
+        reviewer: "Santuário RPG Maker (extinct brazilian forum too =/ )"
+
+  jam:
+    projects:
+    - title: "Neo-Bugreiro"
+      img: thumb_neo.png
+      link: https://tobiasbu.itch.io/neo-bugreiro
+      meta: "Antifa Game Jam, 2018"
+      excerpt: "Fair trade? Small game about the new and old bugreiros."
+      pixel: true
+    - title: "Sword and Shield"
+      img: thumb_swordandshield.jpg
+      img_ws: thumb_swordandshield_ws.jpg
+      link: https://globalgamejam.org/2018/games/sword-and-shield
+      meta: "Global Game Jam, 2018"
+      excerpt: "Two wizard’s apprentices need to revert the spell that turned them to a sword and shield."
+    - title: "Microwave Survival"
+      img: thumb_micro.jpg
+      link: https://globalgamejam.org/2017/games/microwave-survivor
+      meta: "Global Game Jam, 2017"
+      excerpt: "You are inside of a microwave and must survive."
+    - title: "Planeta dos Palhaços"
+      img: thumb_clowns.jpg
+      img_ws: thumb_clowns_ws.jpg
+      link: https://globalgamejam.org/2017/games/planet-clowns
+      meta: "Global Game Jam, 2017"
+      excerpt: "In this board game, you and your friends must survive the onslaught of clown hordes."
+    - title: "Inside"
+      img: thumb_inside.png
+      pixel: true
+      img_ws: thumb_inside_ws.png
+      link: https://rpgmaker.net/games/4333/
+      meta: Mundo RPG Maker jam, 2012
+      excerpt: "Retro side-scroller a la Metroid-esque."
+      award:
+      - title: Winner of the contest "O Demônio dentro de nós" - 2012
+        reviewer: "Mundo RPG Maker (extinct brazilian forum)"
+      - title: Golden Game - November / 2013
+        reviewer: "Mundo RPG Maker"
+
+  student:
+    projects:
+    - title: "Odalric Bot"
+      img: thumb_odalric.jpg
+      img_ws: thumb_odalric_ws.jpg
+      link: https://github.com/tobiasbu/odalric
+      meta: "AI, 2017"
+      excerpt: "Terran StarCraft BroodWar bot written from scratch based on [BWAPI 4.1.2](https://bwapi.github.io/)"
+
+    - title: "Raytracer"
+      img: thumb_raytracer.png
+      img_ws: thumb_raytracer_ws.jpg
+      link: https://github.com/tobiasbu/raytracer
+      meta: "Computer Graphics, 2017"
+      excerpt: "Another raytracer. Made before it was cool."
+
+    - title: "VR Soccer"
+      img: thumb_vrsoccer.jpg
+      img_ws: thumb_vrsoccer_ws.jpg
+      meta: "Academic, 2015"
+      excerpt: "A computer vision's soccer game for two players."
+
+    - title: "Autorama AR"
+      img: thumb_autoramaar.jpg
+      img_ws: thumb_autoramaar_ws.jpg
+      meta: "Virtual reality, 2014"
+      excerpt: "Draw on white paper racing tracks, scan and play it."
+
+    - title: ".OBJ Loader"
+      img: thumb_objloader.jpg
+      img_ws: thumb_objloader_ws.jpg
+      meta: "Computer Graphics, 2014"
+      excerpt: "A simple .obj file loader"
+
+    - title: "Cuberoids"
+      img: thumb_cuberoids.jpg
+      img_ws: thumb_cuberoids_ws.jpg
+      meta: "Graphic Processing, 2013"
+      excerpt: "A very short 3D game with 24 seconds of gameplay."
+
+    - title: "Robot Kombat"
+      img: thumb_robotkombat.jpg
+      img_ws: thumb_robotkombat_ws.png
+      meta: "Programming II, 2013"
+      excerpt: "Small strategy game where you need to win the robot gladiators tournament."
+
+    - title: "The Legend of Zilda"
+      img: thumb_zilda.png
+      img_ws: thumb_zilda_ws.jpg
+      meta: "Programming II, 2013"
+      excerpt: "Parody game based in _The Legend of Zelda: Link’s Awakening_."
+
+    # - title: "A vingaça dos budistas malditos do espaço sideral"
+    #   small: true
+    #   img: thumb_avbmes.png
+    #   img_ws: thumb_avbmes_ws.jpg
+    #   meta: "2013"
+    #   excerpt: "Bullet hell game where the player need to absorb projectiles from enemies to shoot."
+
+
+

@@ -1,0 +1,14 @@
+_site
+_sass
+node_modules
+
+npm-debug.log
+
+.DS_Store
+
+# Gem
+Gemfile.lock
+
+_dontcommit
+
+.jekyll-metadata

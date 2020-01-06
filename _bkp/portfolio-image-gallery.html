@@ -1,0 +1,66 @@
+
+<!-- Gallery -->
+  {% assign gallery = page.imageGallery.childs %}
+
+  <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+  {% assign class = "three-figure" %}
+  {% assign plus = "" %}
+
+  {% assign pair = gallery.size | modulo: 2 %}
+
+  {% if pair == 0 %}
+      {% assign class = "two-figure" %}
+
+    {% if gallery.size > 4 %}
+      {% assign class = "four-figure" %}
+    {% endif %}
+
+  {% endif %}
+
+
+
+  {% for item in gallery %}
+
+    {% assign plus = "" %}
+
+    {% if pair == 0 %}
+
+      {% if class == "two-figure" %}
+        {% assign check = forloop.index | modulo: 2 %}
+      {% elsif class == "four-figure" %}
+        {% assign check = forloop.index | modulo: 4 %}
+      {% endif %}
+
+        {% if forloop.last or check == 0 %}
+          {% assign plus = " last" %}
+        {% elsif check == 2%}
+          {% assign plus = " snd" %}
+        {% endif %}
+
+    {% else %}
+
+      {% if forloop.last %}
+        {% assign plus = " last" %}
+      {% endif %}
+
+    {% endif %}
+
+    <figure class="{{ class }}{{ plus }}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="{{ site.baseurl }}/img/portfolio/{{item.img}}" itemprop="contentUrl" data-size="{{page.imageGallery.w}}x{{page.imageGallery.h}}">
+
+          <img src="{{ site.baseurl }}/img/portfolio/{{item.img}}" itemprop="thumbnail" alt="{{item.caption}}"/>
+          </a>
+    {% if item.caption %}
+      <figcaption itemprop="caption description">{{item.caption}}</figcaption>
+    {% endif %}
+     
+    </figure>
+
+
+  {% endfor %}
+
+
+  </div>
+
+  {% include photoswipeDOM.html %}

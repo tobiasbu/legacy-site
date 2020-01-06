@@ -1,0 +1,14 @@
+<div class="project-l">
+  <div class="project-title">
+    <h3 {% if project.small %} style="height: 30px;
+      font-size: 1.05rem;" {% endif %}>{{ project.title }}</h4>
+    <p class="meta">{{ project.meta }}</p>
+  </div>
+  <div class="project-image">
+    <img src="{{ site.baseurl }}{{ portfolio.baseurl }}{{ project.img }}" {% if project.pixel %}
+      style="image-rendering: pixelated;" {% endif %} />
+  </div>
+  <div class="project-info">
+    {{ project.excerpt | markdownify }}
+  </div>
+</div>

@@ -1,0 +1,12 @@
+
+
+<svg class="box-icon" width="24px" height="24px" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <a class="hide-on-fallback">
+ <g id="Octicons" fill="none" fill-rule="evenodd">
+  <g id="desktop-download" fill="#fff">
+   <path id="Shape" d="m4 6h3v-6h2v6h3l-4 4-4-4zm11-4h-4v1h4v8h-14v-8h4v-1h-4c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1v-9c0-0.55-0.45-1-1-1z"/>
+  </g>
+ </g>
+ </a>
+ <image src="{{site.baseurl}}img/desktop-download.png" xlink:href=""/>
+</svg>
