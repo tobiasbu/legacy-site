@@ -17,7 +17,7 @@
   --tbu-font-size-m: 2rem;
   --tbu-font-size-s: 1.4rem;
   --tbu-font-size-ss: 1.3rem;
-  --tbu-font-size-xs: 1.2rem;
+  --tbu-font-size-xs: 1.1rem;
   --tbu-code-size: 1.1rem;
     /* SPACING */
   --tbu-line-height: 1.4;
@@ -66,11 +66,11 @@ body {
 }
 
 p {
-  font-size: var(--tbu-font-size-s);
+  font-size: var(--tbu-font-size-xs);
   margin-bottom: 1rem;
   margin-top: 1rem;
   @media(--medium-down) {
-    font-size: var(--tbu-font-size-ss);
+    font-size: var(--tbu-font-size-xs);
   }
 }
 

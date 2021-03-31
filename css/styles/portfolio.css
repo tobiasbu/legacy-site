@@ -284,6 +284,8 @@ a:hover .project-image {
 
 .project-s h4 {
   line-height: 1.1;
+  font-weight: normal;
+  font-size: 1.25rem;
 }
 
 .project-s .project-image {
