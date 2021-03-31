@@ -57,30 +57,32 @@ compress_html:
   endings: all
   blanklines: true
   startings: [html, head, body]
-  comments: all
 
 svg:
   base_path: _svg/
   lookup: true
 
 exclude:
-  [
-    ".sass-cache",
-    "css",
-    "_svg",
-    "deploy.js",
-    LICENSE.md,
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "node_modules",
-    "package.json",
-    "Gruntfile.js",
-    "_plugins",
-    "_bkp",
-    "postcss.config.js",
-    "package-lock.json"
-  ]
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - css
+  - deploy.js
+  - LICENSE.md
+  - README.md
+  - package.json
+  - _plugins
+  - _bkp
+  - _svg
+  - postcss.config.js
+  - package-lock.json
 
 include:
   - _pages
