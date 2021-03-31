@@ -1,4 +1,4 @@
-const cssnano = require('cssnano');
+// const cssnano = require('cssnano');
 const postcssPresetEnv = require('postcss-preset-env');
 const atImport = require("postcss-import");
 const pfm = require('postcss-font-magician');
@@ -18,8 +18,8 @@ module.exports = {
         'logical-properties-and-values': false,
       },
     }),
-    cssnano({
-      autoprefixer: false,
-    })
+    // cssnano({
+    //   autoprefixer: false,
+    // })
   ]
 }
