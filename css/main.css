@@ -3,7 +3,7 @@
 @import 'suitcss-base';
 
 
-@import 'common/root.css';
+@import 'styles/root.css';
 
 @import 'styles/common.css';
 @import 'styles/header.css';
@@ -13,4 +13,7 @@
 
 @import 'styles/portfolio.css';
 
+@import 'styles/pseudocode.css';
+
 @import 'styles/blog.css'
+
