@@ -1,12 +1,20 @@
 _site
-_sass
-node_modules
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 
 npm-debug.log
+
+.DS_Store
+
+# IDEs
+.vscode
 
 # Gem
 Gemfile.lock
 
+# Project
 _dontcommit
-
-.jekyll-metadata
+_sass
+node_modules

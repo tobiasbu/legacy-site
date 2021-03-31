@@ -5,39 +5,29 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+environment: prod
+
 # Site settings
-title: tobiasbu
-email: flamenco.bluegrass@gmail.com
+title: tobiasbu - Game Developer
+email: tobiasbulrich@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Design and Video Games from tobi.
-author: Tobias B. Ulrich
+  Software and game developer
+author: Tobias Beise Ulrich
 
-#comentar isso quando testar local
 baseurl: "" # the subpath of your site, e.g. /blog
-
-
+livereload: false
 url: "https://tobiasbu.github.io" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
+
 github_username: tobiasbu
-# disqus_username: tobiasbu
+twitter_username: "@tobi_ulrich"
 encoding: utf-8
 #excerpt_separator: "<!--more-->"
-
-#plugins
 plugins:
   - jekyll-pseudocode-b
-
-#plugins_dir: ./_plugins
-#plugins_dir: "_plugins/"
-
-
 permalink: pretty
-
 # Build settings
 markdown: kramdown
-
 highlighter: rouge
-
 # More › http://kramdown.gettalong.org/quickref.html
 # Options › http://kramdown.gettalong.org/options.html
 kramdown:
@@ -45,16 +35,15 @@ kramdown:
   auto_ids: false
   # https://github.com/jekyll/jekyll/pull/4090
   syntax_highlighter: rouge
-
   # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
   # span, block element options fall back to global
   # syntax_highlighter_opts:
-    # Rouge Options › https://github.com/jneen/rouge#full-options
-   # css_class: 'highlight'
-   # span:
-   #   line_numbers: false
-   # block:
-   #   line_numbers: true
+  # Rouge Options › https://github.com/jneen/rouge#full-options
+  # css_class: 'highlight'
+  # span:
+  #   line_numbers: false
+  # block:
+  #   line_numbers: true
 
 collections:
   games:
@@ -69,7 +58,31 @@ compress_html:
   blanklines: true
   startings: [html, head, body]
 
-exclude: ['.sass-cache','css/config','_svg', 'deploy.js', LICENSE.md, 'README.md', 'Gemfile','Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js', '_plugins', _'bkp']
+svg:
+  base_path: _svg/
+  lookup: true
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - css
+  - deploy.js
+  - LICENSE.md
+  - README.md
+  - package.json
+  - _plugins
+  - _bkp
+  - _svg
+  - postcss.config.js
+  - package-lock.json
 
 include:
   - _pages
