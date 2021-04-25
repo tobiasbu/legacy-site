@@ -37,10 +37,6 @@ portfolio:
       url: /laserball/
       img: game_lb.jpg
 
-    - title: "Untitled Space"
-      url: /untitled-space/
-      img: game_untitled.png
-
     - title: "Super Marduino"
       url: /super-marduino/
       img: game_marduino.jpg
