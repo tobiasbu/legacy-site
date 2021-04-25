@@ -2,22 +2,9 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html>
-
-
-  {% include head.html %}
-
-  <body>  <!--onload="init()"-->
-<div class="wrapper">
-    {% include header.html %}
-
-    <!-- % include nav.html % -->
-    <div class="page-content">
-
-        {{ content }}
-      </div>
-    {% include footer.html %}
-</div>
-  </body>
-
+<html lang="pt-br">
+{% include head.html %}
+{% include header.html %}
+<main>{{ content }}</main>
+{% include footer.html %}
 </html>
