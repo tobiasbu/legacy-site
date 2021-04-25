@@ -9,17 +9,18 @@ menu: false
 
 {% include head.html %}
 
-  <body>
-    <div class="page-content">
-      <div class="inner">
-          <h1 class="page-heading">Page not found</h2>
-            <p class="info">
-                The page you are looking for can't be found.
-            </p>
-            <p>
-              <a href="{{site.baseurl}}/">← Back to home page</a>
-            </p>
-      </div>
+<body>
+  <div class="error-content">
+    <div class="error-inner">
+      <h2>Page not found</h2>
+      <p class="info">
+        The page you are looking for can't be found.
+      </p>
+      <p>
+        <a href="{{site.baseurl}}/">&#11164; Back to home page</a>
+      </p>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
