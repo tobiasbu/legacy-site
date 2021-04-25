@@ -1,9 +1,4 @@
 # main links
 main:
-  #- title: "Home"
-  #  url: /
-  - title: "Portfolio"
-    url: /portfolio/
-
   - title: "About"
     url: /about/
