@@ -4,23 +4,31 @@ title: About
 permalink: /about/
 ---
 
-![Alt Tobi]({{site.baseurl}}/img/bio.jpg)
+![Me]({{site.baseurl}}/img/portrait.png){: style="width:180px"}
 
-## Bio
+Hey! I'm Tobias Beise Ulrich, a software and game developer from Brazil. 
 
-Hi, I’m Tobias Beise Ulrich a dedicated and super motivated Software Engineer and Game Developer working with C/C++, C# and Javascript.
-I also very enthusiastic on the computer graphics area using OpenGL and OpenCV.
+I consider myself a generalist programmer working with different solutions and technologies with 5+ years of professional experience.
+I recently graduated in Game Development from <a href="http://www.unisinos.br/global/en/" target="_blank">UNISINOS</a>.
 
-Currently I'm working as Software Enginner at [OKL Group](http://okl.group/){:target="_blank"} in Porto Alegre, Brazil. 
+My main interests are explore technical implementations of game engines, software architecture and
+develop interactive/graphical applications.
 
+Currently I’m looking for new opportunities. If you are interested in my work get in touch. 
+
+[Here]({{site.baseurl}}/docs/resume-TobiasUlrich.pdf) you can find my résumé.
 
 ## Contact
 
-*  [Email](mailto:flamenco.bluegrass@gmail.com){:target="_blank"}
-*  [GitHub](https://github.com/tobiasbu){:target="_blank"}
-*  [Linkedin](https://www.linkedin.com/in/tobias-beise-ulrich-4295766b){:target="_blank"}
-*  [Behance](https://www.behance.net/flamencobl6371){:target="_blank"}
-*  [Twitter](https://twitter.com/tobi_ulrich){:target="_blank"}
+Reach me via email [tobiasbulrich@gmail.com](mailto:tobiasbulrich@gmail.com).
 
-<br>
-This website is powered by [Jekyll](https://jekyllrb.com/){:target="_blank"} and you can find the source code [here](https://github.com/tobiasbu/website){:target="_blank"}.
+Or, in social networks, tweet me [@tobi_ulrich](https://twitter.com/tobi_ulrich) or connect with me in [Linkedin](https://www.linkedin.com/in/tobias-beise-ulrich-4295766b).
+
+Also check my [GitHub](https://github.com/tobiasbu) account.
+
+## Hack this site
+
+This website is powered by [Jekyll](https://jekyllrb.com/) and you can find the source code
+[here](https://github.com/tobiasbu/tbu).
+
+Licensed under WTFPL.
