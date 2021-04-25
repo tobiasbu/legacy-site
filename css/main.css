@@ -1,10 +1,19 @@
+
+
 @import 'suitcss-base';
-@import 'config/global.css';
-@import 'config/header.css';
-@import 'config/content.css';
-@import 'config/code.css';
-@import 'config/pseudocode.css';
-@import 'config/portfolio.css';
-@import 'config/gallery.css';
-@import 'config/archive.css';
-@import 'config/footer.css';
+
+
+@import 'styles/root.css';
+
+@import 'styles/common.css';
+@import 'styles/header.css';
+@import 'styles/content.css';
+@import 'styles/code.css';
+@import 'styles/footer.css';
+
+@import 'styles/portfolio.css';
+
+@import 'styles/pseudocode.css';
+
+@import 'styles/blog.css'
+

@@ -1,0 +1,29 @@
+
+footer {
+  margin-bottom: 2em;
+}
+
+/* Social icons */
+
+ul.social {
+  list-style: none;
+  height: 100%;
+  padding: .4em 0;
+}
+
+.social li {
+  position: relative;
+  display: inline-block;
+  margin: 0 0.65rem 0 0;
+  vertical-align: middle;
+}
+
+.social li:last-child {
+  margin-right: 0;
+}
+
+.social a {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+}
