@@ -1,0 +1,9 @@
+<ul class="social">
+  {% for icon in site.data["social"] %}
+  <li>
+    <a href="{{ icon.url }}" target="_blank">
+      {% svg {{icon.svg}}.svg %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
