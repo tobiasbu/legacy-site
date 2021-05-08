@@ -70,7 +70,7 @@ I don't know why but doesn't works. I lost a long time trying to discover how I 
 
 The results of the challenge of this summer you can watch on this video:
 
-{% video https://www.youtube.com/embed/y5DeofZac5w\0wide %}
+{% video https://www.youtube.com/embed/y5DeofZac5w wide %}
 
 ## Source Code:
 
