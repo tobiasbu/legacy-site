@@ -3,7 +3,7 @@ layout: post
 title: "KK Devlog #2: Painéis, Desempenho e Recodificação"
 date:  2016-07-12 18:20:00 -03:00
 categories:
-- devlog
+- blog
 comments: true
 ogimage: kkdev1.jpg
 lang: pt-BR
@@ -22,9 +22,9 @@ Um dos objetivos do projeto de interface de usuário do jogo, é exibir pouco te
 
 Mas a questão em que estava trabalhando era o *design do painel* que é um objeto universal. Aqui embaixo tem a evolução do painel de **Carregar Jogo**, desde da versão alfa até a versão final:
 
-{% image /posts/devkk0.jpg\0Le primeiro painel %}
-{% image /posts/devkk1.jpg\0Le segundo painel %}
-{% image /posts/devkk2.jpg\0Le nueva, ultimate e fantastiqué painel %}
+{% image /posts/devkk0.jpg "Le primeiro painel" %}
+{% image /posts/devkk1.jpg "Le segundo painel" %}
+{% image /posts/devkk2.jpg "Le nueva, ultimate e fantastiqué painel" %}
 
 O painel é basicamente usado também *in-game*. Para realizar a nova arte do painel, busquei referências do **grafismo dos índios tupi-guarani**, misturando a temática aquática do jogo. Eu queria criar algo semelhante a uma rocha submersa com insígnias esculpidas.
 
@@ -32,7 +32,7 @@ O painel é basicamente usado também *in-game*. Para realizar a nova arte do pa
 
 Esse jogo nasceu dentro duma cadeira da universidade. Um semestre não é o suficiente para termina-lo. Na época, como muitos, em tempo apertado, segui pelo caminho *fast and safe* de programação:
 
-{% image /posts/got.gif\0Tá funcionando %}
+{% image /posts/got.gif "Tá funcionando "%}
 
 Tecnicamente falando, usei muitos **Singletons** e __instanciação de muitos, mas MUITOS, objetos *in runtime*__. Resumindo, lag, código feio e é um *shit*.
 
@@ -48,7 +48,7 @@ Mas, porém, entretanto, estamos aqui para aprender e seguir a canção.
 
 **Singleton**, é um design pattern de programação, em que existe apenas uma única instância do objeto e pode ser acessado por qualquer um. Por exemplo, um Gerenciador de Som.
 
-{% image /posts/singleton.jpg\0Implementação mínima %}
+{% image /posts/singleton.jpg "Implementação mínima" %}
 
 Pra quem programa em orientação objetos, as vezes é um saco ficar passando a referência de um objeto. Singleton burla isso facilitando o acesso do objeto. No entanto, **Singleton é uma péssima abordagem**: ([argumentos retirado desse link](http://stackoverflow.com/questions/137975/what-is-so-bad-about-singletons){:target="_blank"})
 
@@ -67,7 +67,7 @@ Esse **[artigo de J. B. Rainsberger](http://www.ibm.com/developerworks/library/c
 
 ### Instanciação de objetos em tempo real: uma cacetada de lags
 
-{% image /posts/lag_vida_real.gif\0Lag na vida real %}
+{% image /posts/lag_vida_real.gif "Lag na vida real" %}
 
 A cada vez que surgia um novo objeto durante jogo (um torpedo por exemplo), dava um __*delayizinho* chato__. O computador processa o código, alocando novos dados e botando o novo objeto no jogo. Admitindo que eu jamais tinha suspeitado de que isso torna as coisas xaropentas. Até por que, os jogos que até então eu fiz eram curtos e pequenos.
 

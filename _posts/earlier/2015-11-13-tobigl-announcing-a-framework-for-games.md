@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 categories:
-- update
+- blog
 tags:
 - 2d
 - framework

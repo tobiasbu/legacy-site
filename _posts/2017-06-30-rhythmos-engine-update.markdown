@@ -3,12 +3,12 @@ layout: post
 title: "Update: Rhythmos Engine 1.1v"
 date:  2017-06-30 16:30:00 -03:00
 categories:
-- update
+- blog
 comments: true
 ogimage: postcover_rhy0.jpg
 lang: EN
 ---
-After three years, I finally upgraded **[Rhythmos Engine](https://www.assetstore.unity3d.com/en/#!/content/39835){:target="_blank"}** for Unity.
+After three years, I finally upgraded [Rhythmos Engine](https://www.assetstore.unity3d.com/en/#!/content/39835){:target="_blank"} for Unity.
 I promised to myself, that it would only update if any user reports a bug or requests for new feature.
 
 So, the outdated version of _Rhythmos Engine_ was built targeting the Unity 3.5.0 and higher versions.

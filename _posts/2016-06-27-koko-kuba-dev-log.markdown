@@ -3,7 +3,7 @@ layout: post
 title:  "KK Devlog #1: Android e Juicy"
 date:  2016-06-27 09:20:00 -03:00
 categories:
-- devlog
+- blog
 comments: true
 ogimage: kkdev0.jpg
 lang: pt-BR
@@ -15,7 +15,7 @@ Desde que comecei o dev-diary, ainda no antigo blog, poucas alterações tinham 
 
 Em resumo, o que basicamente foi feito: **testagem de *builds* para Android** e implementação de *juicy effects* para interface do jogo.
 
-{% image /posts/4283114.jpg\0Nova vibe %}
+{% image /posts/4283114.jpg "Nova vibe" %}
 
 ## Mobile e suas tretas:
 
@@ -27,7 +27,7 @@ Outro aspecto lento e importante , é a compressão de assets. O primeiro build 
 
 Eu vendo os peixes no meu Motorola:
 
-{% image /posts/dwight.gif\0Eu fiquei uns três dias assim %}
+{% image /posts/dwight.gif "Eu fiquei uns três dias assim" %}
 
 ## Interface suculenta:
 

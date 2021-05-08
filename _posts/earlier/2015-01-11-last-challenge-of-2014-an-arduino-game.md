@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 categories:
-- dev
+- blog
 tags:
 - arduino
 - desafio de verao
@@ -24,7 +24,7 @@ Summer in Brazil is on November-February and every summer I challenge myself to 
 
 ## The Challenge:
 
-{% image /portfolio/screen_marduino0.jpg\0\0width:540px %}
+{% image /portfolio/screen_marduino0.jpg %}
 
 The challenge consist to make a platform game in <a href="http://www.arduino.cc/">Arduino</a> Uno with the components: <a href="http://www.adafruit.com/product/338">Nokia 5110</a> display, <a href="http://en.wikipedia.org/wiki/Buzzer">Piezo buzzer</a> and three buttons. Also I did need to learn about "How Arduino works" and "How the C language works on Arduino".
 

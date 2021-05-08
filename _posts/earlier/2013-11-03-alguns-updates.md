@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 categories:
-- update
+- blog
 tags:
 - jogo de estratégia
 - robotkombat
@@ -31,7 +31,7 @@ Novo blog não tem essa sessão., Imagem Removida
 
 - E por fim, jogo desenvolvido pelos meses de setembro a outubro na cadeira de programação: [Robot Kombat]({{site.baseurl | append: "/portfolio/robotkombat/"}}). É um jogo de estratégia de combates de robôs. Este trabalho me fez adentrar no <em style="color:#444444;line-height:1.5;">level 2 </em>em C++, com biblioteca gráfica, novas recursos e outros.
 
-{% image /portfolio/screen_robot0.png\0\0width:320px %}
+{% image /portfolio/screen_robot0.png %}
 
 - _#onegameamonth de Agosto e de outros meses_
 

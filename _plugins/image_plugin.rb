@@ -1,72 +1,86 @@
+require_relative "common"
+require_relative "log"
+
 module Jekyll
   class ImagePlugin < Liquid::Tag
 
-    def initialize(tag_name, text, tokens)
+    IMAGE_CAPTION = /(?:"([^"\\]*(?:\\.[^"\\]*)*)"|'([^'\\]*(?:\\.[^'\\]*)*)'|([\w\.\-#]+))/
+
+    def initialize(tag_name, markup, tokens)
       super
-      @text = text
+      @img, @params = Tobi::Common.parse_markup(markup, 'image')
+    end
+
+    def get_caption(markup)
+
+      if markup && markup.length > 0
+        str = Tobi::Common::remove_params(markup)
+        match = IMAGE_CAPTION.match(str)
+        if match && match.length > 1
+            caption = match[1]
+            if caption && caption.length > 0
+              return caption.strip
+            end
+            return -1;
+        end
+      end
+      return -2;
+    end
+
+    def get_params(markup)
+      VALID_SYNTAX
     end
 
     def render(context)
 
-
-       #.delete('|')
-
-      kind = @text
-
-      if kind[0] == ' '
-        kind = kind.slice(1..-1)
+      site = context.registers[:site]
+      params, count = Tobi::Common.split_params(@params, context)
+      if params["caption"]
+        caption = params["caption"]
+      else
+        caption = get_caption(@params)
       end
 
-      kind = @text.squeeze(" ")
-      kind = kind.strip;
-      kind = kind.split('\0');
-      size = kind.size
-      final = ""
-      style = false
+      containerClass = ""
+      if caption.is_a?(Numeric)
+        containerClass = " no-caption"
+      end
 
-      if size >= 1
+      final = "<div class=\"center-container#{containerClass}\">"
+      final << "<figure>"
 
-        final = "<div class=\"center-area\">"
+      final << "<picture"
 
-          #if size == 2
-          #    final << " style=\"margin: 2em 0 0.5em\">"
-          #else
-            #final << "margin: 2em 0\">"
-            #kind[1] = kind[1].encode("iso-8859-1").force_encoding("cp1252").encode('utf-8')
-          #end
-          if size >= 3
-            if kind[2].length > 5
-              style = true
-            end
-          end
-
-          final << "<img style src=\"#{context.registers[:site].config['baseurl']}/img#{kind[0]}\""
-
-
-          if style
-            final << " style=\"#{kind[2]}\""
-          end
-
-          final << ">"
-
-        if size >= 2
-          if kind[1].length > 2
-          site = context.registers[:site]
-          converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
-          final << "<p>" #style=\"font-style:italic; color:#656565; text-align: center; margin:0 0 2em;
-          final << "#{converter.convert(kind[1])}"
-          final << "</p>"
-          end
+      # check figure size
+      aux = params['size']
+      if aux
+        if (aux == 'm' || aux == 'med' || aux == 'medium')
+          final << " class=\"medium\" ";
+        elsif (aux == 's' || aux == 'sml' || aux == 'small')
+          final << " class=\"small\" ";
         end
+      end
+        
+      final << ">"
+      
 
-        final << "</div>"
+      final << "<img src=\"#{context.registers[:site].config['baseurl']}/img#{@img}\">"
+      final << "</picture>"
+
+      if caption.is_a?(String)
+        converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
+        final << "<figcaption>"
+        final << converter.convert(caption);
+        final << "</figcaption>"
+      elsif caption.is_a?(Numeric) && caption == -1
+        Tobi::Log.warn("Could not detect caption for image:\n#{@img}")
       end
 
+      final << "</figure>"
+      final << "</div>"
 
-      #{}"the text #{@text}"
-      #{}"the kind:-#{kind}-#{kind.size}"
-      #{}"#{context.registers[:site].config['baseurl']}"
       "#{final}"
+
     end
   end
 end

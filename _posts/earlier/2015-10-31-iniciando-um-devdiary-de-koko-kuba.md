@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 categories:
-- devlog
+- blog
 tags:
 - devdiary
 - koko-kuba
@@ -27,7 +27,6 @@ lang: pt-BR
 <p>Deixando o papo de lado, iniciarei um <em>Dev Diary</em> (diário de desenvolvedor) da fase final do Koko-Kuba. Por quê um Dev Diary? Eu não sei como isso funciona. Mas eu preciso de uma aliança de compromisso, e essa foi uma das maneiras que me comprometo em finalizar esse jogo. E também acho que o público pode ter maior noção e envolvimento na sua criação. Para isso, listei várias elementos que devem ser implementados e algumas especificações. Essa lista é mutável, pode aumentar ou diminuir, dependendo da vulnerabilidade de meus perfeccionismos.</p>
 
 ## Lista de implementação: [FASE FINAL]
-
 
 <ul>
 <li><strong>Melhorias de movimentação do Pajé e sua tribo</strong>: tem um pequeno<em> glitch</em> quando o pajé para de de se movimentar. Isso devido o cálculo permanente de senoide.  O movimento do pajé é pré-calculado e o senoide entra ali pra atrapalhar.</li>

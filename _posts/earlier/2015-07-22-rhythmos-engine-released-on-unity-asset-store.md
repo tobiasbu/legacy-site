@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 categories:
-- dev
+- blog
 tags:
 - asset store
 - plugins

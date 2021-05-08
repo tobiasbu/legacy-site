@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'GameMaker-Studio: How to build games for Ubuntu 64 bits'
+title: 'GM-Studio: How to build games for Ubuntu 64 bits'
 date: 2015-02-15 18:05:39.000000000 -02:00
 type: post
 published: true
 status: publish
 categories:
-- tutorial
+- blog
 tags:
 - game maker
 - how to build games ubuntu
@@ -16,7 +16,7 @@ lang: EN
 ---
 Hello there!
 
-<p style="text-align:justify;">After good time of searching and trying I finally discover a way to build games from <em>GameMaker: Studio</em> to Ubuntu OS (version 14.04 LTS - 64 bits). Of course you will need the <strong><a title="GameMaker: Studio Supports Linux Publishing -- Ubuntu Export Available Now!" href="http://www.yoyogames.com/news/144" target="_blank">GameMaker:Studio Linux module</a></strong>. In fact, the <a title="Setup GameMaker: Studio for Ubuntu development" href="http://help.yoyogames.com/entries/23167703-Setup-GameMaker-Studio-for-Ubuntu-development" target="_blank">tuturial</a> provided from YoYo Games don't have sufficient information.</p>
+<p style="text-align:justify;">After good time of searching and trying I finally discover a way to build games from <em>GameMaker: Studio</em> to Ubuntu OS (version 14.04 LTS - 64 bits). Of course you will need the <a title="GameMaker: Studio Supports Linux Publishing -- Ubuntu Export Available Now!" href="http://www.yoyogames.com/news/144" target="_blank">GameMaker:Studio Linux module</a>. In fact, the <a title="Setup GameMaker: Studio for Ubuntu development" href="http://help.yoyogames.com/entries/23167703-Setup-GameMaker-Studio-for-Ubuntu-development" target="_blank">tuturial</a> provided from YoYo Games don't have sufficient information.</p>
 
 <p style="text-align:justify;">To help friends (and for me because I forgot every time when I trying to do this) who develop games with GameMaker, I created this little post to explain step-by-step how to run your games on the beloved Ubuntu.</p>
 

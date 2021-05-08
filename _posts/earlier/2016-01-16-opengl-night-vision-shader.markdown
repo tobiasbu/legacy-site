@@ -6,7 +6,7 @@ type: post
 published: true
 status: publish
 categories:
-- dev
+- blog
 tags:
 - academic
 - Code
@@ -21,54 +21,47 @@ As I said in the <a href="https://tobiasbu.wordpress.com/2016/01/14/2015-year-in
 
 So I decided to make my <a href="https://tobiasbu.wordpress.com/2015/11/13/tobigl-announcing-a-framework-for-games/" target="_blank">own game framework</a> based in OpenGL 4. For the first steps that I took is start to program the basic idea of this framework solving the final activity of the CG course: **implement and understand a Night Vision shader.**
 
-I really recommend __<a href="http://www.learnopengl.com/#!Advanced-OpenGL/Framebuffers" target="_blank">this link</a>__ to understand more about post-processing in OpenGL.
+I really recommend <a href="http://www.learnopengl.com/#!Advanced-OpenGL/Framebuffers" target="_blank">this link</a> to understand more about post-processing in OpenGL.
 
 ## Basic Concepts
 
 - Post processing can also be termed as **Render to Texture** is an effect applied after a scene is rendered. This method allows to capture what is displayed on the application screen, and pass to a _texture_ using _**framebuffer object**_.
-
 - Framebuffer is a special memory capable to storing and transferring data to the screen of a image frame. (Wikipedia)
 
 ## Post-Processing: Night Vision Effect
 
-**Post-Processing Flow:**
-
 Before everything we must generate a framebuffer object (FBO) and depth buffer to render a 3D scene. Then we'll need to set vertices to display the resulting texture on screen. And of course, the shader program for the post-processing effect.
 
 1. render the whole scene in a texture (linking with the created framebuffer object);
-
 2. render this single texture to screen;
-
-3. apply the effect (post-processing shader);
-
-4. unlik all buffers to the next frame.
+3. apply the effect (post-processing shader);
+4. unlik all buffers to the next frame.
 
 Simple!
 
-**NightVision - the shader program:**
+## The shader program:
 
 These two topics did to me understand how to apply the night vision effect:
 
 - [Quick and Dirty Night-Vision Shader: Part 1, 2 and 3](http://blog.ionoclast.com/2014/04/quick-and-dirty-night-vision-shader-part-1/){: target="_blank"}
-
 - [Night Vision Post Processing Filter](http://www.geeks3d.com/20091009/shader-library-night-vision-post-processingfilter-glsl/)
 
 The following (fast) statements are based on them and more details you can find in the links above.
 
-1. The green color is dominant! We need eliminate the red and blue channels. But we will set a color proportion between the three channels: 30% red + 59% green + 11% blue = 100% <em>intensity</em>. The returned value will be the intensity of the color fragment.
+The green color is dominant! We need eliminate the red and blue channels. But we will set a color proportion between the three channels: 30% red + 59% green + 11% blue = 100% <em>intensity</em>. The returned value will be the intensity of the color fragment.
 
 {% highlight glsl %}
 const vec3 proportion = vec3(0.30, 0.59, 0.11);
 float intensity = dot(cor.rgb,proportion);
 {% endhighlight %}
 
-2. We can set a contrast adjustment working with the input values _intensity_ and _contrast coeficient_.
+We can set a contrast adjustment working with the input values _intensity_ and _contrast coeficient_.
 
-{% highlight glsl %}
+```glsl
 intensity = clamp(contrast * (intensity - 0.5) + 0.5, 0.0, 1.0);
-{% endhighlight %}
+```
 
-3. Finally the green color mathematically consistent:
+Finally the green color mathematically consistent:
 
 {% highlight glsl %}
 float green = clamp(intensity / 0.59, 0.0, 1.0);
@@ -77,7 +70,7 @@ finalColor = cor * vec3(0.0,green, 0.0);
 
 ## Shader GLSL:
 
-**Vertex Shader:**
+Vertex Shader:
 
 {% highlight glsl %}
 #version 400
@@ -97,7 +90,7 @@ void main()
 }
 {% endhighlight %}
 
-**Fragment Shader:**
+Fragment Shader:
 
 {% highlight glsl %}
 #version 400

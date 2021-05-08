@@ -3,7 +3,7 @@ layout: post
 title:  "New Begin"
 date:  2016-06-12 10:40:00 -03:00
 categories:
-- update
+- blog
 comments: true
 ogimage: none
 lang: EN
@@ -16,6 +16,6 @@ Now, new time come!
 
 Here we're! :)
 
-I hosting this website as [GitHub](https://github.com/tobiasbu/website){:target="_blank"} page projects and I migrate from my **[old WordPress](https://tobiasbu.wordpress.com/){:target="_blank"}** blog to Jekyll.
+I hosting this website as [GitHub](https://github.com/tobiasbu){:target="_blank"} page projects and I migrate from my [old WordPress](https://tobiasbu.wordpress.com/){:target="_blank"} blog to Jekyll.
 
 I also recreated my _brand_ - the _Tobi's tree_ - just because my favorite color is green and love trees.
