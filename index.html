@@ -2,38 +2,67 @@
 layout: default
 ---
 
-<div class="heading-wrapper">
-<h1 class="page-heading">Latest posts</h2>
-</div>
+{%- comment -%} <section class="section-content" id="welcome">
+  <div class="wrapper">
+    <div >
+{% assign welcome = "Tobias Beise Ulrich Game Developer" %}
 
-  <ul class="post-list">
-    {% for post in site.posts limit: 5 %}
-      <li class ="post-item">
 
-        <h3>
-          <a  class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
+    <h1 class="hello">{{ welcome }}</h1>
+    </div>
+  </div>
+</section> {%- endcomment -%}
 
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
-          {% if post.lang %}
-            {% if post.lang != "EN" %}
-           | <small class="post-lang">{{post.lang}}</small>
-           {% endif %}
+
+<section class="section-content" id="portfolio">
+  <div class="wrapper">
+
+
+      {% assign portfolio = site.data.portfolio %}
+      {% assign portfolioList = portfolio.sections %}
+      
+      {%- comment -%} Loop in projects {%- endcomment -%}
+      {% for section in portfolioList %}
+
+        {% assign isFeatured = false %}
+
+        {%- comment -%} In this project section, has availble list {%- endcomment -%}
+        {% if section[1].projects %}
+     
+          {%- comment -%} Check for project section title {%- endcomment -%}
+          {% if section[1].name %}
+            {% assign sectionName = section[1].name %}
+          {% else %}
+            {% assign sectionName = section[0] | capitalize | append: " Projects" %}
           {% endif %}
-        </span>
-       
 
+          <div class="portfolio-title">
+              <h1 class="headline">{{ sectionName }}</h1>
+          </div>
 
-        {% assign description = post.excerpt | strip_html | lstrip | truncate: 124, "..." %}
+          {% assign sectionSize = 4 %}
+          {% if section[1].col %}
+            {% if section[1].col > 0 and section[1].col <= 4 %}
+              {% assign sectionSize = section[1].col %}
+            {% endif %}   
+          {% endif %} 
 
+          <div class="project-section{% if sectionSize != 1 %} fx{% endif %}">     
 
-        <p>{{ description  }}</p>
-        <p>
-        <a class="post-read-more" href="{{ post.url | prepend: site.baseurl }}">Read More →</a>
-        </p>
-      </li>
-    {% endfor %}
-  </ul>
+          {% for project in section[1].projects %}
 
+            {% case sectionSize %}
+              {% when 1 %}
+                {% include portfolio/project-featured.html %}
+              {% else %}
+                {% include portfolio/project-small.html size=sectionSize %}
+            {% endcase %}
+          {% endfor %}
 
-<a class="archive-link" href="{{ "/archive/" | prepend: site.baseurl }}">Archive →</a>
+          </div>
+
+        {% endif %}
+      {% endfor %}
+
+  </div>
+</section>

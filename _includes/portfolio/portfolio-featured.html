@@ -1,0 +1,32 @@
+<div class="project">
+
+  <div class="project-title">
+    <h2>{{ project.title }}</h2>
+    <p class="meta">{{ project.meta }}</p>
+  </div>
+  
+  <div class="project-image">
+      <img src="{{ site.baseurl }}{{ portfolio.baseurl }}{{ project.img }}" />
+    </div>
+
+
+  <div class="project-info">
+    
+
+    {{ project.desc | markdownify }}
+
+    {% if project.award %}
+
+    {% if project.award.first %}
+    <!-- Only one -->
+    {% if project.award.first[0] %}
+    {% include /portfolio/portfolio-award.html award=project.award %}
+    {% else %}
+    {% for award in project.award %}
+    {% include /portfolio/portfolio-award.html award=award %}
+    {% endfor %}
+    {% endif %}
+    {% endif %}
+    {% endif %}
+  </div>
+</div>
