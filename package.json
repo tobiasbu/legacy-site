@@ -4,7 +4,7 @@
   "description": "website project",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all -p css-watch jekyll",
+    "start": "npm-run-all css-watch jekyll -p",
     "build": "npm run css-build && bundle exec jekyll build",
     "jekyll": "bundle exec jekyll serve --livereload --config _config.yml,_config_dev.yml",
     "jekyll-trace": "bundle exec jekyll serve --livereload --trace --config _config.yml,_config_dev.yml",
