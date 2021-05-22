@@ -9,15 +9,14 @@
   --tbu-gray: #656565;
 
   /* FONT SIZE */
-  --tbu-font-size-xxxl: 6rem;
-  --tbu-font-size-xxl: 4rem;
+  --tbu-font-size-xxxl: 4rem;
+  --tbu-font-size-xxl: 3rem;
   --tbu-font-size-xl: 3.25rem;
   --tbu-font-size-l: 2.8rem;
   --tbu-font-size-ml: 2.2rem;
   --tbu-font-size-m: 2rem;
-  --tbu-font-size-s: 1.4rem;
-  --tbu-font-size-ss: 1.3rem;
-  --tbu-font-size-xs: 1.1rem;
+  --tbu-font-size-s: 1.3rem;
+  --tbu-font-size-xs: 1rem;
   --tbu-code-size: 1.1rem;
     /* SPACING */
   --tbu-line-height: 1.4;

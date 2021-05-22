@@ -6,7 +6,7 @@
 }
 
 .portfolio-title {
-  margin: 1rem 0 3rem;
+  margin: 2rem 0 3rem;
 }
 
 .portfolio-title h1 {
@@ -285,7 +285,7 @@ a:hover .project-image {
 .project-s h4 {
   line-height: 1.1;
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: var(--tbu-font-size-s);
 }
 
 .project-s .project-image {
@@ -297,11 +297,6 @@ a:hover .project-image {
     width: 100%;
     height: 100%;
   }
-}
-
-.project-s h4 {
-  line-height: 1.1;
-  font-size: 1.4rem;
 }
 
 .project-s .meta {
