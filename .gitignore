@@ -15,6 +15,7 @@ npm-debug.log
 Gemfile.lock
 
 # Project
+_includes/css
 _dontcommit
 _sass
 node_modules
