@@ -18,13 +18,14 @@ a {
   }
 }
 
+.error-content h2 {
+  margin: 0 0 0.75em 0;
+}
 
-/* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 480px;
-  @media (--small-down) {
-    width: auto;
-    position: relative;
-  } */
+.error-inner {
+  margin-bottom: 2rem;
+}
+
+.info {
+  margin-bottom: 2em;
+}
