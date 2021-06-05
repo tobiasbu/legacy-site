@@ -1,0 +1,17 @@
+
+<ul class="post-list" aria-label="articles/posts by date, newest first">
+  {% for post in site.posts limit: 20 %}
+  <li class="post-item">
+    <div class="post-meta">
+      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+        {% if post.lang %}
+          {% if post.lang != "EN" %}
+          <small class="post-lang">{{ post.lang }}</small>
+          {% endif %}
+      {% endif %}
+    </div>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

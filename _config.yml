@@ -17,19 +17,18 @@ author: Tobias Beise Ulrich
 baseurl: "" # the subpath of your site, e.g. /blog
 livereload: false
 url: "https://tobiasbu.github.io" # the base hostname & protocol for your site
+encoding: utf-8
 
 github_username: tobiasbu
 twitter_username: "@tobi_ulrich"
-encoding: utf-8
 #excerpt_separator: "<!--more-->"
-plugins:
-  - jekyll-pseudocode-b
+
 permalink: pretty
-# Build settings
 markdown: kramdown
 highlighter: rouge
 # More › http://kramdown.gettalong.org/quickref.html
 # Options › http://kramdown.gettalong.org/options.html
+
 kramdown:
   input: GFM
   auto_ids: false
@@ -45,12 +44,13 @@ kramdown:
   # block:
   #   line_numbers: true
 
-collections:
-  games:
-    output: true
-    path: /untitled-space/
-    permalink: /portfolio/:path/
+plugins:
+  - jekyll-pseudocode-b
 
+svg:
+  base_path: _svg/
+  lookup: true
+  
 compress_html:
   clippings: all
   comments: all
@@ -58,9 +58,6 @@ compress_html:
   blanklines: true
   startings: [html, head, body]
 
-svg:
-  base_path: _svg/
-  lookup: true
 
 exclude:
   - .sass-cache/

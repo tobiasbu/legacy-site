@@ -14,15 +14,22 @@
     </{{title}}>
     <p class="meta">{{ project.meta }}</p>
   </div>
+
   {% if project.link %}
     <a href="{{ project.link }}">
   {% endif %}
+
   <div class="project-cover">
+
     {% if project.link %}
       <div class="project-overlay"></div>
-      {% endif %}
+    {% endif %}
       <picture>
+        {% capture img_address %}/{{ portfolio.baseurl }}{{ project.img }}{% endcapture %}
+
         {% if project.img_ws %}
+
+          {% capture img_address_ws %}/{{ portfolio.baseurl }}{{ project.img_ws }}{% endcapture %}
 
           {% assign mediaQuery = "(min-width: 593px)" %}
 
@@ -30,10 +37,11 @@
             {% assign mediaQuery = "(min-width: 801px)" %}
           {% endif %}
 
-          <source media="{{ mediaQuery }}" srcset="{{ site.baseurl }}{{ portfolio.baseurl }}{{ project.img }}">
-          <source srcset="{{ site.baseurl }}{{ portfolio.baseurl }}{{ project.img_ws }}">
+          <source media="{{ mediaQuery }}" srcset="{{ img_address }}">
+          <source srcset="{{ img_address_ws }}">
         {% endif %}
-        <img class="project-image" src="{{ site.baseurl }}{{ portfolio.baseurl }}{{ project.img }}" 
+
+        <img class="project-image" src="{{ img_address }}" 
         {% if project.pixel %}
           style="image-rendering: pixelated;"
         {% endif %} 

@@ -64,7 +64,7 @@ module Jekyll
       final << ">"
       
 
-      final << "<img src=\"#{context.registers[:site].config['baseurl']}/img#{@img}\">"
+      final << "<img src=\"\/img#{@img}\">"
       final << "</picture>"
 
       if caption.is_a?(String)
