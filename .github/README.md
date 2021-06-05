@@ -86,19 +86,24 @@ For more details about this issue:
   - https://talk.jekyllrb.com/t/bad-file-descriptor-when-using-livereload/1627
   - https://github.com/jekyll/jekyll/issues/7221
 
-**Ruby Development**
+## Development
+
+For live-coding, open two command prompts and run:
+
+```bash
+# terminal 1
+npm run jekyll
+
+# terminal 2
+npm run css
+```
+
+### Ruby Development
 
 After install all gems in the bundle and for better Ruby development in the VSCode, you should install the extension [Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph).
 
 Then in the command line run `bundle exec yard gems` to generate the documentation. This is required for intellisense and other features.
 
-## Development
-
-Just run (execute `jekyll serve` and `postcss`)
-
-```bash
-npm run start
-```
 
 ## Site update
 
