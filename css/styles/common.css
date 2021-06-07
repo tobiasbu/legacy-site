@@ -29,7 +29,7 @@
 
 .center-container {
   text-align: center;
-  margin: 3em 0 2em;
+  margin: 2em 0 2em;
 }
 
 .no-caption {
@@ -44,11 +44,8 @@
   vertical-align: middle;
 }
 
-.center-container p {
-  color: var(--gray);
-  /* margin: 0.3703702rem; */
-  margin: 0.5rem 1rem;
-  font-style: italic;
+.center-container picture {
+  display: inline-block;
 }
 
 picture.small {
@@ -63,8 +60,32 @@ picture.big {
   max-width: 800px;
 }
 
-.center-container picture {
-  display: inline-block;
+figcaption p {
+  margin: 0.5rem 1rem;
+  color: var(--tbu-meta);
+  text-align: center;
+  font-style: italic;
+}
+
+/* IMAGE ROW */
+
+figure[role="group"] {
+  margin: 2em 0 2em;
+}
+
+.figure-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.figure-row .center-container {
+  flex: 0.5;
+  margin: 0 1em 0 0;
+}
+
+.figure-row .center-container:last-child {
+  margin: 0;
 }
 
 /* SVG */
@@ -86,6 +107,3 @@ svg.icon:hover {
   width: 0;
   overflow: hidden;
 }
-
-/* HEADLINES */
-

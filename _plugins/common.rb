@@ -20,6 +20,9 @@ module Tobi
 
       PARAM_REMOVER_REGEX = /([\w-]+\s*=\s*)("[^"\\]*(?:\\.[^"\\]*)*"|'[^'\\]*(?:\\.[^'\\]*)*'|[\w\.-]+)/
 
+      IMAGE_CAPTION = /(?:"([^"\\]*(?:\\.[^"\\]*)*)"|'([^'\\]*(?:\\.[^'\\]*)*)'|([\w\.\-#]+))/
+
+
     # Parse markup https://www.rubydoc.info/github/mojombo/jekyll/Jekyll/Tags/IncludeTag
     # Markup is always with first <path> and then <parameters>
     def self.parse_markup(markup, tagName) 
@@ -104,6 +107,21 @@ module Tobi
     def self.validate_url(url)
       regex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&\/\/=]*)/i
       return (url =~ regex)
+    end
+
+    def self.get_caption(markup)
+      if markup && markup.length > 0
+        str = self.remove_params(markup)
+        match = IMAGE_CAPTION.match(str)
+        if match && match.length > 1
+            caption = match[1]
+            if caption && caption.length > 0
+              return caption.strip
+            end
+            return -1;
+        end
+      end
+      return -2;
     end
 
   end

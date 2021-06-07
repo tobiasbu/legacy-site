@@ -33,14 +33,6 @@
 }
 
 hr {
-  /* margin: 2em 0;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to left, #92929200, var(--graylight), #92929200);
-  background-image: -webkit-linear-gradient(to left, #92929200, var(--graylight), #92929200);
-  background-image: -moz-linear-gradient(to left, #92929200, var(--graylight), #92929200);
-  background-image: -ms-linear-gradient(to left, #92929200, var(--graylight), #92929200);
-  background-image: -o-linear-gradient(to left, #92929200, var(--graylight), #92929200); */
   display: block;
   unicode-bidi: normal;
   margin-block-start: 0;
@@ -60,7 +52,7 @@ hr {
 /* LIST */
 
 .post ul {
-  list-style-type: disc;
+  list-style-type: square;
   list-style-position: outside;
   margin-left: 1.5rem;
 }
@@ -70,6 +62,12 @@ hr {
   padding-left: 0.5rem;
 }
 
+.post ul li::marker {
+  color: var(--tbu-color);
+  line-height: 1em;
+  font-size: 1.5em;
+}
+
 .post ol {
   list-style-type: decimal;
   list-style-position: outside;
@@ -77,20 +75,8 @@ hr {
 }
 
 .post ol li {
-  font-size: var(--tbu-font-size-s);
   margin: 0.5rem;
   padding-left: 0.5rem;
-}
-
-
-@media(--medium-down) {
-  .post ul li {
-    font-size: var(--tbu-font-size-s);
-  }
-
-  .post ol li {
-    font-size: var(--tbu-font-size-s);;
-  }
 }
 
 /* QUOTE */

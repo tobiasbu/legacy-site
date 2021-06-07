@@ -4,27 +4,9 @@ require_relative "log"
 module Jekyll
   class ImagePlugin < Liquid::Tag
 
-    IMAGE_CAPTION = /(?:"([^"\\]*(?:\\.[^"\\]*)*)"|'([^'\\]*(?:\\.[^'\\]*)*)'|([\w\.\-#]+))/
-
     def initialize(tag_name, markup, tokens)
       super
       @img, @params = Tobi::Common.parse_markup(markup, 'image')
-    end
-
-    def get_caption(markup)
-
-      if markup && markup.length > 0
-        str = Tobi::Common::remove_params(markup)
-        match = IMAGE_CAPTION.match(str)
-        if match && match.length > 1
-            caption = match[1]
-            if caption && caption.length > 0
-              return caption.strip
-            end
-            return -1;
-        end
-      end
-      return -2;
     end
 
     def get_params(markup)
@@ -38,7 +20,7 @@ module Jekyll
       if params["caption"]
         caption = params["caption"]
       else
-        caption = get_caption(@params)
+        caption = Tobi::Common.get_caption(@params)
       end
 
       containerClass = ""
@@ -62,9 +44,20 @@ module Jekyll
       end
         
       final << ">"
-      
 
-      final << "<img src=\"\/img#{@img}\">"
+      final << "<img src=\"\/img#{@img}\" "
+
+      if params["alt"]
+        imageAlt = params["alt"]
+      elsif caption.is_a?(String)
+        imageAlt = "#{caption}"
+      end
+
+      if imageAlt
+        final << "alt=\"#{imageAlt}\" "
+      end
+
+      final << "/>"
       final << "</picture>"
 
       if caption.is_a?(String)
