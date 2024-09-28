@@ -1,9 +1,10 @@
 {
   "name": "tobiasbu",
-  "version": "2.2.0",
-  "description": "website project",
+  "version": "3.0.0",
+  "description": "my website project",
   "main": "index.js",
   "scripts": {
+    "start": "npx @11ty/eleventy --serve",
     "jekyll": "bundle exec jekyll serve --livereload --config _config.yml,_config_dev.yml",
     "jekyll-trace": "bundle exec jekyll serve --livereload --trace --config _config.yml,_config_dev.yml",
     "css": "postcss css/*.css --dir _includes/css/ --watch true",
@@ -15,11 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tobiasbu/tbu.git"
+    "url": "git+https://github.com/tobiasbu/portfolio.git"
   },
   "keywords": [
     "website",
-    "blog",
     "portfolio",
     "tobiasbu",
     "tbu"
@@ -27,21 +27,22 @@
   "author": "tobiasbu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tobiasbu/tbu/issues"
+    "url": "https://github.com/tobiasbu/portfolio/issues"
   },
-  "homepage": "https://github.com/tobiasbu/",
+  "homepage": "https://github.com/tobiasbu",
   "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
     "cssnano": "^5.0.5",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^6.1.1",
     "git-last-commit": "^1.0.0",
     "postcss": "^8.3.0",
     "postcss-cli": "^8.3.1",
     "postcss-css-variables": "^0.18.0",
     "postcss-custom-media": "^8.0.0",
-    "postcss-custom-properties": "^11.0.0",
-    "postcss-font-magician": "^3.0.0",
+    "postcss-custom-properties": "^14.0.1",
+    "postcss-font-magician": "^4.0.0",
     "postcss-import": "^14.0.2",
-    "postcss-preset-env": "^6.7.0"
+    "postcss-preset-env": "^10.0.5"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
