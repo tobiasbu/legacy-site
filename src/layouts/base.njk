@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include 'head.njk' %}
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | url }}">{{ meta.title }}</a></h1>
+      </header>
+      {{ content | safe }}
+    </div>
+  </body>
+</html>
