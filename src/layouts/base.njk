@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include 'head.njk' %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    {% include 'head/styles.njk' %}
+    {% include 'head/meta.njk' %}
+
+  </head>
   <body>
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | url }}">{{ meta.title }}</a></h1>
       </header>
-      {{ content | safe }}
+{{ content | safe }}
     </div>
   </body>
 </html>

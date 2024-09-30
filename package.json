@@ -2,9 +2,14 @@
   "name": "tobiasbu",
   "version": "3.0.0",
   "description": "my website project",
-  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.x.x"
+  },
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
+    "dev:clean": "rm -rf dist",
+    "dev:run": "ELEVENTY_ENV=development && eleventy --serve",
+    "start": "npm run dev:clean && npm run dev:run",
     "jekyll": "bundle exec jekyll serve --livereload --config _config.yml,_config_dev.yml",
     "jekyll-trace": "bundle exec jekyll serve --livereload --trace --config _config.yml,_config_dev.yml",
     "css": "postcss css/*.css --dir _includes/css/ --watch true",
@@ -31,11 +36,12 @@
   },
   "homepage": "https://github.com/tobiasbu",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "cssnano": "^5.0.5",
+    "@11ty/eleventy": "^3.0.0-beta.1",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^5.1.15",
     "gh-pages": "^6.1.1",
     "git-last-commit": "^1.0.0",
-    "postcss": "^8.3.0",
+    "postcss": "^8.4.47",
     "postcss-cli": "^8.3.1",
     "postcss-css-variables": "^0.18.0",
     "postcss-custom-media": "^8.0.0",
